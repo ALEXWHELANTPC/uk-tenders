@@ -31,10 +31,18 @@ To run it by hand: Actions tab, "Collect UK tenders", "Run workflow". Tick force
 ## Direct link to the latest workbook
 
 ```
-https://raw.githubusercontent.com/<owner>/uk-tenders/main/UK_Tenders.xlsx
+https://raw.githubusercontent.com/ALEXWHELANTPC/uk-tenders/main/UK_Tenders.xlsx
 ```
 
-Excel, Power Query and Power Automate can all read that address, which is how the file reaches Microsoft 365.
+A Power Automate flow called "UK tenders workbook to OneDrive" (owner: Alex Whelan) fetches that address every hour with the OneDrive "Upload file from URL" action and saves it to OneDrive at My files > UK Tenders > UK_Tenders.xlsx, overwriting the previous copy. Nothing else is needed on the Microsoft side.
+
+## Things learned from the live feeds
+
+Find a Tender's API is slow and sometimes answers 502 or 504. A page of 100 notices can take a minute or more, so the collector reads it one day at a time, records how far it got, and carries on next run. The first 14-day backfill therefore takes a few hourly runs to complete.
+
+Public Contracts Scotland (and Sell2Wales, which runs on the same platform) send an incomplete certificate chain. The collector fetches the missing intermediate certificate from the address inside the server's certificate and verifies against that, so certificate checking stays on.
+
+Sell2Wales's API returned "Error converting data type nvarchar to float" (HTTP 500) for every query on 23 November 2026, a fault on their side. The collector gives up on a source after three failed requests in a row and tries again next run, so when Sell2Wales recovers it will start filling in by itself. Welsh notices above the UK threshold also arrive through Find a Tender in the meantime.
 
 ## Local test
 

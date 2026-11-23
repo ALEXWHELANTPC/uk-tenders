@@ -129,7 +129,7 @@ def first(*values: Any) -> Any:
 
 
 def region_name(code: str | None) -> str:
-    if not code:
+    if not code or len(code.strip()) < 2 or code.strip() in ("-", "--", "n/a", "N/A"):
         return ""
     c = code.strip().upper()
     if not c.startswith("UK"):
