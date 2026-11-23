@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -94,7 +95,136 @@ def _write_sheet(wb: Workbook, title: str, rows: list[dict], table_name: str, de
         ws.auto_filter.ref = f"A1:{get_column_letter(len(HEADERS))}1"
 
 
-def build_workbook(rows: list[dict], path: Path, settings: dict, state: dict) -> None:
+WINNER_HEADERS = [
+    ("name", "Supplier", 40),
+    ("company_number", "Company number", 15),
+    ("address_1", "Address", 40),
+    ("town", "Town", 20),
+    ("postcode", "Postcode", 11),
+    ("country", "Country", 16),
+    ("address_source", "Address source", 16),
+    ("status", "Company status", 14),
+    ("scale", "Size", 10),
+    ("sic", "SIC codes", 24),
+    ("awards", "Awards", 8),
+    ("total_value", "Total value (GBP)", 16),
+    ("latest_award", "Latest award", 13),
+    ("latest_buyer", "Latest buyer", 34),
+    ("sectors", "Sectors (CPV)", 50),
+    ("regions", "Regions", 24),
+    ("sources", "Sources", 26),
+    ("link", "Latest notice", 14),
+]
+
+_STOP = {"ltd", "limited", "plc", "llp", "llc", "inc", "the", "co", "company", "uk", "cic", "t/a", "ta"}
+
+
+def winner_key(name: str, company_number: str = "") -> str:
+    if company_number:
+        return "coh:" + company_number.strip().upper()
+    words = re.sub(r"[^a-z0-9 ]", " ", (name or "").lower()).split()
+    return "name:" + " ".join(w for w in words if w not in _STOP)
+
+
+def award_winners(rows: list[dict], since: datetime, enrichment: dict | None = None) -> list[dict]:
+    """One row per winning supplier across all award notices since `since`."""
+    enrichment = enrichment or {}
+    winners: dict[str, dict] = {}
+    for r in rows:
+        if r.get("notice_kind") != "Award":
+            continue
+        published = _dt(r.get("published"))
+        if not published or published < since:
+            continue
+        details = r.get("supplier_details") or [{"name": n.strip()} for n in (r.get("suppliers") or "").split(";") if n.strip()]
+        for s in details:
+            if not s.get("name"):
+                continue
+            key = winner_key(s["name"], s.get("company_number", ""))
+            w = winners.get(key)
+            if w is None:
+                w = winners[key] = {
+                    "name": s["name"], "company_number": s.get("company_number", ""),
+                    "street": "", "town": "", "postcode": "", "country": "", "scale": "",
+                    "awards": 0, "total_value": 0.0, "latest_award": None, "latest_buyer": "", "link": "",
+                    "sectors": set(), "regions": set(), "sources": set(),
+                }
+            if not w["postcode"] and s.get("postcode"):
+                w.update({k: s.get(k, "") for k in ("street", "town", "postcode", "country")})
+            elif not w["street"] and s.get("street"):
+                w["street"], w["town"] = s.get("street", ""), s.get("town", "")
+            if not w["company_number"] and s.get("company_number"):
+                w["company_number"] = s["company_number"]
+            if s.get("scale") and not w["scale"]:
+                w["scale"] = s["scale"]
+            w["awards"] += 1
+            if r.get("value_gbp"):
+                w["total_value"] += float(r["value_gbp"])
+            if w["latest_award"] is None or published > w["latest_award"]:
+                w["latest_award"], w["latest_buyer"], w["link"] = published, r.get("buyer", ""), r.get("link", "")
+            for d in (r.get("cpv_description") or "").split(";"):
+                if d.strip():
+                    w["sectors"].add(d.strip())
+            if r.get("region"):
+                w["regions"].add(r["region"])
+            w["sources"].add(r.get("source", ""))
+
+    out: list[dict] = []
+    for key, w in winners.items():
+        ch = enrichment.get(key) or (enrichment.get("coh:" + w["company_number"]) if w["company_number"] else None) or {}
+        reg = ch.get("registered_office") or {}
+        if reg.get("postal_code"):
+            address_1 = ", ".join(x for x in (reg.get("address_line_1"), reg.get("address_line_2")) if x)
+            town, postcode, country, source = reg.get("locality", ""), reg.get("postal_code", ""), reg.get("country", ""), "Companies House"
+        else:
+            address_1, town, postcode, country = w["street"], w["town"], w["postcode"], w["country"]
+            source = "Notice" if (postcode or address_1) else "Not found"
+        out.append({
+            "name": ch.get("company_name") or w["name"],
+            "company_number": ch.get("company_number") or w["company_number"],
+            "address_1": address_1, "town": town, "postcode": postcode, "country": country,
+            "address_source": source,
+            "status": ch.get("company_status", ""),
+            "scale": {"sme": "SME", "large": "Large", "micro": "Micro", "medium": "Medium", "small": "Small"}.get((w["scale"] or "").lower(), w["scale"]),
+            "sic": "; ".join(ch.get("sic_codes") or []),
+            "awards": w["awards"],
+            "total_value": round(w["total_value"]) if w["total_value"] else None,
+            "latest_award": w["latest_award"],
+            "latest_buyer": w["latest_buyer"],
+            "sectors": "; ".join(sorted(w["sectors"]))[:300],
+            "regions": "; ".join(sorted(w["regions"])),
+            "sources": "; ".join(sorted(w["sources"])),
+            "link": w["link"],
+        })
+    out.sort(key=lambda x: (x["latest_award"] or datetime.min), reverse=True)
+    return out
+
+
+def _write_winners(wb: Workbook, rows: list[dict]) -> None:
+    ws = wb.create_sheet("Award winners")
+    ws.append([h[1] for h in WINNER_HEADERS])
+    for cell in ws[1]:
+        cell.fill = HEADER_FILL
+        cell.font = HEADER_FONT
+    for r in rows:
+        ws.append([("Open notice" if k == "link" and r.get("link") else r.get(k)) for k, _, _ in WINNER_HEADERS])
+        i = ws.max_row
+        if r.get("link"):
+            c = ws.cell(row=i, column=len(WINNER_HEADERS))
+            c.hyperlink = r["link"]
+            c.font = LINK_FONT
+        ws.cell(row=i, column=12).number_format = "#,##0"
+        ws.cell(row=i, column=13).number_format = "dd mmm yyyy"
+    for i, (_, _, width) in enumerate(WINNER_HEADERS, start=1):
+        ws.column_dimensions[get_column_letter(i)].width = width
+    ws.freeze_panes = "B2"
+    if rows:
+        table = Table(displayName="AwardWinners", ref=f"A1:{get_column_letter(len(WINNER_HEADERS))}{len(rows) + 1}")
+        table.tableStyleInfo = TableStyleInfo(name="TableStyleLight9", showRowStripes=True)
+        ws.add_table(table)
+
+
+def build_workbook(rows: list[dict], path: Path, settings: dict, state: dict, enrichment: dict | None = None) -> None:
     cfg = settings["workbook"]
     now = datetime.now(timezone.utc).replace(tzinfo=None)
     new_since = now - timedelta(days=cfg.get("new_days", 7))
@@ -130,6 +260,7 @@ def build_workbook(rows: list[dict], path: Path, settings: dict, state: dict) ->
         ("Open tenders", len(open_tenders)),
         (f"New in last {cfg.get('new_days', 7)} days", len(new_rows)),
         (f"Awards in last {cfg.get('awards_days', 90)} days", len(awards)),
+        ("Award winners (companies)", len(award_winners(rows, awards_since, enrichment))),
         (f"Pipeline notices in last {cfg.get('pipeline_days', 90)} days", len(pipeline)),
         ("", ""),
         ("Sources", ""),
@@ -144,6 +275,7 @@ def build_workbook(rows: list[dict], path: Path, settings: dict, state: dict) ->
         ("How to use", "This file is rewritten every hour by the collector. Keep your own notes and client matching in a separate workbook that looks up this one, so they are not overwritten."),
         ("Type", "Tender = open opportunity. Award = contract awarded (shows winning suppliers). Pipeline = early notice of planned procurement. Update = change to an earlier notice."),
         ("Region", "Taken from the delivery address where given, otherwise the buyer's address."),
+        ("Award winners", "One row per company that has won a contract in the awards window, with a postal address for direct mail. Address source says where the address came from: Companies House (registered office, the legally recognised address for post) when the lookup is on, otherwise the address printed on the notice. Not found means the notice carried no address and no Companies House match was made."),
         ("Data", "Open Government Licence data from Find a Tender, Contracts Finder, Public Contracts Scotland and Sell2Wales."),
     ]
     for label, value in info:
@@ -156,6 +288,7 @@ def build_workbook(rows: list[dict], path: Path, settings: dict, state: dict) ->
     _write_sheet(wb, "Open tenders", open_tenders, "OpenTenders")
     _write_sheet(wb, f"New last {cfg.get('new_days', 7)} days", new_rows, "NewNotices")
     _write_sheet(wb, f"Awards ({cfg.get('awards_days', 90)} days)", awards, "Awards", desc_limit=400)
+    _write_winners(wb, award_winners(rows, awards_since, enrichment))
     _write_sheet(wb, f"Pipeline ({cfg.get('pipeline_days', 90)} days)", pipeline, "Pipeline", desc_limit=800)
 
     wb.save(path)

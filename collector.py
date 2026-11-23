@@ -324,6 +324,77 @@ def suppliers(release: dict) -> str:
     return "; ".join(names)
 
 
+def supplier_details(release: dict) -> list[dict]:
+    """
+    One entry per winning supplier with whatever address the notice gives.
+    Used for the Award winners tab (direct mail). Company numbers come from
+    GB-COH identifiers when the portal supplies them.
+    """
+    out: list[dict] = []
+    seen: set[str] = set()
+    parties = {p.get("id"): p for p in release.get("parties") or [] if p.get("id")}
+
+    def company_number(party: dict | None) -> str:
+        if not party:
+            return ""
+        ident = party.get("identifier") or {}
+        cands = [(ident.get("scheme"), ident.get("id")), ("", party.get("id"))]
+        for ai in party.get("additionalIdentifiers") or []:
+            cands.append((ai.get("scheme"), ai.get("id")))
+        for scheme, value in cands:
+            v = str(value or "")
+            if (scheme or "").upper() == "GB-COH" and v:
+                return v.split("-")[-1].strip().upper()
+            if v.upper().startswith("GB-COH-"):
+                return v.split("-", 2)[-1].strip().upper()
+        return ""
+
+    postcode_re = re.compile(r"\b([A-Z]{1,2}\d[A-Z\d]?\s*\d[A-Z]{2})\b", re.I)
+
+    def entry(name: str, party: dict | None) -> dict:
+        addr = (party or {}).get("address") or {}
+        details = (party or {}).get("details") or {}
+        # Contracts Finder packs the whole address into streetAddress with "|"
+        # between the lines, often with the postcode on the end.
+        street = clean(addr.get("streetAddress"))
+        town = clean(addr.get("locality"))
+        postcode = clean(addr.get("postalCode")).upper()
+        if not postcode:
+            m = postcode_re.search(street)
+            if m:
+                postcode = re.sub(r"\s+", " ", m.group(1).upper())
+                street = (street[: m.start()] + street[m.end():])
+        parts = [p.strip(" ,") for p in street.split("|") if p.strip(" ,|")]
+        if parts and not town and len(parts) > 1:
+            town = parts.pop()
+        street = ", ".join(parts)
+        return {
+            "name": clean(name),
+            "company_number": company_number(party),
+            "street": street,
+            "town": town,
+            "region": clean(addr.get("region")),
+            "postcode": postcode,
+            "country": clean(addr.get("countryName") or addr.get("country")),
+            "scale": clean(details.get("scale")),
+        }
+
+    for a in release.get("awards") or []:
+        for s in a.get("suppliers") or []:
+            name = clean(s.get("name"))
+            if not name or name.lower() in seen:
+                continue
+            seen.add(name.lower())
+            out.append(entry(name, parties.get(s.get("id"))))
+    for p in release.get("parties") or []:
+        if "supplier" in (p.get("roles") or []):
+            name = clean(p.get("name"))
+            if name and name.lower() not in seen:
+                seen.add(name.lower())
+                out.append(entry(name, p))
+    return out
+
+
 def notice_link(release: dict, source_key: str, settings: dict) -> str:
     tender = release.get("tender") or {}
     docs = list(tender.get("documents") or [])
@@ -413,6 +484,7 @@ def normalise(release: dict, source_key: str, settings: dict) -> dict | None:
         "contract_start": start,
         "contract_end": end,
         "suppliers": suppliers(release),
+        "supplier_details": supplier_details(release),
         "procedure": clean(first(tender.get("procurementMethodDetails"), tender.get("procurementMethod")), 200),
         "sme_suitable": "" if sme is None else ("Yes" if sme else "No"),
         "link": notice_link(release, source_key, settings),
@@ -686,10 +758,24 @@ def run() -> int:
     state["last_totals"] = totals
     save_state(state)
 
-    from workbook import build_workbook  # local module
+    from enrich import enrich_winners  # local modules
+    from workbook import build_workbook
 
     all_rows = load_all(keep)
-    build_workbook(all_rows, ROOT / settings["workbook"]["file"], settings, state)
+
+    # Postal addresses for companies that have won contracts (direct mail).
+    awards_since = now - timedelta(days=settings["workbook"].get("awards_days", 90))
+    winners: dict[str, dict] = {}
+    for r in all_rows:
+        if r.get("notice_kind") != "Award" or (parse_dt(r["published"]) or now) < awards_since:
+            continue
+        for s in r.get("supplier_details") or []:
+            if s.get("name"):
+                k = s.get("company_number") or s["name"].lower()
+                winners.setdefault(k, {"name": s["name"], "company_number": s.get("company_number", "")})
+    enrichment = enrich_winners(list(winners.values()))
+
+    build_workbook(all_rows, ROOT / settings["workbook"]["file"], settings, state, enrichment)
     log.info("Workbook written with %s notices in history", len(all_rows))
     return 0
 
