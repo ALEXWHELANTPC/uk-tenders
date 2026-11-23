@@ -891,6 +891,23 @@
 "84230"
 ]
 },
+"coh:00395826": {
+"company_name": "BALFOUR BEATTY PLC",
+"company_number": "00395826",
+"company_status": "active",
+"date_of_creation": "1945-05-31",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "5 Churchill Place",
+"address_line_2": "Canary Wharf",
+"country": "England",
+"locality": "London",
+"postal_code": "E14 5HU"
+},
+"sic_codes": [
+"70100"
+]
+},
 "coh:00402152": {
 "company_name": "PARK RETAIL LIMITED",
 "company_number": "00402152",
@@ -3116,6 +3133,23 @@
 },
 "sic_codes": [
 "96090"
+]
+},
+"coh:01013256": {
+"company_name": "STARKSTROM LIMITED",
+"company_number": "01013256",
+"company_status": "active",
+"date_of_creation": "1971-06-03",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "3rd Floor, 86-90 Paul Street",
+"country": "England",
+"locality": "London",
+"postal_code": "EC2A 4NE"
+},
+"sic_codes": [
+"32500",
+"47749"
 ]
 },
 "coh:01019263": {
@@ -5837,6 +5871,24 @@
 },
 "sic_codes": [
 "71111"
+]
+},
+"coh:01693112": {
+"company_name": "NISBETS LIMITED",
+"company_number": "01693112",
+"company_status": "active",
+"date_of_creation": "1983-01-21",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "Nisbets Limited",
+"address_line_2": "Fourth Way",
+"country": "England",
+"locality": "Bristol",
+"postal_code": "BS11 8TB"
+},
+"sic_codes": [
+"46900",
+"47910"
 ]
 },
 "coh:01701564": {
@@ -8996,6 +9048,23 @@
 "22290"
 ]
 },
+"coh:02412689": {
+"company_name": "FUCHS LUBRICANTS (UK) PLC",
+"company_number": "02412689",
+"company_status": "active",
+"date_of_creation": "1989-08-10",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "New Century Street",
+"address_line_2": "Hanley",
+"locality": "Stoke On Trent",
+"postal_code": "ST1 5HU",
+"region": "Staffordshire"
+},
+"sic_codes": [
+"19209"
+]
+},
 "coh:02413137": {
 "company_name": "QA LIMITED",
 "company_number": "02413137",
@@ -9348,6 +9417,23 @@
 "sic_codes": [
 "62020",
 "70229"
+]
+},
+"coh:02491098": {
+"company_name": "MEDSCIENCE DISTRIBUTION LTD",
+"company_number": "02491098",
+"company_status": "active",
+"date_of_creation": "1990-04-10",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "Cephalon House",
+"address_line_2": "Unit 8 Manor Park",
+"locality": "Wildmere Ind Estate",
+"postal_code": "OX16 3TB",
+"region": "Banbury Oxon"
+},
+"sic_codes": [
+"86900"
 ]
 },
 "coh:02492669": {
@@ -24929,6 +25015,23 @@
 "86900"
 ]
 },
+"coh:06009351": {
+"company_name": "D & H (PARTNERSHIP) LIMITED",
+"company_number": "06009351",
+"company_status": "active",
+"date_of_creation": "2006-11-24",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "Suit 9 1 Roebuck Lane",
+"country": "England",
+"locality": "Sale",
+"postal_code": "M33 7SY",
+"region": "Cheshire"
+},
+"sic_codes": [
+"47749"
+]
+},
 "coh:06021170": {
 "company_name": "OPIA LIMITED",
 "company_number": "06021170",
@@ -31243,6 +31346,22 @@
 "68209"
 ]
 },
+"coh:07946689": {
+"company_name": "ENGAGING WORKS GROUP LIMITED",
+"company_number": "07946689",
+"company_status": "active",
+"date_of_creation": "2012-02-13",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "21 Worship Street",
+"country": "United Kingdom",
+"locality": "London",
+"postal_code": "EC2A 2DW"
+},
+"sic_codes": [
+"62090"
+]
+},
 "coh:07947215": {
 "company_name": "SMITHERY LIMITED",
 "company_number": "07947215",
@@ -33712,6 +33831,23 @@
 "46650"
 ]
 },
+"coh:08758760": {
+"company_name": "ENDO ENTERPRISES (UK) LIMITED",
+"company_number": "08758760",
+"company_status": "active",
+"date_of_creation": "2013-11-01",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "231 Europa Boulevard",
+"address_line_2": "Westbrook",
+"country": "England",
+"locality": "Warrington",
+"postal_code": "WA5 7TN"
+},
+"sic_codes": [
+"32990"
+]
+},
 "coh:08758778": {
 "company_name": "GRAVITY RED INSPIRES C.I.C.",
 "company_number": "08758778",
@@ -35422,6 +35558,22 @@
 },
 "sic_codes": [
 "74909"
+]
+},
+"coh:09488206": {
+"company_name": "CONSULTANT CONNECT LIMITED",
+"company_number": "09488206",
+"company_status": "active",
+"date_of_creation": "2015-03-13",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "58 St. Aldate's",
+"country": "England",
+"locality": "Oxford",
+"postal_code": "OX1 1ST"
+},
+"sic_codes": [
+"62020"
 ]
 },
 "coh:09490223": {
@@ -52377,6 +52529,23 @@
 "88990"
 ]
 },
+"coh:SC082988": {
+"company_name": "EASTERN EXHIBITION & DISPLAY LIMITED",
+"company_number": "SC082988",
+"company_status": "active",
+"date_of_creation": "1983-05-05",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "108 Market Street",
+"address_line_2": "Musselburgh",
+"locality": "East Lothian",
+"postal_code": "EH21 6QA"
+},
+"sic_codes": [
+"18129",
+"90030"
+]
+},
 "coh:SC083026": {
 "company_name": "THE ROYAL BANK OF SCOTLAND PUBLIC LIMITED COMPANY",
 "company_number": "SC083026",
@@ -52971,6 +53140,23 @@
 },
 "sic_codes": [
 "43220"
+]
+},
+"coh:SC151965": {
+"company_name": "KARL STORZ ENDOSCOPY (UK) LIMITED",
+"company_number": "SC151965",
+"company_status": "active",
+"date_of_creation": "1994-07-14",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "Thomas",
+"address_line_2": "Wise Place",
+"locality": "Dundee",
+"postal_code": "DD2 1UB"
+},
+"sic_codes": [
+"32500",
+"47749"
 ]
 },
 "coh:SC155709": {
@@ -54211,6 +54397,24 @@
 "10511"
 ]
 },
+"coh:SC315183": {
+"company_name": "CRUICKSHANK GLAZIERS LTD.",
+"company_number": "SC315183",
+"company_status": "active",
+"date_of_creation": "2007-01-23",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "Unit 1 Lock 7 Muirhead",
+"address_line_2": "Mitchelston Industrial Estate",
+"country": "Scotland",
+"locality": "Kirkcaldy",
+"postal_code": "KY1 3PB",
+"region": "Fife"
+},
+"sic_codes": [
+"43342"
+]
+},
 "coh:SC319443": {
 "company_name": "EMERGENCY ONE (U.K.) LIMITED",
 "company_number": "SC319443",
@@ -54242,6 +54446,21 @@
 },
 "sic_codes": [
 "43220"
+]
+},
+"coh:SC335879": {
+"company_name": "RUSSELL TIMBER TECHNOLOGY LIMITED",
+"company_number": "SC335879",
+"company_status": "active",
+"date_of_creation": "2008-01-08",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "8 Dilwara Avenue",
+"address_line_2": "Glasgow",
+"postal_code": "G14 0QS"
+},
+"sic_codes": [
+"99999"
 ]
 },
 "coh:SC336107": {
@@ -55284,6 +55503,22 @@
 "42220",
 "43210",
 "43390"
+]
+},
+"coh:SC586777": {
+"company_name": "BUILDING FINISHING SERVICES  UK LTD",
+"company_number": "SC586777",
+"company_status": "active",
+"date_of_creation": "2018-01-25",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "91 Alexander Street",
+"country": "Scotland",
+"locality": "Airdrie",
+"postal_code": "ML6 0BD"
+},
+"sic_codes": [
+"82990"
 ]
 },
 "coh:SC592928": {
@@ -58787,6 +59022,23 @@
 "82110"
 ]
 },
+"name:balfour beatty": {
+"company_name": "BALFOUR BEATTY PLC",
+"company_number": "00395826",
+"company_status": "active",
+"date_of_creation": "1945-05-31",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "5 Churchill Place",
+"address_line_2": "Canary Wharf",
+"country": "England",
+"locality": "London",
+"postal_code": "E14 5HU"
+},
+"sic_codes": [
+"70100"
+]
+},
 "name:ballicom": {
 "company_name": "BALLICOM LIMITED",
 "company_number": "02799428",
@@ -59639,6 +59891,10 @@
 "74100"
 ]
 },
+"name:bolton district hospital saturday council t a healthcare": {
+"looked_up": "2026-11-23",
+"not_found": true
+},
 "name:bolton nhs foundation trust": {
 "looked_up": "2026-11-23",
 "not_found": true
@@ -60147,6 +60403,22 @@
 "name:bt telecommununications": {
 "looked_up": "2026-11-23",
 "not_found": true
+},
+"name:building finishing services": {
+"company_name": "BUILDING FINISHING SERVICES  UK LTD",
+"company_number": "SC586777",
+"company_status": "active",
+"date_of_creation": "2018-01-25",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "91 Alexander Street",
+"country": "Scotland",
+"locality": "Airdrie",
+"postal_code": "ML6 0BD"
+},
+"sic_codes": [
+"82990"
+]
 },
 "name:bunzl catering supplies": {
 "looked_up": "2026-11-23",
@@ -62054,6 +62326,10 @@
 "registered_office": {},
 "sic_codes": []
 },
+"name:compass building construction services": {
+"looked_up": "2026-11-23",
+"not_found": true
+},
 "name:compass chc": {
 "company_name": "COMPASS CHC LIMITED",
 "company_number": "09313148",
@@ -62318,6 +62594,22 @@
 },
 "sic_codes": [
 "71111"
+]
+},
+"name:consultant connect": {
+"company_name": "CONSULTANT CONNECT LIMITED",
+"company_number": "09488206",
+"company_status": "active",
+"date_of_creation": "2015-03-13",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "58 St. Aldate's",
+"country": "England",
+"locality": "Oxford",
+"postal_code": "OX1 1ST"
+},
+"sic_codes": [
+"62020"
 ]
 },
 "name:contractio g i owen contracting cyf": {
@@ -62832,6 +63124,24 @@
 "82990"
 ]
 },
+"name:cruickshank glaziers": {
+"company_name": "CRUICKSHANK GLAZIERS LTD.",
+"company_number": "SC315183",
+"company_status": "active",
+"date_of_creation": "2007-01-23",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "Unit 1 Lock 7 Muirhead",
+"address_line_2": "Mitchelston Industrial Estate",
+"country": "Scotland",
+"locality": "Kirkcaldy",
+"postal_code": "KY1 3PB",
+"region": "Fife"
+},
+"sic_codes": [
+"43342"
+]
+},
 "name:csg cleaning pty": {
 "looked_up": "2026-11-23",
 "not_found": true
@@ -62970,6 +63280,23 @@
 },
 "sic_codes": [
 "84250"
+]
+},
+"name:d h partnership": {
+"company_name": "D & H (PARTNERSHIP) LIMITED",
+"company_number": "06009351",
+"company_status": "active",
+"date_of_creation": "2006-11-24",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "Suit 9 1 Roebuck Lane",
+"country": "England",
+"locality": "Sale",
+"postal_code": "M33 7SY",
+"region": "Cheshire"
+},
+"sic_codes": [
+"47749"
 ]
 },
 "name:d hall renewables": {
@@ -63501,6 +63828,10 @@
 "71122"
 ]
 },
+"name:dem master demolition limted": {
+"looked_up": "2026-11-23",
+"not_found": true
+},
 "name:democracy counts": {
 "company_name": "DEMOCRACY COUNTS LIMITED",
 "company_number": "07095502",
@@ -63890,6 +64221,24 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"name:draeger medical": {
+"company_name": "DRAEGER MEDICAL UK LIMITED",
+"company_number": "04310199",
+"company_status": "active",
+"date_of_creation": "2001-10-24",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "The Willows",
+"address_line_2": "Mark Road,",
+"locality": "Hemel Hempstead",
+"postal_code": "HP2 7BW",
+"region": "Hertfordshire"
+},
+"sic_codes": [
+"33190",
+"46690"
+]
+},
 "name:drax energy solutions": {
 "company_name": "DRAX ENERGY SOLUTIONS LIMITED",
 "company_number": "05893966",
@@ -64052,6 +64401,10 @@
 "32990"
 ]
 },
+"name:eagle couriers": {
+"looked_up": "2026-11-23",
+"not_found": true
+},
 "name:earl mcknight": {
 "looked_up": "2026-11-23",
 "not_found": true
@@ -64075,6 +64428,23 @@
 "name:east sussex college group": {
 "looked_up": "2026-11-23",
 "not_found": true
+},
+"name:eastern exhibition display": {
+"company_name": "EASTERN EXHIBITION & DISPLAY LIMITED",
+"company_number": "SC082988",
+"company_status": "active",
+"date_of_creation": "1983-05-05",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "108 Market Street",
+"address_line_2": "Musselburgh",
+"locality": "East Lothian",
+"postal_code": "EH21 6QA"
+},
+"sic_codes": [
+"18129",
+"90030"
+]
 },
 "name:eastfield house surgery": {
 "looked_up": "2026-11-23",
@@ -64689,6 +65059,23 @@
 "88990"
 ]
 },
+"name:endo enterprises": {
+"company_name": "ENDO ENTERPRISES (UK) LIMITED",
+"company_number": "08758760",
+"company_status": "active",
+"date_of_creation": "2013-11-01",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "231 Europa Boulevard",
+"address_line_2": "Westbrook",
+"country": "England",
+"locality": "Warrington",
+"postal_code": "WA5 7TN"
+},
+"sic_codes": [
+"32990"
+]
+},
 "name:energus": {
 "company_name": "ENERGUS",
 "company_number": "05662194",
@@ -64726,6 +65113,22 @@
 "name:engage train support ets": {
 "looked_up": "2026-11-23",
 "not_found": true
+},
+"name:engaging works group": {
+"company_name": "ENGAGING WORKS GROUP LIMITED",
+"company_number": "07946689",
+"company_status": "active",
+"date_of_creation": "2012-02-13",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "21 Worship Street",
+"country": "United Kingdom",
+"locality": "London",
+"postal_code": "EC2A 2DW"
+},
+"sic_codes": [
+"62090"
+]
 },
 "name:engender": {
 "looked_up": "2026-11-23",
@@ -66333,6 +66736,23 @@
 "82990",
 "86900",
 "88990"
+]
+},
+"name:fuchs lubricants": {
+"company_name": "FUCHS LUBRICANTS (UK) PLC",
+"company_number": "02412689",
+"company_status": "active",
+"date_of_creation": "1989-08-10",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "New Century Street",
+"address_line_2": "Hanley",
+"locality": "Stoke On Trent",
+"postal_code": "ST1 5HU",
+"region": "Staffordshire"
+},
+"sic_codes": [
+"19209"
 ]
 },
 "name:fujifilm healthcare": {
@@ -68389,6 +68809,10 @@
 "46690"
 ]
 },
+"name:hill rom liko": {
+"looked_up": "2026-11-23",
+"not_found": true
+},
 "name:hippo digital": {
 "company_name": "HIPPO DIGITAL LIMITED",
 "company_number": "09877239",
@@ -70358,6 +70782,10 @@
 "81100"
 ]
 },
+"name:johnson health tech matrix fitness": {
+"looked_up": "2026-11-23",
+"not_found": true
+},
 "name:johnsons services": {
 "company_name": "JOHNSONS UK SERVICES LIMITED",
 "company_number": "08751849",
@@ -70567,6 +70995,23 @@
 },
 "sic_codes": [
 "46900"
+]
+},
+"name:karl storz endoscopy": {
+"company_name": "KARL STORZ ENDOSCOPY (UK) LIMITED",
+"company_number": "SC151965",
+"company_status": "active",
+"date_of_creation": "1994-07-14",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "Thomas",
+"address_line_2": "Wise Place",
+"locality": "Dundee",
+"postal_code": "DD2 1UB"
+},
+"sic_codes": [
+"32500",
+"47749"
 ]
 },
 "name:karntek": {
@@ -72804,6 +73249,23 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"name:medscience distribution": {
+"company_name": "MEDSCIENCE DISTRIBUTION LTD",
+"company_number": "02491098",
+"company_status": "active",
+"date_of_creation": "1990-04-10",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "Cephalon House",
+"address_line_2": "Unit 8 Manor Park",
+"locality": "Wildmere Ind Estate",
+"postal_code": "OX16 3TB",
+"region": "Banbury Oxon"
+},
+"sic_codes": [
+"86900"
+]
+},
 "name:mentimeter ab": {
 "looked_up": "2026-11-23",
 "not_found": true
@@ -72859,6 +73321,22 @@
 "name:mersey and west lancashire teaching hospitals nhs trust": {
 "looked_up": "2026-11-23",
 "not_found": true
+},
+"name:met healthcare": {
+"company_name": "MET HEALTHCARE LIMITED",
+"company_number": "NI602270",
+"company_status": "active",
+"date_of_creation": "2010-02-24",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "46 Hill Street",
+"care_of": "C.D. DIAMOND & CO",
+"locality": "Belfast",
+"postal_code": "BT1 2LB"
+},
+"sic_codes": [
+"47749"
+]
 },
 "name:metal culture": {
 "company_name": "METAL CULTURE LIMITED",
@@ -74348,6 +74826,24 @@
 "20590"
 ]
 },
+"name:nisbets": {
+"company_name": "NISBETS LIMITED",
+"company_number": "01693112",
+"company_status": "active",
+"date_of_creation": "1983-01-21",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "Nisbets Limited",
+"address_line_2": "Fourth Way",
+"country": "England",
+"locality": "Bristol",
+"postal_code": "BS11 8TB"
+},
+"sic_codes": [
+"46900",
+"47910"
+]
+},
 "name:nissin dental products europe b v": {
 "looked_up": "2026-11-23",
 "not_found": true
@@ -75358,6 +75854,10 @@
 "63110",
 "71122"
 ]
+},
+"name:pamis promoting a more inclusive society": {
+"looked_up": "2026-11-23",
+"not_found": true
 },
 "name:pangbourne medical practice boathouse surgery": {
 "looked_up": "2026-11-23",
@@ -78412,6 +78912,21 @@
 "46610"
 ]
 },
+"name:russell timber technology": {
+"company_name": "RUSSELL TIMBER TECHNOLOGY LIMITED",
+"company_number": "SC335879",
+"company_status": "active",
+"date_of_creation": "2008-01-08",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "8 Dilwara Avenue",
+"address_line_2": "Glasgow",
+"postal_code": "G14 0QS"
+},
+"sic_codes": [
+"99999"
+]
+},
 "name:s and sa architects": {
 "company_name": "S AND SA ARCHITECTS LTD",
 "company_number": "08850737",
@@ -80246,6 +80761,10 @@
 "68320"
 ]
 },
+"name:spectranetics international b v": {
+"looked_up": "2026-11-23",
+"not_found": true
+},
 "name:speech and language therapy west midlands": {
 "company_name": "SPEECH AND LANGUAGE THERAPY WEST MIDLANDS LTD",
 "company_number": "15722636",
@@ -80634,6 +81153,23 @@
 "70229",
 "71111",
 "71129"
+]
+},
+"name:starkstrom": {
+"company_name": "STARKSTROM LIMITED",
+"company_number": "01013256",
+"company_status": "active",
+"date_of_creation": "1971-06-03",
+"looked_up": "2026-11-23",
+"registered_office": {
+"address_line_1": "3rd Floor, 86-90 Paul Street",
+"country": "England",
+"locality": "London",
+"postal_code": "EC2A 4NE"
+},
+"sic_codes": [
+"32500",
+"47749"
 ]
 },
 "name:starr international europe": {
@@ -84431,6 +84967,10 @@
 "sic_codes": [
 "29100"
 ]
+},
+"name:woodall nicholson mellor coachcraft": {
+"looked_up": "2026-11-23",
+"not_found": true
 },
 "name:woodhouse partnership": {
 "company_name": "THE WOODHOUSE PARTNERSHIP LIMITED",
