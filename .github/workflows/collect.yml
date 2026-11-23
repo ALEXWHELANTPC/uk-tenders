@@ -10,8 +10,12 @@ on:
         required: false
         default: "false"
   # Fallback timer: GitHub's own scheduler has been unreliable for this
-  # repository, so a Power Automate flow opens an issue called
-  # "Hourly collection" every hour. That starts a run, which closes the issue.
+  # repository, so a Power Automate flow ("Run tender collector hourly")
+  # sends a repository dispatch event called "hourly" at 15 past each hour.
+  repository_dispatch:
+    types: [hourly]
+  # Manual fallback: opening an issue titled "Hourly collection" also starts
+  # a run, which closes the issue when it finishes.
   issues:
     types: [opened]
 
