@@ -140,16 +140,68 @@ def region_name(code: str | None) -> str:
     return code
 
 
+# Some portals (the Scottish and Welsh APIs) send only their own certificate
+# and not the intermediate that signed it. Browsers fetch the missing link
+# themselves; Python does not, so verification fails. When that happens we
+# fetch the intermediate from the address written into the certificate and
+# verify against it, keeping full certificate checking on.
+CA_BUNDLES: dict[str, str] = {}
+
+
+def build_ca_bundle(host: str) -> str | None:
+    try:
+        import ssl
+        import certifi
+        from cryptography import x509
+        from cryptography.hazmat.primitives import serialization
+        from cryptography.x509.oid import AuthorityInformationAccessOID, ExtensionOID
+
+        leaf_pem = ssl.get_server_certificate((host, 443))
+        leaf = x509.load_pem_x509_certificate(leaf_pem.encode())
+        aia = leaf.extensions.get_extension_for_oid(ExtensionOID.AUTHORITY_INFORMATION_ACCESS).value
+        issuer_urls = [d.access_location.value for d in aia
+                       if d.access_method == AuthorityInformationAccessOID.CA_ISSUERS]
+        if not issuer_urls:
+            log.warning("%s: certificate names no issuer download address", host)
+            return None
+        extra: list[str] = []
+        for url in issuer_urls:
+            r = requests.get(url, timeout=60)
+            r.raise_for_status()
+            body = r.content
+            try:
+                cert = x509.load_der_x509_certificate(body)
+            except ValueError:
+                cert = x509.load_pem_x509_certificate(body)
+            extra.append(cert.public_bytes(serialization.Encoding.PEM).decode())
+        path = Path(os.environ.get("RUNNER_TEMP", "/tmp")) / f"ca-{host}.pem"
+        path.write_text(Path(certifi.where()).read_text() + "\n" + "\n".join(extra), encoding="utf-8")
+        log.info("%s: added %s intermediate certificate(s) to the trust bundle", host, len(extra))
+        return str(path)
+    except Exception as exc:  # noqa: BLE001
+        log.warning("%s: could not repair the certificate chain: %s", host, exc)
+        return None
+
+
 def get(session: requests.Session, url: str, params: dict | None = None) -> requests.Response | None:
     """GET with retries. Returns None when the server keeps failing."""
+    host = url.split("/")[2]
     for attempt in range(1, RETRIES + 1):
         try:
-            r = session.get(url, params=params, timeout=TIMEOUT)
+            r = session.get(url, params=params, timeout=TIMEOUT, verify=CA_BUNDLES.get(host, True))
             if r.status_code == 200:
                 return r
             log.warning("HTTP %s from %s (attempt %s)", r.status_code, r.url, attempt)
             if 400 <= r.status_code < 500 and r.status_code != 429:
                 return None
+        except requests.exceptions.SSLError as exc:
+            if host not in CA_BUNDLES:
+                bundle = build_ca_bundle(host)
+                if bundle:
+                    CA_BUNDLES[host] = bundle
+                    continue
+            log.warning("Certificate problem with %s: %s", host, exc)
+            return None
         except requests.RequestException as exc:
             log.warning("Request failed: %s (attempt %s)", exc, attempt)
         time.sleep(5 * attempt)
