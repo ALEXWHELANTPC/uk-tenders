@@ -35,6 +35,7 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
           FORCE_ALL: ${{ github.event.inputs.force_all == 'true' && '1' || '0' }}
+          COMPANIES_HOUSE_API_KEY: ${{ secrets.COMPANIES_HOUSE_API_KEY }}
         run: python collector.py
 
       - name: Commit results
