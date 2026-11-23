@@ -32,8 +32,12 @@ STATE_FILE = DATA / "state.json"
 log = logging.getLogger("collector")
 
 UA = "uk-tenders-collector/1.0 (open data collector; GitHub Actions)"
-TIMEOUT = 120
+TIMEOUT = 180
 RETRIES = 3
+# Stop asking the feeds for more after this long and save what we have. The
+# next run carries on from where this one stopped. Keeps well inside the
+# job's own timeout even when a feed is answering slowly.
+TIME_BUDGET = int(os.environ.get("TIME_BUDGET_SECONDS", "2100"))
 
 # ---------------------------------------------------------------------------
 # Row shape. Keep this list in step with workbook.py.
@@ -370,12 +374,20 @@ def normalise(release: dict, source_key: str, settings: dict) -> dict | None:
 # ---------------------------------------------------------------------------
 # Fetchers. Each yields OCDS releases.
 # ---------------------------------------------------------------------------
-def fetch_cursor_feed(session: requests.Session, url: str, params: dict, stats: dict) -> Iterable[dict]:
+def out_of_time(deadline: float) -> bool:
+    return time.monotonic() > deadline
+
+
+def fetch_cursor_feed(session: requests.Session, url: str, params: dict, stats: dict, deadline: float) -> Iterable[dict]:
     """Find a Tender and Contracts Finder: first page by params, then links.next."""
     next_url: str | None = url
     first_page = True
     pages = 0
     while next_url:
+        if out_of_time(deadline):
+            log.warning("Time budget used up after %s pages; will carry on next run", pages)
+            stats["partial"] = True
+            return
         r = get(session, next_url, params if first_page else None)
         first_page = False
         if r is None:
@@ -390,6 +402,8 @@ def fetch_cursor_feed(session: requests.Session, url: str, params: dict, stats: 
         releases = body.get("releases") or []
         pages += 1
         stats["pages"] += 1
+        if pages % 10 == 0:
+            log.info("  page %s, %s releases so far", pages, stats["releases"])
         for rel in releases:
             yield rel
         next_url = (body.get("links") or {}).get("next")
@@ -400,10 +414,43 @@ def fetch_cursor_feed(session: requests.Session, url: str, params: dict, stats: 
             break
 
 
-def fetch_monthly_feed(session: requests.Session, url: str, months: list[str], notice_types: list[int], stats: dict) -> Iterable[dict]:
+def fetch_windowed(session: requests.Session, url: str, from_param: str, to_param: str,
+                   since: datetime, until: datetime, window_hours: int, page_size: int,
+                   stats: dict, deadline: float) -> Iterable[dict]:
+    """
+    Walk a cursor feed in time windows, oldest first. Both feeds return newest
+    first, so paging the whole range in one go would leave the oldest notices
+    unfetched if the run stopped early. Working window by window means a run
+    that stops early has still fully covered everything up to the last window
+    it finished, and stats["covered_to"] says where to resume.
+    """
+    start = since
+    window = timedelta(hours=window_hours)
+    while start < until:
+        end = min(start + window, until)
+        if out_of_time(deadline):
+            log.warning("Time budget used up; covered up to %s, will carry on next run", iso(start))
+            stats["partial"] = True
+            return
+        params = {from_param: iso(start - timedelta(minutes=1)), to_param: iso(end), "limit": page_size}
+        before = stats["errors"]
+        for rel in fetch_cursor_feed(session, url, params, stats, deadline):
+            yield rel
+        if stats["partial"] or stats["errors"] > before:
+            stats["partial"] = True
+            return
+        stats["covered_to"] = iso(end)
+        start = end
+
+
+def fetch_monthly_feed(session: requests.Session, url: str, months: list[str], notice_types: list[int], stats: dict, deadline: float) -> Iterable[dict]:
     """Public Contracts Scotland and Sell2Wales: one call per month and notice type."""
     for month in months:
         for nt in notice_types:
+            if out_of_time(deadline):
+                log.warning("Time budget used up; will carry on next run")
+                stats["partial"] = True
+                return
             r = get(session, url, {"dateFrom": month, "noticeType": nt, "outputType": 0})
             if r is None:
                 stats["errors"] += 1
@@ -498,6 +545,7 @@ def run() -> int:
 
     changed_months: dict[str, dict[str, dict]] = {}
     totals: dict[str, dict] = {}
+    deadline = time.monotonic() + TIME_BUDGET
 
     for key, src in settings["sources"].items():
         if not src.get("enabled", True):
@@ -505,7 +553,7 @@ def run() -> int:
         st = state["sources"].setdefault(key, {})
         last_ok = parse_dt(st.get("last_success"))
         every = src.get("run_every_hours", 1)
-        if last_ok and not force and (now - last_ok) < timedelta(hours=every) - timedelta(minutes=5):
+        if last_ok and not force and not st.get("last_partial") and (now - last_ok) < timedelta(hours=every) - timedelta(minutes=5):
             log.info("%s: ran %s ago, skipping this hour", src["label"], now - last_ok)
             continue
 
@@ -515,15 +563,20 @@ def run() -> int:
         else:
             since = now - timedelta(days=settings.get("first_run_days_back", 14))
 
-        stats = {"pages": 0, "errors": 0, "releases": 0, "new": 0, "updated": 0}
+        if out_of_time(deadline):
+            log.warning("%s: no time left this run, skipping", src["label"])
+            continue
+
+        stats = {"pages": 0, "errors": 0, "releases": 0, "new": 0, "updated": 0, "partial": False}
         log.info("%s: collecting from %s", src["label"], iso(since))
 
+        window_hours = src.get("window_hours", 24)
         if key == "find_a_tender":
-            releases = fetch_cursor_feed(session, src["url"], {"updatedFrom": iso(since), "limit": src.get("page_size", 100)}, stats)
+            releases = fetch_windowed(session, src["url"], "updatedFrom", "updatedTo", since, now, window_hours, src.get("page_size", 100), stats, deadline)
         elif key == "contracts_finder":
-            releases = fetch_cursor_feed(session, src["url"], {"publishedFrom": iso(since), "limit": src.get("page_size", 100)}, stats)
+            releases = fetch_windowed(session, src["url"], "publishedFrom", "publishedTo", since, now, window_hours, src.get("page_size", 100), stats, deadline)
         else:
-            releases = fetch_monthly_feed(session, src["url"], months_covering(since, now), src["notice_types"], stats)
+            releases = fetch_monthly_feed(session, src["url"], months_covering(since, now), src["notice_types"], stats, deadline)
 
         for rel in releases:
             stats["releases"] += 1
@@ -544,12 +597,18 @@ def run() -> int:
         totals[src["label"]] = stats
         log.info("%s: %s", src["label"], json.dumps(stats))
 
-        if stats["errors"] == 0 or stats["releases"] > 0:
+        complete = stats["errors"] == 0 and not stats["partial"]
+        if complete:
             st["last_success"] = iso(now)
-            if stats["errors"] == 0:
-                st["covered_to"] = iso(now)
-            else:
-                st["last_partial"] = iso(now)
+            st["covered_to"] = iso(now)
+            st.pop("last_partial", None)
+        elif stats["releases"] > 0 or stats.get("covered_to"):
+            # Got some of the way. Only claim coverage up to the end of the
+            # last window fully read, so the next run picks up the rest.
+            st["last_success"] = iso(now)
+            st["last_partial"] = iso(now)
+            if stats.get("covered_to"):
+                st["covered_to"] = stats["covered_to"]
         else:
             st["last_failure"] = iso(now)
             log.error("%s: nothing collected", src["label"])
