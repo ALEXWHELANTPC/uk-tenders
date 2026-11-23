@@ -1,17 +1,11 @@
 {
   "sources": {
-    "find_a_tender": {
-      "enabled": true,
-      "label": "Find a Tender",
-      "url": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages",
-      "page_size": 100,
-      "run_every_hours": 1
-    },
     "contracts_finder": {
       "enabled": true,
       "label": "Contracts Finder",
       "url": "https://www.contractsfinder.service.gov.uk/Published/Notices/OCDS/Search",
       "page_size": 100,
+      "window_hours": 24,
       "run_every_hours": 1
     },
     "public_contracts_scotland": {
@@ -29,6 +23,15 @@
       "notice_link": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID={id}",
       "notice_types": [1, 2, 3, 4, 5, 6, 15, 20, 21, 22, 23, 24, 25, 101, 102, 103, 104],
       "run_every_hours": 4
+    },
+    "find_a_tender": {
+      "enabled": true,
+      "label": "Find a Tender",
+      "url": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages",
+      "page_size": 100,
+      "window_hours": 24,
+      "run_every_hours": 1,
+      "_note": "Last in the list on purpose: this API often answers slowly or with 502/504, so the quick sources go first and Find a Tender uses whatever time is left. Progress is saved per day window."
     }
   },
   "first_run_days_back": 14,
