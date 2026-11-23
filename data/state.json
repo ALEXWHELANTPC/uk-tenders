@@ -9,14 +9,14 @@
       "covered_to": "2026-11-23T13:15:36"
     },
     "sell2wales": {
-      "last_failure": "2026-11-23T16:15:14"
+      "last_failure": "2026-11-23T16:32:06"
     },
     "find_a_tender": {
       "last_success": "2026-11-23T15:41:15",
       "covered_to": "2026-11-23T15:41:15"
     }
   },
-  "last_run": "2026-11-23T16:15:14",
+  "last_run": "2026-11-23T16:32:06",
   "last_totals": {
     "Sell2Wales": {
       "pages": 0,
@@ -28,6 +28,9 @@
     }
   },
   "last_portal": {
-    "enabled": false
+    "enabled": true,
+    "notices": 6524,
+    "profiles": 2,
+    "matches": 33
   }
 }
