@@ -9,9 +9,15 @@ on:
         description: "Ignore the per-source schedule and read every source now"
         required: false
         default: "false"
+  # Fallback timer: GitHub's own scheduler has been unreliable for this
+  # repository, so a Power Automate flow opens an issue called
+  # "Hourly collection" every hour. That starts a run, which closes the issue.
+  issues:
+    types: [opened]
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: collect
@@ -19,6 +25,7 @@ concurrency:
 
 jobs:
   collect:
+    if: github.event_name != 'issues' || github.event.issue.title == 'Hourly collection'
     runs-on: ubuntu-latest
     timeout-minutes: 50
     steps:
@@ -36,6 +43,8 @@ jobs:
           PYTHONUNBUFFERED: "1"
           FORCE_ALL: ${{ github.event.inputs.force_all == 'true' && '1' || '0' }}
           COMPANIES_HOUSE_API_KEY: ${{ secrets.COMPANIES_HOUSE_API_KEY }}
+          SUPABASE_URL: https://xvzlkgdamqdharrelrde.supabase.co
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: python collector.py
 
       - name: Commit results
@@ -50,3 +59,9 @@ jobs:
             git pull --rebase --autostash
             git push
           fi
+
+      - name: Close the trigger issue
+        if: always() && github.event_name == 'issues'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue close ${{ github.event.issue.number }} --reason completed --comment "Collection run ${{ github.run_number }} finished."
