@@ -677,6 +677,7 @@ def run() -> int:
 
     changed_months: dict[str, dict[str, dict]] = {}
     totals: dict[str, dict] = {}
+    touched: list[dict] = []  # new or changed rows this run, for the portal
     deadline = time.monotonic() + TIME_BUDGET
 
     for key, src in settings["sources"].items():
@@ -722,8 +723,10 @@ def run() -> int:
             old = bucket.get(row["_key"])
             if old is None:
                 stats["new"] += 1
+                touched.append(row)
             elif old != row:
                 stats["updated"] += 1
+                touched.append(row)
             bucket[row["_key"]] = row
 
         totals[src["label"]] = stats
@@ -776,6 +779,20 @@ def run() -> int:
     enrichment = enrich_winners(list(winners.values()))
 
     build_workbook(all_rows, ROOT / settings["workbook"]["file"], settings, state, enrichment)
+
+    # Client portal: notices in, matches scored against each client's profile.
+    try:
+        from publish import publish
+        # The same notice can be read twice in one run (two portals, or a
+        # window overlap); publish the latest copy of each key once.
+        first_time = not (state.get("last_portal") or {}).get("enabled")
+        latest: dict[str, dict] = {}
+        for r in (all_rows if first_time else touched):
+            latest[r["_key"]] = r
+        state["last_portal"] = publish(list(latest.values()))
+        save_state(state)
+    except Exception as exc:  # noqa: BLE001
+        log.error("Portal publishing failed: %s", exc)
     log.info("Workbook written with %s notices in history", len(all_rows))
     return 0
 
