@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import logging
 import os
+import re
 from datetime import datetime, timedelta, timezone
 
 import requests
@@ -71,6 +72,29 @@ class Portal:
             return []
         return resp.json()
 
+    def existing_match_keys(self) -> set[tuple[str, str]]:
+        """(company_id, tender key) for every match already recorded, so the same
+        tender published twice (two portals, or a corrected notice) is not
+        offered to a client twice."""
+        out: set[tuple[str, str]] = set()
+        offset = 0
+        while True:
+            resp = self.s.get(
+                f"{self.base}/notice_matches?select=company_id,notices(title,buyer)"
+                f"&offset={offset}&limit=1000",
+                timeout=60,
+            )
+            if resp.status_code != 200:
+                log.warning("could not read existing matches (%s)", resp.status_code)
+                return out
+            rows = resp.json()
+            for m in rows:
+                n = m.get("notices") or {}
+                out.add((m["company_id"], tender_key(n)))
+            if len(rows) < 1000:
+                return out
+            offset += 1000
+
     def insert_matches(self, rows: list[dict]) -> int:
         done = 0
         for i in range(0, len(rows), CHUNK):
@@ -91,6 +115,13 @@ class Portal:
         resp = self.s.delete(f"{self.base}/notices?published=lt.{cutoff}", headers={"Prefer": "return=minimal"}, timeout=120)
         if resp.status_code >= 300:
             log.warning("prune failed (%s): %s", resp.status_code, resp.text[:200])
+
+
+def tender_key(row: dict) -> str:
+    """Same tender on two portals, or re-issued, shares title and buyer."""
+    t = re.sub(r"[^a-z0-9]", "", (row.get("title") or "").lower())[:60]
+    b = re.sub(r"[^a-z0-9]", "", (row.get("buyer") or "").lower().replace("&", " and "))[:20]
+    return f"{t}|{b}"
 
 
 def profile_from_row(row: dict) -> dict:
@@ -132,21 +163,34 @@ def publish(touched: list[dict]) -> dict:
 
     profiles = portal.profiles()
     summary["profiles"] = len(profiles)
+    seen = portal.existing_match_keys() if profiles else set()
     matches: list[dict] = []
     for prow in profiles:
         profile = profile_from_row(prow)
+        best: dict[str, tuple[int, dict, dict]] = {}
         for r in touched:
             nid = ids.get(r["_key"])
             if not nid:
                 continue
             s, reasons = score(r, profile)
-            if s >= profile["threshold"]:
-                matches.append({
-                    "company_id": prow["company_id"],
-                    "notice_id": nid,
-                    "score": int(s),
-                    "reasons": reasons,
-                })
+            if s < profile["threshold"]:
+                continue
+            tk = tender_key(r)
+            if (prow["company_id"], tk) in seen:
+                continue
+            match = {
+                "company_id": prow["company_id"],
+                "notice_id": nid,
+                "score": int(s),
+                "reasons": reasons,
+            }
+            # Keep one notice per tender: the higher score, then the one with a deadline.
+            cur = best.get(tk)
+            rank = (int(s), 1 if r.get("deadline") else 0, r.get("published") or "")
+            if cur is None or rank > cur[0]:
+                best[tk] = (rank, match, r)
+        for _rank, match, _r in best.values():
+            matches.append(match)
     if matches:
         summary["matches"] = portal.insert_matches(matches)
     log.info("Portal: %s profiles scored, %s matches written", len(profiles), summary["matches"])
