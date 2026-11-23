@@ -497,6 +497,7 @@ def fetch_windowed(session: requests.Session, url: str, from_param: str, to_para
 
 def fetch_monthly_feed(session: requests.Session, url: str, months: list[str], notice_types: list[int], stats: dict, deadline: float) -> Iterable[dict]:
     """Public Contracts Scotland and Sell2Wales: one call per month and notice type."""
+    failures_in_a_row = 0
     for month in months:
         for nt in notice_types:
             if out_of_time(deadline):
@@ -506,7 +507,14 @@ def fetch_monthly_feed(session: requests.Session, url: str, months: list[str], n
             r = get(session, url, {"dateFrom": month, "noticeType": nt, "outputType": 0})
             if r is None:
                 stats["errors"] += 1
+                failures_in_a_row += 1
+                if failures_in_a_row >= 3:
+                    # The whole service is down, not one notice type. Stop
+                    # here rather than retrying every type for twenty minutes.
+                    log.error("Three requests in a row failed; giving up on this source until the next run")
+                    return
                 continue
+            failures_in_a_row = 0
             try:
                 body = r.json()
             except ValueError:
