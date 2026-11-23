@@ -1,0 +1,44 @@
+{
+  "sources": {
+    "find_a_tender": {
+      "enabled": true,
+      "label": "Find a Tender",
+      "url": "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages",
+      "page_size": 100,
+      "run_every_hours": 1
+    },
+    "contracts_finder": {
+      "enabled": true,
+      "label": "Contracts Finder",
+      "url": "https://www.contractsfinder.service.gov.uk/Published/Notices/OCDS/Search",
+      "page_size": 100,
+      "run_every_hours": 1
+    },
+    "public_contracts_scotland": {
+      "enabled": true,
+      "label": "Public Contracts Scotland",
+      "url": "https://api.publiccontractsscotland.gov.uk/v1/Notices",
+      "notice_link": "https://www.publiccontractsscotland.gov.uk/search/show/search_view.aspx?ID={id}",
+      "notice_types": [1, 2, 3, 4, 5, 6, 15, 20, 21, 22, 23, 24, 25, 101, 102, 103, 104],
+      "run_every_hours": 4
+    },
+    "sell2wales": {
+      "enabled": true,
+      "label": "Sell2Wales",
+      "url": "https://api.sell2wales.gov.wales/v1/Notices",
+      "notice_link": "https://www.sell2wales.gov.wales/search/show/search_view.aspx?ID={id}",
+      "notice_types": [1, 2, 3, 4, 5, 6, 15, 20, 21, 22, 23, 24, 25, 101, 102, 103, 104],
+      "run_every_hours": 4
+    }
+  },
+  "first_run_days_back": 14,
+  "overlap_minutes": 90,
+  "keep_months": 18,
+  "workbook": {
+    "file": "UK_Tenders.xlsx",
+    "new_days": 7,
+    "awards_days": 90,
+    "pipeline_days": 90,
+    "description_chars": 1500
+  }
+}
