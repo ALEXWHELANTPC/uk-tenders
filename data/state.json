@@ -9,24 +9,15 @@
       "covered_to": "2026-11-24T17:15:18"
     },
     "sell2wales": {
-      "last_failure": "2026-11-24T18:15:15"
+      "last_failure": "2026-11-24T18:53:38"
     },
     "find_a_tender": {
       "last_success": "2026-11-24T18:15:15",
       "covered_to": "2026-11-24T18:15:15"
     }
   },
-  "last_run": "2026-11-24T18:15:15",
+  "last_run": "2026-11-24T18:53:38",
   "last_totals": {
-    "Contracts Finder": {
-      "pages": 1,
-      "errors": 0,
-      "releases": 0,
-      "new": 0,
-      "updated": 0,
-      "partial": false,
-      "covered_to": "2026-11-24T18:15:15"
-    },
     "Sell2Wales": {
       "pages": 0,
       "errors": 3,
@@ -34,21 +25,12 @@
       "new": 0,
       "updated": 0,
       "partial": false
-    },
-    "Find a Tender": {
-      "pages": 1,
-      "errors": 0,
-      "releases": 67,
-      "new": 8,
-      "updated": 0,
-      "partial": false,
-      "covered_to": "2026-11-24T18:15:15"
     }
   },
   "last_portal": {
     "enabled": true,
-    "notices": 8,
-    "profiles": 32,
+    "notices": 0,
+    "profiles": 0,
     "matches": 0
   }
 }
