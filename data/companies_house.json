@@ -10206,6 +10206,24 @@
 "62090"
 ]
 },
+"coh:02504054": {
+"company_name": "SURESERVE COMPLIANCE FIRE LIMITED",
+"company_number": "02504054",
+"company_status": "active",
+"date_of_creation": "1990-05-21",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Norfolk House",
+"address_line_2": "13 Southampton Place",
+"country": "England",
+"locality": "London",
+"postal_code": "WC1A 2AJ"
+},
+"sic_codes": [
+"43390",
+"80200"
+]
+},
 "coh:02504189": {
 "company_name": "FIVE ONE TAXIS LIMITED",
 "company_number": "02504189",
@@ -26959,6 +26977,24 @@
 "58290"
 ]
 },
+"coh:05895562": {
+"company_name": "SPARK2LIFE",
+"company_number": "05895562",
+"company_status": "active",
+"date_of_creation": "2006-08-03",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "First Floor North, Kirkdale House",
+"address_line_2": "7 Kirkdale Road",
+"country": "England",
+"locality": "London",
+"postal_code": "E11 1HP"
+},
+"sic_codes": [
+"85600",
+"88990"
+]
+},
 "coh:05895719": {
 "company_name": "PURE PHYSIOTHERAPY LIMITED",
 "company_number": "05895719",
@@ -35448,6 +35484,22 @@
 "82990"
 ]
 },
+"coh:08320320": {
+"company_name": "INFINITY FIRE PREVENTION LTD",
+"company_number": "08320320",
+"company_status": "active",
+"date_of_creation": "2012-12-06",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "1 Kings Avenue",
+"country": "United Kingdom",
+"locality": "London",
+"postal_code": "N21 3NA"
+},
+"sic_codes": [
+"43390"
+]
+},
 "coh:08325015": {
 "company_name": "WORDFERN LIMITED",
 "company_number": "08325015",
@@ -35910,6 +35962,23 @@
 },
 "sic_codes": [
 "74901"
+]
+},
+"coh:08457173": {
+"company_name": "ADR MEDIATION & TRAINING C.I.C.",
+"company_number": "08457173",
+"company_status": "active",
+"date_of_creation": "2013-03-22",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "3 Caxton Road",
+"address_line_2": "Fulwood",
+"country": "England",
+"locality": "Preston",
+"postal_code": "PR2 9ZZ"
+},
+"sic_codes": [
+"96090"
 ]
 },
 "coh:08458577": {
@@ -45353,6 +45422,24 @@
 "85520"
 ]
 },
+"coh:12102960": {
+"company_name": "CRYSTAL PATHWAYS LTD",
+"company_number": "12102960",
+"company_status": "active",
+"date_of_creation": "2019-07-15",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "203. 3 Fleet Street",
+"country": "England",
+"locality": "Brighton",
+"postal_code": "BN1 4HB",
+"region": "East Sussex"
+},
+"sic_codes": [
+"87200",
+"88990"
+]
+},
 "coh:12112106": {
 "company_name": "DAYTIME CARS LIMITED",
 "company_number": "12112106",
@@ -54081,6 +54168,10 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"coh:5301280": {
+"looked_up": "2026-11-24",
+"not_found": true
+},
 "coh:539607": {
 "looked_up": "2026-11-23",
 "not_found": true
@@ -57369,6 +57460,10 @@
 "sic_codes": [
 "96090"
 ]
+},
+"coh:SC0114142": {
+"looked_up": "2026-11-24",
+"not_found": true
 },
 "coh:SC013532": {
 "looked_up": "2026-11-23",
@@ -87685,6 +87780,24 @@
 },
 "sic_codes": [
 "82990"
+]
+},
+"name:spark2life": {
+"company_name": "SPARK2LIFE",
+"company_number": "05895562",
+"company_status": "active",
+"date_of_creation": "2006-08-03",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "First Floor North, Kirkdale House",
+"address_line_2": "7 Kirkdale Road",
+"country": "England",
+"locality": "London",
+"postal_code": "E11 1HP"
+},
+"sic_codes": [
+"85600",
+"88990"
 ]
 },
 "name:sparklean services": {
