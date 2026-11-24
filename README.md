@@ -8,7 +8,7 @@ Sources: Find a Tender, Contracts Finder, Public Contracts Scotland and Sell2Wal
 
 `UK_Tenders.xlsx` is rewritten after every run and has these tabs:
 
-Open tenders: live opportunities, soonest deadline first, one row per procurement.
+Open tenders: live opportunities, newest first, one row per procurement (sort the Deadline column if you want soonest first).
 New last 7 days: every notice of any type published in the last week.
 Awards (90 days): contract awards with the winning suppliers.
 Pipeline (90 days): early notices of planned procurements.

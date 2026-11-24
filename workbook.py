@@ -242,7 +242,7 @@ def build_workbook(rows: list[dict], path: Path, settings: dict, state: dict, en
     latest: dict[str, dict] = {}
     for r in sorted(open_tenders, key=published):
         latest[r.get("ocid") or r["_key"]] = r
-    open_tenders = sorted(latest.values(), key=lambda r: (_dt(r.get("deadline")) or datetime.max, r["title"]))
+    open_tenders = sorted(latest.values(), key=published, reverse=True)
 
     new_rows = sorted((r for r in rows if published(r) >= new_since), key=published, reverse=True)
     awards = sorted((r for r in rows if r["notice_kind"] == "Award" and published(r) >= awards_since), key=published, reverse=True)
