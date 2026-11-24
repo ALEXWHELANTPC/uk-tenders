@@ -10935,6 +10935,23 @@
 "62020"
 ]
 },
+"coh:02623071": {
+"company_name": "THE WHITECHAPEL CENTRE",
+"company_number": "02623071",
+"company_status": "active",
+"date_of_creation": "1991-06-21",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "The Whitechapel Centre",
+"address_line_2": "Langsdale Street",
+"country": "England",
+"locality": "Liverpool",
+"postal_code": "L3 8DT"
+},
+"sic_codes": [
+"88990"
+]
+},
 "coh:02624887": {
 "company_name": "KIER FACILITIES SERVICES LIMITED",
 "company_number": "02624887",
