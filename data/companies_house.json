@@ -39534,6 +39534,22 @@
 "41202"
 ]
 },
+"coh:11113295": {
+"company_name": "SATSENSE LIMITED",
+"company_number": "11113295",
+"company_status": "active",
+"date_of_creation": "2017-12-15",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Suite 230, Nexus Discovery Way",
+"country": "England",
+"locality": "Leeds",
+"postal_code": "LS2 3AA"
+},
+"sic_codes": [
+"72190"
+]
+},
 "coh:11113763": {
 "company_name": "MEKLEC TRAVEL LTD",
 "company_number": "11113763",
@@ -79169,6 +79185,22 @@
 },
 "sic_codes": [
 "62012"
+]
+},
+"name:satsense": {
+"company_name": "SATSENSE LIMITED",
+"company_number": "11113295",
+"company_status": "active",
+"date_of_creation": "2017-12-15",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Suite 230, Nexus Discovery Way",
+"country": "England",
+"locality": "Leeds",
+"postal_code": "LS2 3AA"
+},
+"sic_codes": [
+"72190"
 ]
 },
 "name:savanta group": {
