@@ -54,9 +54,7 @@
     }
   },
   "last_portal": {
-    "enabled": true,
-    "notices": 340,
-    "profiles": 2,
-    "matches": 0
+    "enabled": false,
+    "note": "reset so the next run scores every notice against the new client profiles"
   }
 }
