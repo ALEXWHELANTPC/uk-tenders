@@ -5941,6 +5941,23 @@
 "78200"
 ]
 },
+"coh:01647362": {
+"company_name": "STARK BUILDING MATERIALS UK LIMITED",
+"company_number": "01647362",
+"company_status": "active",
+"date_of_creation": "1982-06-29",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Merchant House, Binley Business Park",
+"address_line_2": "Harry Weston Road",
+"country": "England",
+"locality": "Coventry",
+"postal_code": "CV3 2TT"
+},
+"sic_codes": [
+"46730"
+]
+},
 "coh:01653178": {
 "company_name": "PETA LIMITED",
 "company_number": "01653178",
@@ -7412,6 +7429,23 @@
 "82990"
 ]
 },
+"coh:01998476": {
+"company_name": "FAIR ISAAC SERVICES LIMITED",
+"company_number": "01998476",
+"company_status": "active",
+"date_of_creation": "1986-03-11",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "6280 Bishops Court Solihull Parkway",
+"address_line_2": "Birmingham Business Park",
+"country": "England",
+"locality": "Birmingham",
+"postal_code": "B37 7YB"
+},
+"sic_codes": [
+"62020"
+]
+},
 "coh:01999032": {
 "company_name": "JOHN MARTIN-HOYES LIMITED",
 "company_number": "01999032",
@@ -8352,6 +8386,24 @@
 },
 "sic_codes": [
 "32990"
+]
+},
+"coh:02183240": {
+"company_name": "TRUSTMARQUE SOLUTIONS LIMITED",
+"company_number": "02183240",
+"company_status": "active",
+"date_of_creation": "1987-10-26",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Marlborough House Westminster Place",
+"address_line_2": "York Business Park",
+"country": "England",
+"locality": "York",
+"postal_code": "YO26 6RW"
+},
+"sic_codes": [
+"62020",
+"62090"
 ]
 },
 "coh:02184649": {
@@ -13423,6 +13475,23 @@
 "32990"
 ]
 },
+"coh:03075658": {
+"company_name": "ASHBY, GORMAN BAKER LTD",
+"company_number": "03075658",
+"company_status": "active",
+"date_of_creation": "1995-07-04",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "2 Manor Farm Court Old Wolverton Road",
+"address_line_2": "Old Wolverton",
+"country": "England",
+"locality": "Milton Keynes",
+"postal_code": "MK12 5NN"
+},
+"sic_codes": [
+"74909"
+]
+},
 "coh:03078711": {
 "company_name": "BRITISH GAS TRADING LIMITED",
 "company_number": "03078711",
@@ -17360,6 +17429,27 @@
 "88990"
 ]
 },
+"coh:03840112": {
+"company_name": "TALOGY LIMITED",
+"company_number": "03840112",
+"company_status": "active",
+"date_of_creation": "1999-09-13",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Second Floor, Building 2000 Cathedral Square",
+"address_line_2": "Cathedral Hill",
+"country": "England",
+"locality": "Guildford",
+"postal_code": "GU2 7YL",
+"region": "Surrey"
+},
+"sic_codes": [
+"62012",
+"62020",
+"63110",
+"70229"
+]
+},
 "coh:03844187": {
 "company_name": "BEN NOCK LIMITED",
 "company_number": "03844187",
@@ -18790,6 +18880,22 @@
 "42990"
 ]
 },
+"coh:04083204": {
+"company_name": "LONDON ECONOMICS LIMITED",
+"company_number": "04083204",
+"company_status": "active",
+"date_of_creation": "2000-10-04",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Somerset House, New Wing",
+"address_line_2": "Strand",
+"locality": "London",
+"postal_code": "WC2R 1LA"
+},
+"sic_codes": [
+"70229"
+]
+},
 "coh:04084446": {
 "company_name": "MINSTER SURFACING LIMITED",
 "company_number": "04084446",
@@ -19943,6 +20049,21 @@
 "74909"
 ]
 },
+"coh:04295518": {
+"company_name": "GRAYS STORAGE AND REMOVALS LIMITED",
+"company_number": "04295518",
+"company_status": "active",
+"date_of_creation": "2001-09-28",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "27 Mortimer Street",
+"locality": "London",
+"postal_code": "W1T 3BL"
+},
+"sic_codes": [
+"96090"
+]
+},
 "coh:04296835": {
 "company_name": "R. BENSON PROPERTY MAINTENANCE LIMITED",
 "company_number": "04296835",
@@ -20959,6 +21080,23 @@
 "sic_codes": [
 "28131",
 "28132"
+]
+},
+"coh:04489036": {
+"company_name": "O R EDUCATION LIMITED",
+"company_number": "04489036",
+"company_status": "active",
+"date_of_creation": "2002-07-18",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "5th Floor, Westfield House",
+"address_line_2": "60 Charter Row",
+"country": "United Kingdom",
+"locality": "Sheffield",
+"postal_code": "S1 3FZ"
+},
+"sic_codes": [
+"78200"
 ]
 },
 "coh:04489340": {
@@ -23899,6 +24037,24 @@
 "62020"
 ]
 },
+"coh:05237039": {
+"company_name": "TCS SCREEDING LIMITED",
+"company_number": "05237039",
+"company_status": "active",
+"date_of_creation": "2004-09-21",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Unit 4 Kingfisher House",
+"address_line_2": "Crayfields Business Park",
+"country": "England",
+"locality": "Orpington",
+"postal_code": "BR5 3QG",
+"region": "Kent"
+},
+"sic_codes": [
+"43330"
+]
+},
 "coh:05238068": {
 "company_name": "A & G ARCHITECTS LTD",
 "company_number": "05238068",
@@ -23947,6 +24103,23 @@
 },
 "sic_codes": [
 "32990"
+]
+},
+"coh:05269182": {
+"company_name": "INTUS HEALTHCARE LTD",
+"company_number": "05269182",
+"company_status": "active",
+"date_of_creation": "2004-10-25",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "8th Floor South, 11 Old Jewry",
+"country": "United Kingdom",
+"locality": "London",
+"postal_code": "EC2R 8DU"
+},
+"sic_codes": [
+"47910",
+"86900"
 ]
 },
 "coh:05271784": {
@@ -24085,6 +24258,23 @@
 },
 "sic_codes": [
 "74909"
+]
+},
+"coh:05302511": {
+"company_name": "TEACHERACTIVE LIMITED",
+"company_number": "05302511",
+"company_status": "active",
+"date_of_creation": "2004-12-02",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Fifth Floor Interchange Place",
+"address_line_2": "151-165 Edmund Street",
+"country": "England",
+"locality": "Birmingham",
+"postal_code": "B3 2TA"
+},
+"sic_codes": [
+"78200"
 ]
 },
 "coh:05316871": {
@@ -25917,6 +26107,25 @@
 "70229"
 ]
 },
+"coh:05873377": {
+"company_name": "PLAN B MANAGEMENT SOLUTIONS LIMITED",
+"company_number": "05873377",
+"company_status": "active",
+"date_of_creation": "2006-07-12",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Suite 1 North Quay",
+"country": "England",
+"locality": "Great Yarmouth",
+"postal_code": "NR30 1JE"
+},
+"sic_codes": [
+"38110",
+"38120",
+"38210",
+"70229"
+]
+},
 "coh:05886937": {
 "company_name": "BESPOKE HEALTHCARE LIMITED",
 "company_number": "05886937",
@@ -27045,6 +27254,24 @@
 },
 "sic_codes": [
 "42110"
+]
+},
+"coh:06314451": {
+"company_name": "MASTER CLASS EDUCATION LTD",
+"company_number": "06314451",
+"company_status": "active",
+"date_of_creation": "2007-07-16",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Create Business Hub",
+"address_line_2": "101 - 135 Kings Road",
+"country": "England",
+"locality": "Brentwood",
+"postal_code": "CM14 4DR",
+"region": "Essex"
+},
+"sic_codes": [
+"78200"
 ]
 },
 "coh:06329855": {
@@ -29707,6 +29934,23 @@
 "43210"
 ]
 },
+"coh:06990425": {
+"company_name": "HEALTHCARE HOMES (LSC) LIMITED",
+"company_number": "06990425",
+"company_status": "active",
+"date_of_creation": "2009-08-13",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "The Beeches, Apex 12 Old Ipswich Road",
+"address_line_2": "Ardleigh",
+"country": "England",
+"locality": "Colchester",
+"postal_code": "CO7 7QR"
+},
+"sic_codes": [
+"86102"
+]
+},
 "coh:06992046": {
 "company_name": "INSIGHT HEALTH SCREENING LIMITED",
 "company_number": "06992046",
@@ -30050,6 +30294,25 @@
 },
 "sic_codes": [
 "62012"
+]
+},
+"coh:07092394": {
+"company_name": "BRASS AGE LIMITED",
+"company_number": "07092394",
+"company_status": "active",
+"date_of_creation": "2009-12-01",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Victory House",
+"address_line_2": "Cromer Road",
+"country": "England",
+"locality": "North Walsham",
+"postal_code": "NR28 0NB",
+"region": "Norfolk"
+},
+"sic_codes": [
+"43390",
+"46720"
 ]
 },
 "coh:07092778": {
@@ -32297,6 +32560,23 @@
 },
 "sic_codes": [
 "56290"
+]
+},
+"coh:07719070": {
+"company_name": "SAPPHIRE BALCONIES LIMITED",
+"company_number": "07719070",
+"company_status": "active",
+"date_of_creation": "2011-07-26",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "11 Arkwright Road",
+"locality": "Reading",
+"postal_code": "RG2 0LU",
+"region": "Berkshire"
+},
+"sic_codes": [
+"25110",
+"43999"
 ]
 },
 "coh:07723728": {
@@ -34863,6 +35143,23 @@
 "42910"
 ]
 },
+"coh:08567845": {
+"company_name": "EDUCATED RECRUITMENT LIMITED",
+"company_number": "08567845",
+"company_status": "active",
+"date_of_creation": "2013-06-13",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "110 Queen Street",
+"country": "England",
+"locality": "Newton Abbot",
+"postal_code": "TQ12 2EU",
+"region": "Devon"
+},
+"sic_codes": [
+"78300"
+]
+},
 "coh:08568170": {
 "company_name": "ATLAS CARS CRAWLEY LTD",
 "company_number": "08568170",
@@ -37027,6 +37324,22 @@
 },
 "sic_codes": [
 "70229"
+]
+},
+"coh:09321754": {
+"company_name": "SWANMAC LTD",
+"company_number": "09321754",
+"company_status": "active",
+"date_of_creation": "2014-11-21",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Unit 2 Viaduct Road",
+"address_line_2": "Gwaelod-Y-Garth Industrial Estate",
+"locality": "Cardiff",
+"postal_code": "CF15 9JN"
+},
+"sic_codes": [
+"13960"
 ]
 },
 "coh:09329025": {
@@ -40009,6 +40322,22 @@
 "86900"
 ]
 },
+"coh:10382721": {
+"company_name": "ZEN EDUCATE LIMITED",
+"company_number": "10382721",
+"company_status": "active",
+"date_of_creation": "2016-09-19",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "9th Floor 107 Cheapside",
+"country": "United Kingdom",
+"locality": "London",
+"postal_code": "EC2V 6DN"
+},
+"sic_codes": [
+"82990"
+]
+},
 "coh:10402201": {
 "company_name": "TALIS LEARNING LIMITED",
 "company_number": "10402201",
@@ -40727,6 +41056,22 @@
 },
 "sic_codes": [
 "70210"
+]
+},
+"coh:10709468": {
+"company_name": "LAMBERT LABS LTD",
+"company_number": "10709468",
+"company_status": "active",
+"date_of_creation": "2017-04-05",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "19 Milestone Road",
+"locality": "London",
+"postal_code": "SE19 2LL"
+},
+"sic_codes": [
+"62020",
+"62090"
 ]
 },
 "coh:10719214": {
@@ -44104,6 +44449,23 @@
 },
 "sic_codes": [
 "88990"
+]
+},
+"coh:12316123": {
+"company_name": "TEAM EDUCATE LTD",
+"company_number": "12316123",
+"company_status": "active",
+"date_of_creation": "2019-11-15",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "188 The Boathouse",
+"address_line_2": "Paintworks",
+"country": "England",
+"locality": "Bristol",
+"postal_code": "BS4 3DL"
+},
+"sic_codes": [
+"78200"
 ]
 },
 "coh:12320784": {
@@ -63261,6 +63623,25 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"name:brass age": {
+"company_name": "BRASS AGE LIMITED",
+"company_number": "07092394",
+"company_status": "active",
+"date_of_creation": "2009-12-01",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Victory House",
+"address_line_2": "Cromer Road",
+"country": "England",
+"locality": "North Walsham",
+"postal_code": "NR28 0NB",
+"region": "Norfolk"
+},
+"sic_codes": [
+"43390",
+"46720"
+]
+},
 "name:bray leino": {
 "company_name": "BRAY LEINO LIMITED",
 "company_number": "01352705",
@@ -75512,6 +75893,22 @@
 "74990"
 ]
 },
+"name:lambert labs": {
+"company_name": "LAMBERT LABS LTD",
+"company_number": "10709468",
+"company_status": "active",
+"date_of_creation": "2017-04-05",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "19 Milestone Road",
+"locality": "London",
+"postal_code": "SE19 2LL"
+},
+"sic_codes": [
+"62020",
+"62090"
+]
+},
 "name:lambourn surgery": {
 "looked_up": "2026-11-23",
 "not_found": true
@@ -76139,6 +76536,22 @@
 "name:loggerhead instruments": {
 "looked_up": "2026-11-23",
 "not_found": true
+},
+"name:london economics": {
+"company_name": "LONDON ECONOMICS LIMITED",
+"company_number": "04083204",
+"company_status": "active",
+"date_of_creation": "2000-10-04",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Somerset House, New Wing",
+"address_line_2": "Strand",
+"locality": "London",
+"postal_code": "WC2R 1LA"
+},
+"sic_codes": [
+"70229"
+]
 },
 "name:london fire door carpentry": {
 "company_name": "THE LONDON FIRE DOOR & CARPENTRY COMPANY LTD",
@@ -77196,6 +77609,10 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"name:mersey care nhs foundation trust": {
+"looked_up": "2026-11-24",
+"not_found": true
+},
 "name:met healthcare": {
 "company_name": "MET HEALTHCARE LIMITED",
 "company_number": "NI602270",
@@ -77803,6 +78220,10 @@
 },
 "name:motherwell wishaw citizens advice bureau": {
 "looked_up": "2026-11-23",
+"not_found": true
+},
+"name:motivair compressors trading as march": {
+"looked_up": "2026-11-24",
 "not_found": true
 },
 "name:mott macdonald": {
@@ -80695,6 +81116,25 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"name:plan b management solutions": {
+"company_name": "PLAN B MANAGEMENT SOLUTIONS LIMITED",
+"company_number": "05873377",
+"company_status": "active",
+"date_of_creation": "2006-07-12",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Suite 1 North Quay",
+"country": "England",
+"locality": "Great Yarmouth",
+"postal_code": "NR30 1JE"
+},
+"sic_codes": [
+"38110",
+"38120",
+"38210",
+"70229"
+]
+},
 "name:platform": {
 "company_name": "PLATFORM LIMITED",
 "company_number": "07895406",
@@ -82979,6 +83419,10 @@
 "53100"
 ]
 },
+"name:royal orthopaedic hospital nhs foundation trust": {
+"looked_up": "2026-11-24",
+"not_found": true
+},
 "name:royal rides": {
 "looked_up": "2026-11-23",
 "not_found": true
@@ -83346,6 +83790,23 @@
 },
 "sic_codes": [
 "70100"
+]
+},
+"name:sapphire balconies": {
+"company_name": "SAPPHIRE BALCONIES LIMITED",
+"company_number": "07719070",
+"company_status": "active",
+"date_of_creation": "2011-07-26",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "11 Arkwright Road",
+"locality": "Reading",
+"postal_code": "RG2 0LU",
+"region": "Berkshire"
+},
+"sic_codes": [
+"25110",
+"43999"
 ]
 },
 "name:sard jv": {
@@ -85958,6 +86419,22 @@
 "32990"
 ]
 },
+"name:swanmac": {
+"company_name": "SWANMAC LTD",
+"company_number": "09321754",
+"company_status": "active",
+"date_of_creation": "2014-11-21",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Unit 2 Viaduct Road",
+"address_line_2": "Gwaelod-Y-Garth Industrial Estate",
+"locality": "Cardiff",
+"postal_code": "CF15 9JN"
+},
+"sic_codes": [
+"13960"
+]
+},
 "name:swansea ymca": {
 "company_name": "SWANSEA YMCA",
 "company_number": "08634510",
@@ -86323,6 +86800,24 @@
 "name:tc harrison 1960 t a tch leasing": {
 "looked_up": "2026-11-23",
 "not_found": true
+},
+"name:tcs screeding": {
+"company_name": "TCS SCREEDING LIMITED",
+"company_number": "05237039",
+"company_status": "active",
+"date_of_creation": "2004-09-21",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Unit 4 Kingfisher House",
+"address_line_2": "Crayfields Business Park",
+"country": "England",
+"locality": "Orpington",
+"postal_code": "BR5 3QG",
+"region": "Kent"
+},
+"sic_codes": [
+"43330"
+]
 },
 "name:technical textile services": {
 "company_name": "TECHNICAL TEXTILE SERVICES LIMITED",
