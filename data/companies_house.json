@@ -19358,6 +19358,23 @@
 "43320"
 ]
 },
+"coh:04069823": {
+"company_name": "TRIMBLE UK LIMITED",
+"company_number": "04069823",
+"company_status": "active",
+"date_of_creation": "2000-09-12",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Trimble House Gelderd Road",
+"address_line_2": "Gildersome",
+"country": "England",
+"locality": "Leeds",
+"postal_code": "LS27 7JP"
+},
+"sic_codes": [
+"62020"
+]
+},
 "coh:04072464": {
 "company_name": "SURESERVE COMPLIANCE NORTHWEST LIMITED",
 "company_number": "04072464",
@@ -90380,6 +90397,23 @@
 },
 "sic_codes": [
 "62012"
+]
+},
+"name:trimble": {
+"company_name": "TRIMBLE UK LIMITED",
+"company_number": "04069823",
+"company_status": "active",
+"date_of_creation": "2000-09-12",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Trimble House Gelderd Road",
+"address_line_2": "Gildersome",
+"country": "England",
+"locality": "Leeds",
+"postal_code": "LS27 7JP"
+},
+"sic_codes": [
+"62020"
 ]
 },
 "name:trinity fire security systems": {
