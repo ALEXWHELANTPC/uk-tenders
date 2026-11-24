@@ -11987,6 +11987,22 @@
 "28410"
 ]
 },
+"coh:02806113": {
+"company_name": "OPEN ROAD VISIONS",
+"company_number": "02806113",
+"company_status": "active",
+"date_of_creation": "1993-04-01",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "12 North Hill",
+"locality": "Colchester",
+"postal_code": "CO1 1DZ",
+"region": "Essex"
+},
+"sic_codes": [
+"86900"
+]
+},
 "coh:02808484": {
 "company_name": "OLDHAM ENGINEERING LIMITED",
 "company_number": "02808484",
@@ -13483,6 +13499,24 @@
 },
 "sic_codes": [
 "73110"
+]
+},
+"coh:03005065": {
+"company_name": "CAST MEDIA GROUP LIMITED",
+"company_number": "03005065",
+"company_status": "active",
+"date_of_creation": "1994-12-23",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "29 The Studio 46 The Calls",
+"country": "United Kingdom",
+"locality": "Leeds",
+"postal_code": "LS2 7EY",
+"region": "West Yorkshire"
+},
+"sic_codes": [
+"18129",
+"90030"
 ]
 },
 "coh:03006378": {
@@ -37736,6 +37770,23 @@
 },
 "sic_codes": [
 "29201"
+]
+},
+"coh:08970458": {
+"company_name": "RENENERGY LIMITED",
+"company_number": "08970458",
+"company_status": "active",
+"date_of_creation": "2014-04-01",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Blofield Business Centre Woodbastwick Road",
+"address_line_2": "Blofield",
+"country": "England",
+"locality": "Norwich",
+"postal_code": "NR13 4RR"
+},
+"sic_codes": [
+"35110"
 ]
 },
 "coh:08987610": {
@@ -67089,6 +67140,24 @@
 },
 "sic_codes": [
 "45200"
+]
+},
+"name:cast media group": {
+"company_name": "CAST MEDIA GROUP LIMITED",
+"company_number": "03005065",
+"company_status": "active",
+"date_of_creation": "1994-12-23",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "29 The Studio 46 The Calls",
+"country": "United Kingdom",
+"locality": "Leeds",
+"postal_code": "LS2 7EY",
+"region": "West Yorkshire"
+},
+"sic_codes": [
+"18129",
+"90030"
 ]
 },
 "name:castellan solutions": {
