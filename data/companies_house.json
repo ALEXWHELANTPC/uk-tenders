@@ -35665,6 +35665,23 @@
 "71111"
 ]
 },
+"coh:09500032": {
+"company_name": "TYNE AND WEAR MARINE LIMITED",
+"company_number": "09500032",
+"company_status": "active",
+"date_of_creation": "2015-03-19",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "94 Gorse Avenue",
+"country": "United Kingdom",
+"locality": "South Shields",
+"postal_code": "NE34 7PR",
+"region": "Tyne And Wear"
+},
+"sic_codes": [
+"50200"
+]
+},
 "coh:09507072": {
 "company_name": "LEACHATE SOLUTIONS LIMITED",
 "company_number": "09507072",
@@ -42135,6 +42152,23 @@
 "71129",
 "72190",
 "74901"
+]
+},
+"coh:12481501": {
+"company_name": "VESTRE LTD",
+"company_number": "12481501",
+"company_status": "active",
+"date_of_creation": "2020-02-25",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Suite E Ground Floor Profile West",
+"address_line_2": "950 Great West Road",
+"country": "United Kingdom",
+"locality": "Brentford",
+"postal_code": "TW8 9ES"
+},
+"sic_codes": [
+"46470"
 ]
 },
 "coh:12495519": {
@@ -84023,6 +84057,23 @@
 "74909"
 ]
 },
+"name:vestre": {
+"company_name": "VESTRE LTD",
+"company_number": "12481501",
+"company_status": "active",
+"date_of_creation": "2020-02-25",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "Suite E Ground Floor Profile West",
+"address_line_2": "950 Great West Road",
+"country": "United Kingdom",
+"locality": "Brentford",
+"postal_code": "TW8 9ES"
+},
+"sic_codes": [
+"46470"
+]
+},
 "name:vet partners practices t a abbey veterinary group": {
 "looked_up": "2026-11-23",
 "not_found": true
@@ -84907,6 +84958,10 @@
 "sic_codes": [
 "25990"
 ]
+},
+"name:william spence": {
+"looked_up": "2026-11-24",
+"not_found": true
 },
 "name:willmott dixon construction": {
 "company_name": "WILLMOTT DIXON CONSTRUCTION LIMITED",
