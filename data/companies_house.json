@@ -9224,6 +9224,24 @@
 "27900"
 ]
 },
+"coh:02438141": {
+"company_name": "INTRALINK LIMITED",
+"company_number": "02438141",
+"company_status": "active",
+"date_of_creation": "1989-10-31",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "4a Hitching Court",
+"address_line_2": "Blacklands Way",
+"country": "England",
+"locality": "Abingdon",
+"postal_code": "OX14 1RG",
+"region": "Oxfordshire"
+},
+"sic_codes": [
+"70229"
+]
+},
 "coh:02440084": {
 "company_name": "JMU SERVICES LIMITED",
 "company_number": "02440084",
@@ -70024,6 +70042,24 @@
 },
 "sic_codes": [
 "43210"
+]
+},
+"name:intralink": {
+"company_name": "INTRALINK LIMITED",
+"company_number": "02438141",
+"company_status": "active",
+"date_of_creation": "1989-10-31",
+"looked_up": "2026-11-24",
+"registered_office": {
+"address_line_1": "4a Hitching Court",
+"address_line_2": "Blacklands Way",
+"country": "England",
+"locality": "Abingdon",
+"postal_code": "OX14 1RG",
+"region": "Oxfordshire"
+},
+"sic_codes": [
+"70229"
 ]
 },
 "name:ipsos market research": {
