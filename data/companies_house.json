@@ -6846,6 +6846,26 @@
 "74909"
 ]
 },
+"coh:01715616": {
+"company_name": "CLUE COMPUTING COMPANY LIMITED",
+"company_number": "01715616",
+"company_status": "active",
+"date_of_creation": "1983-04-15",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Clue House",
+"address_line_2": "Petherton Road",
+"locality": "Hengrove",
+"postal_code": "BS14 9BZ",
+"region": "Bristol,"
+},
+"sic_codes": [
+"62012",
+"62020",
+"62090",
+"63110"
+]
+},
 "coh:01721624": {
 "company_name": "SPECSAVERS OPTICAL SUPERSTORES LIMITED",
 "company_number": "01721624",
