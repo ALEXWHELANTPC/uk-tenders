@@ -4794,7 +4794,7 @@
 "company_number": "01257303",
 "company_status": "active",
 "date_of_creation": "1976-05-06",
-"looked_up": "2026-11-24",
+"looked_up": "2026-11-25",
 "registered_office": {
 "address_line_1": "Shelah Road",
 "address_line_2": "Halesowen",
@@ -5732,6 +5732,25 @@
 },
 "sic_codes": [
 "32500"
+]
+},
+"coh:01440274": {
+"company_name": "MERSEY REWINDS LIMITED",
+"company_number": "01440274",
+"company_status": "active",
+"date_of_creation": "1979-07-27",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "117 Bridge Street",
+"address_line_2": "Birkenhead",
+"locality": "Merseyside",
+"postal_code": "CH41 1BD"
+},
+"sic_codes": [
+"25110",
+"33140",
+"33190",
+"33200"
 ]
 },
 "coh:01440391": {
@@ -11415,6 +11434,24 @@
 },
 "sic_codes": [
 "43999"
+]
+},
+"coh:02585759": {
+"company_name": "VEOLIA ENERGY & UTILITY SERVICES UK LIMITED",
+"company_number": "02585759",
+"company_status": "active",
+"date_of_creation": "1991-02-26",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "210 Pentonville Road",
+"locality": "London",
+"postal_code": "N1 9JY"
+},
+"sic_codes": [
+"35110",
+"35300",
+"42220",
+"96090"
 ]
 },
 "coh:02588550": {
@@ -21928,6 +21965,21 @@
 "46900"
 ]
 },
+"coh:04243183": {
+"company_name": "BOSUS ENGINEERING LIMITED",
+"company_number": "04243183",
+"company_status": "active",
+"date_of_creation": "2001-06-28",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "8 Dickson Street",
+"address_line_2": "Liverpool",
+"postal_code": "L3 7EB"
+},
+"sic_codes": [
+"25990"
+]
+},
 "coh:04246192": {
 "company_name": "LIGHTING & ILLUMINATION TECHNOLOGY EXPERIENCE LIMITED",
 "company_number": "04246192",
@@ -22488,6 +22540,24 @@
 },
 "sic_codes": [
 "71111"
+]
+},
+"coh:04361775": {
+"company_name": "INDUSTRIAL PUMPS LIMITED",
+"company_number": "04361775",
+"company_status": "active",
+"date_of_creation": "2002-01-28",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Unit E3 Quintec Court",
+"address_line_2": "Barbot Hall Industrial Estate",
+"locality": "Rotherham",
+"postal_code": "S61 4RN",
+"region": "South Yorkshire"
+},
+"sic_codes": [
+"33190",
+"46690"
 ]
 },
 "coh:04362747": {
@@ -32064,6 +32134,24 @@
 "77210"
 ]
 },
+"coh:06719153": {
+"company_name": "HAYWOOD AND JACKSON FABRICATIONS LIMITED",
+"company_number": "06719153",
+"company_status": "active",
+"date_of_creation": "2008-10-09",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "The Fuse Box",
+"address_line_2": "Cranford Drive",
+"country": "United Kingdom",
+"locality": "Knutsford",
+"postal_code": "WA16 8ZR",
+"region": "Cheshire"
+},
+"sic_codes": [
+"25990"
+]
+},
 "coh:06720023": {
 "company_name": "GRS MECHANICAL LIMITED",
 "company_number": "06720023",
@@ -33371,6 +33459,24 @@
 },
 "sic_codes": [
 "86900"
+]
+},
+"coh:06995332": {
+"company_name": "GRC ENGINEERING LIMITED",
+"company_number": "06995332",
+"company_status": "active",
+"date_of_creation": "2009-08-19",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Hargreaves House",
+"address_line_2": "Plumbe Street",
+"country": "England",
+"locality": "Burnley",
+"postal_code": "BB11 3AB",
+"region": "Lancashire"
+},
+"sic_codes": [
+"28990"
 ]
 },
 "coh:06998952": {
@@ -47431,6 +47537,25 @@
 "87300"
 ]
 },
+"coh:11273034": {
+"company_name": "HIGHFIELD GEARS AND MACHINING LTD",
+"company_number": "11273034",
+"company_status": "active",
+"date_of_creation": "2018-03-23",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Nile Street",
+"address_line_2": "Nile Street",
+"country": "England",
+"locality": "Huddersfield",
+"postal_code": "HD1 3LP",
+"region": "West Yorkshire"
+},
+"sic_codes": [
+"28150",
+"71129"
+]
+},
 "coh:11273508": {
 "company_name": "WREN GAMES LTD",
 "company_number": "11273508",
@@ -47448,6 +47573,24 @@
 "58210",
 "62012",
 "70229"
+]
+},
+"coh:11282619": {
+"company_name": "WATER ENGINEERING SERVICES LIMITED",
+"company_number": "11282619",
+"company_status": "active",
+"date_of_creation": "2018-03-29",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Unit 2 Craven Street",
+"address_line_2": "Fairfield",
+"country": "England",
+"locality": "Bury",
+"postal_code": "BL9 7PP",
+"region": "Greater Manchester"
+},
+"sic_codes": [
+"71129"
 ]
 },
 "coh:11297449": {
@@ -47746,6 +47889,23 @@
 "71122",
 "71200",
 "72190"
+]
+},
+"coh:11383263": {
+"company_name": "TEXO GROUP LIMITED",
+"company_number": "11383263",
+"company_status": "active",
+"date_of_creation": "2018-05-25",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "8 Stepfield",
+"country": "United Kingdom",
+"locality": "Witham",
+"postal_code": "CM8 3TH",
+"region": "Essex"
+},
+"sic_codes": [
+"25990"
 ]
 },
 "coh:11393390": {
@@ -55031,6 +55191,23 @@
 },
 "sic_codes": [
 "74990"
+]
+},
+"coh:14792046": {
+"company_name": "AARON DEAN ENGINEERING LTD",
+"company_number": "14792046",
+"company_status": "active",
+"date_of_creation": "2023-04-11",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "6 Brunswick Street",
+"country": "United Kingdom",
+"locality": "Carlisle",
+"postal_code": "CA1 1PN",
+"region": "Cumbria"
+},
+"sic_codes": [
+"71129"
 ]
 },
 "coh:14800221": {
@@ -64152,6 +64329,25 @@
 "81100"
 ]
 },
+"coh:SC220455": {
+"company_name": "GLENFIELD INVICTA LIMITED",
+"company_number": "SC220455",
+"company_status": "active",
+"date_of_creation": "2001-06-20",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Glenfield Invicta",
+"address_line_2": "Queens Drive",
+"country": "Scotland",
+"locality": "Kilmarnock",
+"postal_code": "KA1 3XB",
+"region": "East Ayrshire"
+},
+"sic_codes": [
+"25990",
+"46900"
+]
+},
 "coh:SC221428": {
 "company_name": "REACTEC LIMITED",
 "company_number": "SC221428",
@@ -67132,6 +67328,23 @@
 "name:aa sherriff son": {
 "looked_up": "2026-11-23",
 "not_found": true
+},
+"name:aaron dean engineering": {
+"company_name": "AARON DEAN ENGINEERING LTD",
+"company_number": "14792046",
+"company_status": "active",
+"date_of_creation": "2023-04-11",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "6 Brunswick Street",
+"country": "United Kingdom",
+"locality": "Carlisle",
+"postal_code": "CA1 1PN",
+"region": "Cumbria"
+},
+"sic_codes": [
+"71129"
+]
 },
 "name:ab intervention services": {
 "company_name": "AB INTERVENTION SERVICES LTD",
@@ -71172,6 +71385,21 @@
 "sic_codes": [
 "46690",
 "86900"
+]
+},
+"name:bosus engineering": {
+"company_name": "BOSUS ENGINEERING LIMITED",
+"company_number": "04243183",
+"company_status": "active",
+"date_of_creation": "2001-06-28",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "8 Dickson Street",
+"address_line_2": "Liverpool",
+"postal_code": "L3 7EB"
+},
+"sic_codes": [
+"25990"
 ]
 },
 "name:bourne electrical contractors": {
@@ -79735,6 +79963,25 @@
 "74100"
 ]
 },
+"name:glenfield invicta": {
+"company_name": "GLENFIELD INVICTA LIMITED",
+"company_number": "SC220455",
+"company_status": "active",
+"date_of_creation": "2001-06-20",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Glenfield Invicta",
+"address_line_2": "Queens Drive",
+"country": "Scotland",
+"locality": "Kilmarnock",
+"postal_code": "KA1 3XB",
+"region": "East Ayrshire"
+},
+"sic_codes": [
+"25990",
+"46900"
+]
+},
 "name:glenvale waste": {
 "company_name": "GLENVALE WASTE LTD",
 "company_number": "NI068128",
@@ -80190,6 +80437,24 @@
 },
 "sic_codes": [
 "70229"
+]
+},
+"name:grc engineering": {
+"company_name": "GRC ENGINEERING LIMITED",
+"company_number": "06995332",
+"company_status": "active",
+"date_of_creation": "2009-08-19",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Hargreaves House",
+"address_line_2": "Plumbe Street",
+"country": "England",
+"locality": "Burnley",
+"postal_code": "BB11 3AB",
+"region": "Lancashire"
+},
+"sic_codes": [
+"28990"
 ]
 },
 "name:great lakes insurance s e branch": {
@@ -80920,6 +81185,24 @@
 "52290"
 ]
 },
+"name:hayley group": {
+"company_name": "HAYLEY GROUP LIMITED",
+"company_number": "01257303",
+"company_status": "active",
+"date_of_creation": "1976-05-06",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Shelah Road",
+"address_line_2": "Halesowen",
+"locality": "West Midlands",
+"postal_code": "B63 3XL"
+},
+"sic_codes": [
+"46690",
+"71121",
+"71122"
+]
+},
 "name:hays specialist recruitment": {
 "company_name": "HAYS SPECIALIST RECRUITMENT LIMITED",
 "company_number": "00975677",
@@ -80934,6 +81217,24 @@
 },
 "sic_codes": [
 "78200"
+]
+},
+"name:haywood and jackson fabrications": {
+"company_name": "HAYWOOD AND JACKSON FABRICATIONS LIMITED",
+"company_number": "06719153",
+"company_status": "active",
+"date_of_creation": "2008-10-09",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "The Fuse Box",
+"address_line_2": "Cranford Drive",
+"country": "United Kingdom",
+"locality": "Knutsford",
+"postal_code": "WA16 8ZR",
+"region": "Cheshire"
+},
+"sic_codes": [
+"25990"
 ]
 },
 "name:hcp staffing services": {
@@ -81469,6 +81770,25 @@
 },
 "sic_codes": [
 "28990"
+]
+},
+"name:highfield gears and machining": {
+"company_name": "HIGHFIELD GEARS AND MACHINING LTD",
+"company_number": "11273034",
+"company_status": "active",
+"date_of_creation": "2018-03-23",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Nile Street",
+"address_line_2": "Nile Street",
+"country": "England",
+"locality": "Huddersfield",
+"postal_code": "HD1 3LP",
+"region": "West Yorkshire"
+},
+"sic_codes": [
+"28150",
+"71129"
 ]
 },
 "name:highland care": {
@@ -82525,6 +82845,24 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"name:industrial pumps": {
+"company_name": "INDUSTRIAL PUMPS LIMITED",
+"company_number": "04361775",
+"company_status": "active",
+"date_of_creation": "2002-01-28",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Unit E3 Quintec Court",
+"address_line_2": "Barbot Hall Industrial Estate",
+"locality": "Rotherham",
+"postal_code": "S61 4RN",
+"region": "South Yorkshire"
+},
+"sic_codes": [
+"33190",
+"46690"
+]
+},
 "name:industry training services": {
 "company_name": "INDUSTRY TRAINING SERVICES LTD",
 "company_number": "NI038442",
@@ -82980,6 +83318,10 @@
 "88990"
 ]
 },
+"name:irlam sheet metal ism fabrication engineers": {
+"looked_up": "2026-11-25",
+"not_found": true
+},
 "name:irwin m e": {
 "company_name": "IRWIN M&E LIMITED",
 "company_number": "NI036731",
@@ -83343,6 +83685,10 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"name:jb engineering hatton": {
+"looked_up": "2026-11-25",
+"not_found": true
+},
 "name:jba bentley": {
 "company_name": "JBA BENTLEY LIMITED",
 "company_number": "08567165",
@@ -83585,6 +83931,10 @@
 },
 "name:jo haydock theatre and training": {
 "looked_up": "2026-11-23",
+"not_found": true
+},
+"name:jod engineering services": {
+"looked_up": "2026-11-25",
 "not_found": true
 },
 "name:joes cabs": {
@@ -86691,6 +87041,25 @@
 "name:mersey care nhs foundation trust": {
 "looked_up": "2026-11-24",
 "not_found": true
+},
+"name:mersey rewinds": {
+"company_name": "MERSEY REWINDS LIMITED",
+"company_number": "01440274",
+"company_status": "active",
+"date_of_creation": "1979-07-27",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "117 Bridge Street",
+"address_line_2": "Birkenhead",
+"locality": "Merseyside",
+"postal_code": "CH41 1BD"
+},
+"sic_codes": [
+"25110",
+"33140",
+"33190",
+"33200"
+]
 },
 "name:mertrux": {
 "company_name": "MERTRUX LIMITED",
@@ -97126,6 +97495,23 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"name:texo group": {
+"company_name": "TEXO GROUP LIMITED",
+"company_number": "11383263",
+"company_status": "active",
+"date_of_creation": "2018-05-25",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "8 Stepfield",
+"country": "United Kingdom",
+"locality": "Witham",
+"postal_code": "CM8 3TH",
+"region": "Essex"
+},
+"sic_codes": [
+"25990"
+]
+},
 "name:thales": {
 "company_name": "THALES UK LIMITED",
 "company_number": "00868273",
@@ -99092,6 +99478,24 @@
 "70229"
 ]
 },
+"name:veolia energy utility services": {
+"company_name": "VEOLIA ENERGY & UTILITY SERVICES UK LIMITED",
+"company_number": "02585759",
+"company_status": "active",
+"date_of_creation": "1991-02-26",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "210 Pentonville Road",
+"locality": "London",
+"postal_code": "N1 9JY"
+},
+"sic_codes": [
+"35110",
+"35300",
+"42220",
+"96090"
+]
+},
 "name:verden forensics": {
 "company_name": "VERDEN FORENSICS LIMITED",
 "company_number": "11231794",
@@ -99506,6 +99910,10 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"name:w a cooke group": {
+"looked_up": "2026-11-25",
+"not_found": true
+},
 "name:w d beaton": {
 "company_name": "W D BEATON LTD",
 "company_number": "SC464705",
@@ -99687,6 +100095,24 @@
 },
 "sic_codes": [
 "90020"
+]
+},
+"name:water engineering services": {
+"company_name": "WATER ENGINEERING SERVICES LIMITED",
+"company_number": "11282619",
+"company_status": "active",
+"date_of_creation": "2018-03-29",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Unit 2 Craven Street",
+"address_line_2": "Fairfield",
+"country": "England",
+"locality": "Bury",
+"postal_code": "BL9 7PP",
+"region": "Greater Manchester"
+},
+"sic_codes": [
+"71129"
 ]
 },
 "name:water plus": {
@@ -100055,6 +100481,10 @@
 },
 "name:wgl energy services": {
 "looked_up": "2026-11-23",
+"not_found": true
+},
+"name:wgm engineering": {
+"looked_up": "2026-11-25",
 "not_found": true
 },
 "name:wharfedale decorations": {
