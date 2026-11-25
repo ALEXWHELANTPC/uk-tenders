@@ -18172,6 +18172,23 @@
 "43999"
 ]
 },
+"coh:03680737": {
+"company_name": "MAGIC SQUARE SYSTEMS LIMITED",
+"company_number": "03680737",
+"company_status": "active",
+"date_of_creation": "1998-12-09",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Union House",
+"address_line_2": "111 New Union Street",
+"country": "England",
+"locality": "Coventry",
+"postal_code": "CV1 2NT"
+},
+"sic_codes": [
+"62012"
+]
+},
 "coh:03681149": {
 "company_name": "MORRIS VERMAPORT LIMITED",
 "company_number": "03681149",
@@ -33840,6 +33857,23 @@
 "sic_codes": [
 "88100",
 "88990"
+]
+},
+"coh:07107520": {
+"company_name": "MORELIFE (UK) LTD",
+"company_number": "07107520",
+"company_status": "active",
+"date_of_creation": "2009-12-17",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Bronze Building",
+"address_line_2": "105 Sumner Street",
+"country": "United Kingdom",
+"locality": "London",
+"postal_code": "SE1 9HZ"
+},
+"sic_codes": [
+"86900"
 ]
 },
 "coh:07107707": {
@@ -63213,7 +63247,7 @@
 "company_number": "SC115530",
 "company_status": "active",
 "date_of_creation": "1989-01-11",
-"looked_up": "2026-11-23",
+"looked_up": "2026-11-25",
 "registered_office": {
 "address_line_1": "65 Sussex Street",
 "country": "Scotland",
@@ -71156,6 +71190,10 @@
 "sic_codes": [
 "43210"
 ]
+},
+"name:bowmer kirkland": {
+"looked_up": "2026-11-25",
+"not_found": true
 },
 "name:box projects group": {
 "company_name": "BOX PROJECTS GROUP LTD",
@@ -85854,6 +85892,23 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"name:magic square systems": {
+"company_name": "MAGIC SQUARE SYSTEMS LIMITED",
+"company_number": "03680737",
+"company_status": "active",
+"date_of_creation": "1998-12-09",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Union House",
+"address_line_2": "111 New Union Street",
+"country": "England",
+"locality": "Coventry",
+"postal_code": "CV1 2NT"
+},
+"sic_codes": [
+"62012"
+]
+},
 "name:magnus copps": {
 "looked_up": "2026-11-23",
 "not_found": true
@@ -93099,6 +93154,25 @@
 "name:rsk biocensus and rsk wilding": {
 "looked_up": "2026-11-23",
 "not_found": true
+},
+"name:rsk environment": {
+"company_name": "RSK ENVIRONMENT LIMITED",
+"company_number": "SC115530",
+"company_status": "active",
+"date_of_creation": "1989-01-11",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "65 Sussex Street",
+"country": "Scotland",
+"locality": "Glasgow",
+"postal_code": "G41 1DX"
+},
+"sic_codes": [
+"39000",
+"42990",
+"71122",
+"74901"
+]
 },
 "name:rspca isle of wight branch": {
 "looked_up": "2026-11-23",
