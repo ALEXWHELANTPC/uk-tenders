@@ -5565,6 +5565,25 @@
 "66220"
 ]
 },
+"coh:01507639": {
+"company_name": "MARLBOROUGH COMMUNICATIONS LIMITED",
+"company_number": "01507639",
+"company_status": "active",
+"date_of_creation": "1980-07-15",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "1 Perrywood Business Park",
+"address_line_2": "Honeycrock Lane",
+"country": "England",
+"locality": "Salfords",
+"postal_code": "RH1 5DZ",
+"region": "Surrey"
+},
+"sic_codes": [
+"82990",
+"84220"
+]
+},
 "coh:01509033": {
 "company_name": "CHUBB SERVICES UK LIMITED",
 "company_number": "01509033",
@@ -11233,6 +11252,21 @@
 "62090"
 ]
 },
+"coh:02687571": {
+"company_name": "PUBLIC ADMINISTRATION INTERNATIONAL LIMITED",
+"company_number": "02687571",
+"company_status": "active",
+"date_of_creation": "1992-02-14",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "55-56 Russell Square",
+"locality": "London",
+"postal_code": "WC1B 4HP"
+},
+"sic_codes": [
+"70229"
+]
+},
 "coh:02688514": {
 "company_name": "MAN TRUCK AND BUS UK LIMITED",
 "company_number": "02688514",
@@ -14586,6 +14620,23 @@
 "61100",
 "61200",
 "63120"
+]
+},
+"coh:03191677": {
+"company_name": "ITA GROUP UK LIMITED",
+"company_number": "03191677",
+"company_status": "active",
+"date_of_creation": "1996-04-29",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Chapmans Warehouse",
+"address_line_2": "Wherry Quay",
+"locality": "Ipswich",
+"postal_code": "IP4 1AS",
+"region": "Suffolk"
+},
+"sic_codes": [
+"62020"
 ]
 },
 "coh:03192549": {
@@ -43465,6 +43516,23 @@
 "96090"
 ]
 },
+"coh:11151277": {
+"company_name": "SPROUT SOCIAL UK LTD",
+"company_number": "11151277",
+"company_status": "active",
+"date_of_creation": "2018-01-16",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Suite 2, Ground Floor",
+"address_line_2": "Templeback,10 Temple Back",
+"country": "United Kingdom",
+"locality": "Bristol",
+"postal_code": "BS1 6FL"
+},
+"sic_codes": [
+"58290"
+]
+},
 "coh:11151455": {
 "company_name": "GLENFIELD ENERGY SOLUTIONS LTD",
 "company_number": "11151455",
@@ -46153,6 +46221,23 @@
 "85600",
 "88910",
 "88990"
+]
+},
+"coh:12403422": {
+"company_name": "PRAGMATIX ADVISORY LIMITED",
+"company_number": "12403422",
+"company_status": "active",
+"date_of_creation": "2020-01-14",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "146 New London Road",
+"country": "England",
+"locality": "Chelmsford",
+"postal_code": "CM2 0AW",
+"region": "Essex"
+},
+"sic_codes": [
+"70229"
 ]
 },
 "coh:12406179": {
@@ -55562,6 +55647,23 @@
 },
 "sic_codes": [
 "14120"
+]
+},
+"coh:NI060102": {
+"company_name": "LEARNING POOL LIMITED",
+"company_number": "NI060102",
+"company_status": "active",
+"date_of_creation": "2006-07-10",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Old City Factory",
+"address_line_2": "100 Patrick Street",
+"locality": "Derry",
+"postal_code": "BT48 7EL",
+"region": "Derry"
+},
+"sic_codes": [
+"85600"
 ]
 },
 "coh:NI060947": {
@@ -69005,6 +69107,10 @@
 "49320"
 ]
 },
+"name:county councils network": {
+"looked_up": "2026-11-25",
+"not_found": true
+},
 "name:county roadways": {
 "company_name": "COUNTY ROADWAYS LIMITED",
 "company_number": "06706298",
@@ -72818,6 +72924,10 @@
 "sic_codes": [
 "87900"
 ]
+},
+"name:fortum oyj": {
+"looked_up": "2026-11-25",
+"not_found": true
 },
 "name:fortum power and heat oy": {
 "looked_up": "2026-11-23",
@@ -76696,6 +76806,23 @@
 "locality": "Dunfermline",
 "postal_code": "KY11 8QF",
 "region": "Fife"
+},
+"sic_codes": [
+"62020"
+]
+},
+"name:ita group": {
+"company_name": "ITA GROUP UK LIMITED",
+"company_number": "03191677",
+"company_status": "active",
+"date_of_creation": "1996-04-29",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Chapmans Warehouse",
+"address_line_2": "Wherry Quay",
+"locality": "Ipswich",
+"postal_code": "IP4 1AS",
+"region": "Suffolk"
 },
 "sic_codes": [
 "62020"
@@ -83935,6 +84062,23 @@
 "88990"
 ]
 },
+"name:pragmatix advisory": {
+"company_name": "PRAGMATIX ADVISORY LIMITED",
+"company_number": "12403422",
+"company_status": "active",
+"date_of_creation": "2020-01-14",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "146 New London Road",
+"country": "England",
+"locality": "Chelmsford",
+"postal_code": "CM2 0AW",
+"region": "Essex"
+},
+"sic_codes": [
+"70229"
+]
+},
 "name:precision ocular network": {
 "looked_up": "2026-11-23",
 "not_found": true
@@ -88242,6 +88386,23 @@
 "49320"
 ]
 },
+"name:sprout social": {
+"company_name": "SPROUT SOCIAL UK LTD",
+"company_number": "11151277",
+"company_status": "active",
+"date_of_creation": "2018-01-16",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Suite 2, Ground Floor",
+"address_line_2": "Templeback,10 Temple Back",
+"country": "United Kingdom",
+"locality": "Bristol",
+"postal_code": "BS1 6FL"
+},
+"sic_codes": [
+"58290"
+]
+},
 "name:sps doorguard": {
 "company_name": "SPS DOORGUARD LIMITED",
 "company_number": "SC113186",
@@ -88669,6 +88830,10 @@
 "sic_codes": [
 "32500"
 ]
+},
+"name:stim proyectos sl": {
+"looked_up": "2026-11-25",
+"not_found": true
 },
 "name:stl": {
 "company_name": "STL LIMITED",
