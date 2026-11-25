@@ -2086,6 +2086,22 @@
 "41202"
 ]
 },
+"coh:00668677": {
+"company_name": "LEYBOLD UK LTD",
+"company_number": "00668677",
+"company_status": "active",
+"date_of_creation": "1960-08-26",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Unit 9 Silverglade Business Park",
+"country": "United Kingdom",
+"locality": "Chessington",
+"postal_code": "KT9 2QL"
+},
+"sic_codes": [
+"28131"
+]
+},
 "coh:00677497": {
 "company_name": "LIEBHERR - GREAT BRITAIN LIMITED",
 "company_number": "00677497",
@@ -2194,6 +2210,26 @@
 },
 "sic_codes": [
 "26511"
+]
+},
+"coh:00707729": {
+"company_name": "HARRIS BROS. AND COLLARD LIMITED",
+"company_number": "00707729",
+"company_status": "active",
+"date_of_creation": "1961-11-09",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "1 East Quay Park",
+"address_line_2": "East Quay",
+"locality": "Bridgwater",
+"postal_code": "TA6 4DB",
+"region": "Somerset"
+},
+"sic_codes": [
+"41100",
+"41201",
+"41202",
+"43390"
 ]
 },
 "coh:00707744": {
@@ -5243,6 +5279,21 @@
 "65202"
 ]
 },
+"coh:01381015": {
+"company_name": "THE TEAM BRAND COMMUNICATION CONSULTANTS LTD",
+"company_number": "01381015",
+"company_status": "active",
+"date_of_creation": "1978-07-28",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "30 Park Street",
+"locality": "London",
+"postal_code": "SE1 9EQ"
+},
+"sic_codes": [
+"90030"
+]
+},
 "coh:01381707": {
 "company_name": "CUBIC TRANSPORTATION SYSTEMS LIMITED",
 "company_number": "01381707",
@@ -6927,6 +6978,25 @@
 "63110"
 ]
 },
+"coh:01785323": {
+"company_name": "MERTRUX LIMITED",
+"company_number": "01785323",
+"company_status": "active",
+"date_of_creation": "1984-01-23",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "12,Chequers Road,",
+"address_line_2": "West Meadows Ind.Estate,",
+"locality": "Derby.",
+"postal_code": "DE21 6EN"
+},
+"sic_codes": [
+"45112",
+"45190",
+"45200",
+"45320"
+]
+},
 "coh:01785381": {
 "company_name": "VIRGIN MEDIA BUSINESS LIMITED",
 "company_number": "01785381",
@@ -8395,7 +8465,7 @@
 "company_number": "02096856",
 "company_status": "active",
 "date_of_creation": "1987-02-05",
-"looked_up": "2026-11-23",
+"looked_up": "2026-11-25",
 "registered_office": {
 "address_line_1": "Units 3-4 Cowley Way",
 "address_line_2": "Weston Road",
@@ -15169,6 +15239,24 @@
 "47749"
 ]
 },
+"coh:03221787": {
+"company_name": "ORIGIO LIMITED",
+"company_number": "03221787",
+"company_status": "active",
+"date_of_creation": "1996-07-09",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Delta Park Concorde Way",
+"address_line_2": "Segensworth North",
+"country": "United Kingdom",
+"locality": "Fareham",
+"postal_code": "PO15 5RL",
+"region": "Hampshire"
+},
+"sic_codes": [
+"72110"
+]
+},
 "coh:03225158": {
 "company_name": "TEACHING PERSONNEL LIMITED",
 "company_number": "03225158",
@@ -17338,6 +17426,23 @@
 "46719"
 ]
 },
+"coh:03627299": {
+"company_name": "ASHCROFT SERVICES LIMITED",
+"company_number": "03627299",
+"company_status": "active",
+"date_of_creation": "1998-09-07",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Ashcroft House Baynton Road",
+"address_line_2": "Ashton",
+"locality": "Bristol",
+"postal_code": "BS3 2EB",
+"region": "Avon"
+},
+"sic_codes": [
+"43290"
+]
+},
 "coh:03632206": {
 "company_name": "PAY DATA LIMITED",
 "company_number": "03632206",
@@ -18488,7 +18593,7 @@
 "company_number": "03837084",
 "company_status": "active",
 "date_of_creation": "1999-09-07",
-"looked_up": "2026-11-23",
+"looked_up": "2026-11-25",
 "registered_office": {
 "address_line_1": "Berrows Business Centre",
 "address_line_2": "Bath Street",
@@ -18743,6 +18848,22 @@
 },
 "sic_codes": [
 "49319"
+]
+},
+"coh:03880213": {
+"company_name": "CYSTIC FIBROSIS TRUST",
+"company_number": "03880213",
+"company_status": "active",
+"date_of_creation": "1999-11-19",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "33 Creechurch Lane",
+"country": "England",
+"locality": "London",
+"postal_code": "EC3A 5EB"
+},
+"sic_codes": [
+"82990"
 ]
 },
 "coh:03880506": {
@@ -19112,6 +19233,24 @@
 },
 "sic_codes": [
 "62090"
+]
+},
+"coh:03922318": {
+"company_name": "BESTOUTCOME LIMITED",
+"company_number": "03922318",
+"company_status": "active",
+"date_of_creation": "2000-02-09",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Europa House",
+"address_line_2": "11 Marsham Way",
+"locality": "Gerrards Cross",
+"postal_code": "SL9 8BQ",
+"region": "Buckinghamshire"
+},
+"sic_codes": [
+"62012",
+"62020"
 ]
 },
 "coh:03927808": {
@@ -23536,6 +23675,26 @@
 "45200"
 ]
 },
+"coh:04742981": {
+"company_name": "RDT BUILD LTD",
+"company_number": "04742981",
+"company_status": "active",
+"date_of_creation": "2003-04-24",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Unit 12 Londonderry Farm Keynsham Road",
+"address_line_2": "Willsbridge",
+"country": "England",
+"locality": "Bristol",
+"postal_code": "BS30 6EL"
+},
+"sic_codes": [
+"41100",
+"41201",
+"41202",
+"43390"
+]
+},
 "coh:04743012": {
 "company_name": "ABARIS INTERNATIONAL LTD",
 "company_number": "04743012",
@@ -26550,6 +26709,22 @@
 "80100"
 ]
 },
+"coh:05471323": {
+"company_name": "PREFER HOMES LIMITED",
+"company_number": "05471323",
+"company_status": "active",
+"date_of_creation": "2005-06-03",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "54 Yarm Road",
+"country": "England",
+"locality": "Stockton-On-Tees",
+"postal_code": "TS18 3PQ"
+},
+"sic_codes": [
+"55900"
+]
+},
 "coh:05473553": {
 "company_name": "SOUTHEAST & CITY LANDSCAPES & MAINTENANCE LIMITED",
 "company_number": "05473553",
@@ -27731,7 +27906,7 @@
 "company_number": "05836486",
 "company_status": "active",
 "date_of_creation": "2006-06-05",
-"looked_up": "2026-11-24",
+"looked_up": "2026-11-25",
 "registered_office": {
 "address_line_1": "Suite 4 First Floor",
 "address_line_2": "68 South Lambeth Road",
@@ -30554,6 +30729,22 @@
 "43210"
 ]
 },
+"coh:06647372": {
+"company_name": "TRS GROUP (SOUTH WEST) LIMITED",
+"company_number": "06647372",
+"company_status": "active",
+"date_of_creation": "2008-07-15",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Unit 11-12 Carrick Business Centre 4-5 Bonville Road",
+"address_line_2": "Brislington",
+"locality": "Bristol",
+"postal_code": "BS4 5NZ"
+},
+"sic_codes": [
+"43991"
+]
+},
 "coh:06651202": {
 "company_name": "RED ENGINEERING LIMITED",
 "company_number": "06651202",
@@ -32625,6 +32816,22 @@
 },
 "sic_codes": [
 "73110"
+]
+},
+"coh:07109819": {
+"company_name": "FARO TECHNOLOGIES UK LIMITED",
+"company_number": "07109819",
+"company_status": "active",
+"date_of_creation": "2009-12-21",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "2 New Star Road",
+"country": "England",
+"locality": "Leicester",
+"postal_code": "LE4 9JD"
+},
+"sic_codes": [
+"46690"
 ]
 },
 "coh:07112618": {
@@ -50843,6 +51050,24 @@
 "84120"
 ]
 },
+"coh:13932523": {
+"company_name": "MOSAIC PROPERTY MANAGEMENT LTD",
+"company_number": "13932523",
+"company_status": "active",
+"date_of_creation": "2022-02-22",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "3rd Floor, Crown House",
+"address_line_2": "151 High Road",
+"country": "England",
+"locality": "Loughton",
+"postal_code": "IG10 4LG",
+"region": "Essex"
+},
+"sic_codes": [
+"81100"
+]
+},
 "coh:13938051": {
 "company_name": "GROWNOTTS CIC",
 "company_number": "13938051",
@@ -55955,6 +56180,22 @@
 "47110"
 ]
 },
+"coh:17147407": {
+"company_name": "RIVA HEALTHCARE LIMITED",
+"company_number": "17147407",
+"company_status": "active",
+"date_of_creation": "2026-04-09",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "24-26 Regent Place",
+"country": "England",
+"locality": "Birmingham",
+"postal_code": "B1 3NJ"
+},
+"sic_codes": [
+"78109"
+]
+},
 "coh:17205744": {
 "company_name": "CHIME HOUSING LIMITED",
 "company_number": "17205744",
@@ -58903,6 +59144,19 @@
 "address_line_2": "Birmingham",
 "locality": "West Midlands",
 "postal_code": "B3 2ES"
+},
+"sic_codes": []
+},
+"coh:OC314079": {
+"company_name": "HILL DICKINSON LLP",
+"company_number": "OC314079",
+"company_status": "active",
+"date_of_creation": "2005-07-08",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "No. 1 St. Paul's Square",
+"locality": "Liverpool",
+"postal_code": "L3 9SJ"
 },
 "sic_codes": []
 },
@@ -71578,6 +71832,10 @@
 "70229"
 ]
 },
+"name:craftsman restoration t a restoration services": {
+"looked_up": "2026-11-25",
+"not_found": true
+},
 "name:cranfield management development": {
 "company_name": "CRANFIELD MANAGEMENT DEVELOPMENT LIMITED",
 "company_number": "02760241",
@@ -73667,6 +73925,10 @@
 "sic_codes": [
 "72200"
 ]
+},
+"name:eksma optics uab": {
+"looked_up": "2026-11-25",
+"not_found": true
 },
 "name:elcom systems": {
 "company_name": "ELCOM SYSTEMS LIMITED",
@@ -83059,6 +83321,25 @@
 "looked_up": "2026-11-24",
 "not_found": true
 },
+"name:mertrux": {
+"company_name": "MERTRUX LIMITED",
+"company_number": "01785323",
+"company_status": "active",
+"date_of_creation": "1984-01-23",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "12,Chequers Road,",
+"address_line_2": "West Meadows Ind.Estate,",
+"locality": "Derby.",
+"postal_code": "DE21 6EN"
+},
+"sic_codes": [
+"45112",
+"45190",
+"45200",
+"45320"
+]
+},
 "name:met healthcare": {
 "company_name": "MET HEALTHCARE LIMITED",
 "company_number": "NI602270",
@@ -84121,6 +84402,23 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"name:national literacy trust": {
+"company_name": "THE NATIONAL LITERACY TRUST",
+"company_number": "05836486",
+"company_status": "active",
+"date_of_creation": "2006-06-05",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Suite 4 First Floor",
+"address_line_2": "68 South Lambeth Road",
+"locality": "Vauxhall",
+"postal_code": "SW8 1RL",
+"region": "London"
+},
+"sic_codes": [
+"85600"
+]
+},
 "name:nationwide data collection": {
 "company_name": "NATIONWIDE DATA COLLECTION LIMITED",
 "company_number": "06351414",
@@ -84483,6 +84781,24 @@
 },
 "sic_codes": [
 "82990"
+]
+},
+"name:newport spectra physics": {
+"company_name": "NEWPORT SPECTRA-PHYSICS LIMITED",
+"company_number": "02096856",
+"company_status": "active",
+"date_of_creation": "1987-02-05",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Units 3-4 Cowley Way",
+"address_line_2": "Weston Road",
+"country": "England",
+"locality": "Crewe",
+"postal_code": "CW1 6AG",
+"region": "Cheshire"
+},
+"sic_codes": [
+"26701"
 ]
 },
 "name:newsquest media group": {
@@ -93859,6 +94175,22 @@
 "62090"
 ]
 },
+"name:trs group south west": {
+"company_name": "TRS GROUP (SOUTH WEST) LIMITED",
+"company_number": "06647372",
+"company_status": "active",
+"date_of_creation": "2008-07-15",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Unit 11-12 Carrick Business Centre 4-5 Bonville Road",
+"address_line_2": "Brislington",
+"locality": "Bristol",
+"postal_code": "BS4 5NZ"
+},
+"sic_codes": [
+"43991"
+]
+},
 "name:trueform engineering": {
 "company_name": "TRUEFORM ENGINEERING LIMITED",
 "company_number": "01324196",
@@ -95655,6 +95987,24 @@
 "name:west mercia energy": {
 "looked_up": "2026-11-23",
 "not_found": true
+},
+"name:west mercia women s aid": {
+"company_name": "WEST MERCIA WOMEN'S AID",
+"company_number": "03837084",
+"company_status": "active",
+"date_of_creation": "1999-09-07",
+"looked_up": "2026-11-25",
+"registered_office": {
+"address_line_1": "Berrows Business Centre",
+"address_line_2": "Bath Street",
+"country": "England",
+"locality": "Hereford",
+"postal_code": "HR1 2HE"
+},
+"sic_codes": [
+"55900",
+"88990"
+]
 },
 "name:west suffolk college": {
 "looked_up": "2026-11-23",
