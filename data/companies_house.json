@@ -5129,6 +5129,22 @@
 "33200"
 ]
 },
+"coh:01312085": {
+"company_name": "FORTRESS INTERLOCKS LIMITED",
+"company_number": "01312085",
+"company_status": "active",
+"date_of_creation": "1977-05-03",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "2 Inverclyde Drive",
+"locality": "Wolverhampton",
+"postal_code": "WV4 6FB",
+"region": "West Midlands"
+},
+"sic_codes": [
+"28990"
+]
+},
 "coh:01312453": {
 "company_name": "OVE ARUP & PARTNERS LIMITED",
 "company_number": "01312453",
@@ -21252,6 +21268,22 @@
 },
 "sic_codes": [
 "53100"
+]
+},
+"coh:04140468": {
+"company_name": "LANGSTONE ENGINEERING LTD.",
+"company_number": "04140468",
+"company_status": "active",
+"date_of_creation": "2001-01-12",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "22 Mariner",
+"country": "England",
+"locality": "Tamworth",
+"postal_code": "B79 7UL"
+},
+"sic_codes": [
+"25730"
 ]
 },
 "coh:04141235": {
@@ -45340,6 +45372,26 @@
 "74100"
 ]
 },
+"coh:10442969": {
+"company_name": "FIREBOX GLOBAL LOGISTICS LIMITED",
+"company_number": "10442969",
+"company_status": "active",
+"date_of_creation": "2016-10-24",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Suite G420 G Mill",
+"address_line_2": "Dean Clough Mills",
+"country": "England",
+"locality": "Halifax",
+"postal_code": "HX3 5AX"
+},
+"sic_codes": [
+"49410",
+"50200",
+"51210",
+"52290"
+]
+},
 "coh:10458774": {
 "company_name": "NTW SOLUTIONS LIMITED",
 "company_number": "10458774",
@@ -45843,6 +45895,23 @@
 },
 "sic_codes": [
 "70229"
+]
+},
+"coh:10653792": {
+"company_name": "LIBERAL MEDIA LIMITED",
+"company_number": "10653792",
+"company_status": "active",
+"date_of_creation": "2017-03-06",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "2a Stanley Road",
+"country": "United Kingdom",
+"locality": "Oxford",
+"postal_code": "OX4 1QZ",
+"region": "Oxfordshire"
+},
+"sic_codes": [
+"59112"
 ]
 },
 "coh:10655443": {
@@ -52111,6 +52180,25 @@
 "sic_codes": [
 "27400",
 "47910"
+]
+},
+"coh:13262716": {
+"company_name": "AQUA COOLING LIMITED",
+"company_number": "13262716",
+"company_status": "active",
+"date_of_creation": "2021-03-12",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Unit 6 Brickfield Lane",
+"address_line_2": "Chandler's Ford",
+"country": "England",
+"locality": "Eastleigh",
+"postal_code": "SO53 4DP"
+},
+"sic_codes": [
+"46140",
+"77390",
+"82990"
 ]
 },
 "coh:13265731": {
