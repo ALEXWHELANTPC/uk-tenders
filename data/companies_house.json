@@ -7215,6 +7215,23 @@
 "47910"
 ]
 },
+"coh:01693636": {
+"company_name": "GOODMAN CARPETS LIMITED",
+"company_number": "01693636",
+"company_status": "active",
+"date_of_creation": "1983-01-24",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "3 Mescalero",
+"address_line_2": "Kingsthorpe",
+"locality": "Northampton",
+"postal_code": "NN2 6PE",
+"region": "Northamptonshire"
+},
+"sic_codes": [
+"47530"
+]
+},
 "coh:01701564": {
 "company_name": "SQW LIMITED",
 "company_number": "01701564",
@@ -15617,6 +15634,24 @@
 "sic_codes": [
 "18140",
 "58110"
+]
+},
+"coh:03050704": {
+"company_name": "FOCUS FURNISHING LIMITED",
+"company_number": "03050704",
+"company_status": "active",
+"date_of_creation": "1995-04-27",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Unimix House, Platinum Suite",
+"address_line_2": "Abbey Road",
+"care_of": "PLATINUM FINANCIAL SOLUTIONZ",
+"country": "England",
+"locality": "London",
+"postal_code": "NW10 7TR"
+},
+"sic_codes": [
+"31090"
 ]
 },
 "coh:03050826": {
@@ -41621,6 +41656,23 @@
 "69102"
 ]
 },
+"coh:08412404": {
+"company_name": "MY STUDENT ESSENTIALS LTD",
+"company_number": "08412404",
+"company_status": "active",
+"date_of_creation": "2013-02-20",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "156 West Parade",
+"country": "England",
+"locality": "Lincoln",
+"postal_code": "LN1 1LF"
+},
+"sic_codes": [
+"46900",
+"47910"
+]
+},
 "coh:08416238": {
 "company_name": "CREAT3D LTD",
 "company_number": "08416238",
@@ -45337,6 +45389,23 @@
 },
 "sic_codes": [
 "50200"
+]
+},
+"coh:09500277": {
+"company_name": "BEDCARE LTD",
+"company_number": "09500277",
+"company_status": "active",
+"date_of_creation": "2015-03-20",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "22-26 King Street",
+"country": "England",
+"locality": "King's Lynn",
+"postal_code": "PE30 1HJ",
+"region": "Norfolk"
+},
+"sic_codes": [
+"47910"
 ]
 },
 "coh:09507072": {
@@ -72412,6 +72481,24 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"name:advanced total supplies": {
+"company_name": "ADVANCED TOTAL SUPPLIES LTD",
+"company_number": "07740010",
+"company_status": "active",
+"date_of_creation": "2011-08-15",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Unit 6c, Midland Trading Estate",
+"address_line_2": "Consul Road",
+"country": "England",
+"locality": "Rugby",
+"postal_code": "CV21 1PB",
+"region": "Warwickshire"
+},
+"sic_codes": [
+"47990"
+]
+},
 "name:advanced wireless network": {
 "looked_up": "2026-11-23",
 "not_found": true
@@ -75406,6 +75493,23 @@
 "name:becton dickinson u k": {
 "looked_up": "2026-11-23",
 "not_found": true
+},
+"name:bedcare": {
+"company_name": "BEDCARE LTD",
+"company_number": "09500277",
+"company_status": "active",
+"date_of_creation": "2015-03-20",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "22-26 King Street",
+"country": "England",
+"locality": "King's Lynn",
+"postal_code": "PE30 1HJ",
+"region": "Norfolk"
+},
+"sic_codes": [
+"47910"
+]
 },
 "name:bedford executive travel": {
 "looked_up": "2026-11-23",
@@ -83858,6 +83962,24 @@
 "73110"
 ]
 },
+"name:focus furnishing": {
+"company_name": "FOCUS FURNISHING LIMITED",
+"company_number": "03050704",
+"company_status": "active",
+"date_of_creation": "1995-04-27",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Unimix House, Platinum Suite",
+"address_line_2": "Abbey Road",
+"care_of": "PLATINUM FINANCIAL SOLUTIONZ",
+"country": "England",
+"locality": "London",
+"postal_code": "NW10 7TR"
+},
+"sic_codes": [
+"31090"
+]
+},
 "name:food rocks": {
 "company_name": "FOOD ROCKS LIMITED",
 "company_number": "08744971",
@@ -85377,6 +85499,23 @@
 },
 "sic_codes": [
 "74909"
+]
+},
+"name:goodman carpets": {
+"company_name": "GOODMAN CARPETS LIMITED",
+"company_number": "01693636",
+"company_status": "active",
+"date_of_creation": "1983-01-24",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "3 Mescalero",
+"address_line_2": "Kingsthorpe",
+"locality": "Northampton",
+"postal_code": "NN2 6PE",
+"region": "Northamptonshire"
+},
+"sic_codes": [
+"47530"
 ]
 },
 "name:google cloud emea": {
@@ -93557,6 +93696,23 @@
 "71122",
 "71129",
 "71200"
+]
+},
+"name:my student essentials": {
+"company_name": "MY STUDENT ESSENTIALS LTD",
+"company_number": "08412404",
+"company_status": "active",
+"date_of_creation": "2013-02-20",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "156 West Parade",
+"country": "England",
+"locality": "Lincoln",
+"postal_code": "LN1 1LF"
+},
+"sic_codes": [
+"46900",
+"47910"
 ]
 },
 "name:myriad genetics": {
