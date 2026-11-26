@@ -21972,6 +21972,23 @@
 "78200"
 ]
 },
+"coh:04052692": {
+"company_name": "SNOOP",
+"company_number": "04052692",
+"company_status": "active",
+"date_of_creation": "2000-08-14",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Newlands House One Inspire Bradford Business Park",
+"address_line_2": "Newlands Way",
+"locality": "Bradford",
+"postal_code": "BD10 0JE",
+"region": "West Yorkshire"
+},
+"sic_codes": [
+"88990"
+]
+},
 "coh:04058701": {
 "company_name": "TLMNEXUS LTD",
 "company_number": "04058701",
@@ -27192,6 +27209,23 @@
 "71111"
 ]
 },
+"coh:04951732": {
+"company_name": "ELMAR HOME CARE LIMITED",
+"company_number": "04951732",
+"company_status": "active",
+"date_of_creation": "2003-11-03",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "139 New Road Side",
+"address_line_2": "Horsforth",
+"country": "England",
+"locality": "Leeds",
+"postal_code": "LS18 4QD"
+},
+"sic_codes": [
+"96090"
+]
+},
 "coh:04961388": {
 "company_name": "HUGH BROUGHTON ARCHITECTS LIMITED",
 "company_number": "04961388",
@@ -29874,6 +29908,24 @@
 },
 "sic_codes": [
 "94990"
+]
+},
+"coh:05572861": {
+"company_name": "BRADNET",
+"company_number": "05572861",
+"company_status": "active",
+"date_of_creation": "2005-09-23",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Guardian House",
+"address_line_2": "22 Manor Row",
+"country": "England",
+"locality": "Bradford",
+"postal_code": "BD1 4QU"
+},
+"sic_codes": [
+"86900",
+"88100"
 ]
 },
 "coh:05576852": {
@@ -32598,6 +32650,23 @@
 "82990"
 ]
 },
+"coh:06364892": {
+"company_name": "BRADFORD CITY FC COMMUNITY FOUNDATION",
+"company_number": "06364892",
+"company_status": "active",
+"date_of_creation": "2007-09-07",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "University Of Bradford Stadium",
+"address_line_2": "Valley Parade",
+"country": "England",
+"locality": "Bradford",
+"postal_code": "BD8 7DY"
+},
+"sic_codes": [
+"93199"
+]
+},
 "coh:06370599": {
 "company_name": "PIONEER HEALTHCARE LIMITED",
 "company_number": "06370599",
@@ -35226,6 +35295,23 @@
 "93120"
 ]
 },
+"coh:06903140": {
+"company_name": "REED SPECIALIST RECRUITMENT LIMITED",
+"company_number": "06903140",
+"company_status": "active",
+"date_of_creation": "2009-05-12",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Academy Court",
+"address_line_2": "94 Chancery Lane",
+"locality": "London",
+"postal_code": "WC2A 1DT"
+},
+"sic_codes": [
+"78109",
+"78200"
+]
+},
 "coh:06904268": {
 "company_name": "NOTTINGHAM COLLEGE LIMITED",
 "company_number": "06904268",
@@ -35807,6 +35893,23 @@
 },
 "sic_codes": [
 "41201"
+]
+},
+"coh:07006470": {
+"company_name": "ASSIST HOME CARE LTD",
+"company_number": "07006470",
+"company_status": "active",
+"date_of_creation": "2009-09-02",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "306 Killinghall Road",
+"country": "United Kingdom",
+"locality": "Bradford",
+"postal_code": "BD2 4SE",
+"region": "West Yorkshire"
+},
+"sic_codes": [
+"86900"
 ]
 },
 "coh:07007257": {
@@ -37696,6 +37799,22 @@
 "43390"
 ]
 },
+"coh:07410954": {
+"company_name": "CARE DYNAMICS (YORKSHIRE) LIMITED",
+"company_number": "07410954",
+"company_status": "active",
+"date_of_creation": "2010-10-18",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "297 - 301 Riddlesden",
+"country": "England",
+"locality": "Keighley",
+"postal_code": "BD20 5LD"
+},
+"sic_codes": [
+"86900"
+]
+},
 "coh:07417634": {
 "company_name": "DAWSONGROUP VANS LIMITED",
 "company_number": "07417634",
@@ -38384,6 +38503,23 @@
 "74909"
 ]
 },
+"coh:07584572": {
+"company_name": "ASSISTED LIVES LTD",
+"company_number": "07584572",
+"company_status": "active",
+"date_of_creation": "2011-03-30",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "1st Floor, Auburn House",
+"address_line_2": "42 Upper Piccadilly",
+"country": "England",
+"locality": "Bradford",
+"postal_code": "BD1 3NU"
+},
+"sic_codes": [
+"88990"
+]
+},
 "coh:07585952": {
 "company_name": "UK DOCKS MARINE SERVICES TEESSIDE LIMITED",
 "company_number": "07585952",
@@ -38938,6 +39074,24 @@
 },
 "sic_codes": [
 "86210"
+]
+},
+"coh:07737044": {
+"company_name": "SOVA HEALTHCARE LTD",
+"company_number": "07737044",
+"company_status": "active",
+"date_of_creation": "2011-08-11",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Suite 9 18 East Parade",
+"address_line_2": "Little Germany",
+"country": "England",
+"locality": "Bradford",
+"postal_code": "BD1 5EE",
+"region": "West Yorkshire"
+},
+"sic_codes": [
+"87900"
 ]
 },
 "coh:07737430": {
@@ -41487,6 +41641,22 @@
 "84120"
 ]
 },
+"coh:08366776": {
+"company_name": "VISION CARE SERVICES (UK) LIMITED",
+"company_number": "08366776",
+"company_status": "active",
+"date_of_creation": "2013-01-18",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "117 Fairbank Road",
+"locality": "Bradford",
+"postal_code": "BD8 9JT",
+"region": "West Yorkshire"
+},
+"sic_codes": [
+"87100"
+]
+},
 "coh:08367593": {
 "company_name": "BLUE SKY ACOUSTICS LTD",
 "company_number": "08367593",
@@ -42326,6 +42496,23 @@
 },
 "sic_codes": [
 "71111"
+]
+},
+"coh:08587726": {
+"company_name": "TINY STARS DAY NURSERY LTD",
+"company_number": "08587726",
+"company_status": "active",
+"date_of_creation": "2013-06-27",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Ash House",
+"address_line_2": "Goulbourne Street",
+"locality": "Keighley",
+"postal_code": "BD21 1PG",
+"region": "West Yorkshire"
+},
+"sic_codes": [
+"85100"
 ]
 },
 "coh:08589556": {
@@ -44825,6 +45012,23 @@
 },
 "sic_codes": [
 "62090"
+]
+},
+"coh:09330499": {
+"company_name": "MK CARE SERVICES LIMITED",
+"company_number": "09330499",
+"company_status": "active",
+"date_of_creation": "2014-11-27",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Photon House",
+"address_line_2": "Percy Street",
+"country": "England",
+"locality": "Leeds",
+"postal_code": "LS12 1EG"
+},
+"sic_codes": [
+"86900"
 ]
 },
 "coh:09331091": {
@@ -48295,6 +48499,22 @@
 "74909"
 ]
 },
+"coh:10408391": {
+"company_name": "JUSTINTIME HEALTHCARE SERVICES LIMITED",
+"company_number": "10408391",
+"company_status": "active",
+"date_of_creation": "2016-10-03",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "16 North Parade North Parade",
+"country": "England",
+"locality": "Bradford",
+"postal_code": "BD1 3HT"
+},
+"sic_codes": [
+"86900"
+]
+},
 "coh:10413929": {
 "company_name": "RESTORATIVE SOCIAL CARE SERVICES LTD.",
 "company_number": "10413929",
@@ -49465,6 +49685,24 @@
 "94990"
 ]
 },
+"coh:10851654": {
+"company_name": "POVA CARE LTD",
+"company_number": "10851654",
+"company_status": "active",
+"date_of_creation": "2017-07-05",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "58 Cliffe Road",
+"country": "England",
+"locality": "Bradford",
+"postal_code": "BD3 0LT"
+},
+"sic_codes": [
+"87300",
+"87900",
+"88990"
+]
+},
 "coh:10853992": {
 "company_name": "CENTRAL HEALTH SOLUTIONS LTD.",
 "company_number": "10853992",
@@ -50308,6 +50546,23 @@
 "63120"
 ]
 },
+"coh:11116295": {
+"company_name": "HADI CARE LTD",
+"company_number": "11116295",
+"company_status": "active",
+"date_of_creation": "2017-12-18",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "79-81 Lingfield Drive",
+"country": "England",
+"locality": "Leeds",
+"postal_code": "LS17 7HF",
+"region": "West Yorkshire"
+},
+"sic_codes": [
+"78300"
+]
+},
 "coh:11122483": {
 "company_name": "HARINGEY EDUCATION PARTNERSHIP",
 "company_number": "11122483",
@@ -50831,6 +51086,25 @@
 "84120",
 "87200",
 "87300"
+]
+},
+"coh:11263169": {
+"company_name": "WHITE ROSE HOMECARE LIMITED",
+"company_number": "11263169",
+"company_status": "active",
+"date_of_creation": "2018-03-19",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Carlisle Business Centre",
+"address_line_2": "Carlisle Road",
+"country": "United Kingdom",
+"locality": "Bradford",
+"postal_code": "BD8 8BD",
+"region": "West Yorkshire"
+},
+"sic_codes": [
+"82190",
+"88990"
 ]
 },
 "coh:11273034": {
@@ -52180,6 +52454,23 @@
 "52290"
 ]
 },
+"coh:11765304": {
+"company_name": "EPIC CARE SERVICES LIMITED",
+"company_number": "11765304",
+"company_status": "active",
+"date_of_creation": "2019-01-14",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Suite 6, Ground Floor, Ciba Building",
+"address_line_2": "146 Hagley Road",
+"country": "England",
+"locality": "Birmingham",
+"postal_code": "B16 9NX"
+},
+"sic_codes": [
+"86900"
+]
+},
 "coh:11773955": {
 "company_name": "MUSIC LEEDS",
 "company_number": "11773955",
@@ -52298,6 +52589,23 @@
 },
 "sic_codes": [
 "64209"
+]
+},
+"coh:11799429": {
+"company_name": "SEMPER CARE LTD",
+"company_number": "11799429",
+"company_status": "active",
+"date_of_creation": "2019-01-31",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Office 202 Belmount Mill",
+"address_line_2": "7 Burnett Street",
+"country": "England",
+"locality": "Bradford",
+"postal_code": "BD1 5BJ"
+},
+"sic_codes": [
+"88100"
 ]
 },
 "coh:11806302": {
@@ -52630,6 +52938,22 @@
 "sic_codes": [
 "80200",
 "90020"
+]
+},
+"coh:11934523": {
+"company_name": "ENDORPHINS GROUP LTD",
+"company_number": "11934523",
+"company_status": "active",
+"date_of_creation": "2019-04-09",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "1 Carr House Road",
+"country": "England",
+"locality": "Halifax",
+"postal_code": "HX3 7QY"
+},
+"sic_codes": [
+"85510"
 ]
 },
 "coh:11945055": {
@@ -55776,6 +56100,24 @@
 "43910"
 ]
 },
+"coh:13266906": {
+"company_name": "HOME-CARE PERFECTION LIMITED",
+"company_number": "13266906",
+"company_status": "active",
+"date_of_creation": "2021-03-15",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "17 Market Street",
+"country": "England",
+"locality": "Shipley",
+"postal_code": "BD18 3QD"
+},
+"sic_codes": [
+"78200",
+"87200",
+"87300"
+]
+},
 "coh:13278694": {
 "company_name": "FLEETEV LIMITED",
 "company_number": "13278694",
@@ -57861,6 +58203,24 @@
 "82990"
 ]
 },
+"coh:14316544": {
+"company_name": "SPECIAL PATHWAYS LIMITED",
+"company_number": "14316544",
+"company_status": "active",
+"date_of_creation": "2022-08-24",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Suit 1 Top Floor",
+"address_line_2": "150 Manningham Lane",
+"country": "United Kingdom",
+"locality": "Bradford",
+"postal_code": "BD8 7DT"
+},
+"sic_codes": [
+"85590",
+"85600"
+]
+},
 "coh:14336140": {
 "company_name": "ISLAND RETROFIT LTD",
 "company_number": "14336140",
@@ -58377,6 +58737,23 @@
 "85600"
 ]
 },
+"coh:14535548": {
+"company_name": "TABITHA CARE GROUP LIMITED",
+"company_number": "14535548",
+"company_status": "active",
+"date_of_creation": "2022-12-12",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Hq, The Courtyard",
+"address_line_2": "Denby Dale Road",
+"country": "England",
+"locality": "Wakefield",
+"postal_code": "WF2 7AJ"
+},
+"sic_codes": [
+"87200"
+]
+},
 "coh:14538491": {
 "company_name": "GET BORDERLESS LTD",
 "company_number": "14538491",
@@ -58809,6 +59186,26 @@
 },
 "sic_codes": [
 "86900"
+]
+},
+"coh:14687213": {
+"company_name": "SOWING SEEDS WELLBEING CIC",
+"company_number": "14687213",
+"company_status": "active",
+"date_of_creation": "2023-02-24",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "42 Westfield Lane",
+"country": "United Kingdom",
+"locality": "Bradford",
+"postal_code": "BD10 8PY",
+"region": "West Yorkshire"
+},
+"sic_codes": [
+"85520",
+"85600",
+"86900",
+"96040"
 ]
 },
 "coh:14693011": {
@@ -59304,6 +59701,27 @@
 },
 "sic_codes": [
 "87200"
+]
+},
+"coh:14927308": {
+"company_name": "VITALITY LIVING LTD",
+"company_number": "14927308",
+"company_status": "active",
+"date_of_creation": "2023-06-09",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Unit 11 Campus Road",
+"address_line_2": "Listerhills Science Park",
+"country": "England",
+"locality": "Bradford",
+"postal_code": "BD7 1HR",
+"region": "West Yorkshire"
+},
+"sic_codes": [
+"78200",
+"87200",
+"87300",
+"87900"
 ]
 },
 "coh:14949210": {
@@ -63437,6 +63855,15 @@
 "registered_office": {},
 "sic_codes": []
 },
+"coh:CE030693": {
+"company_name": "MOOR TIME",
+"company_number": "CE030693",
+"company_status": null,
+"date_of_creation": null,
+"looked_up": "2026-11-26",
+"registered_office": {},
+"sic_codes": []
+},
 "coh:CE031214": {
 "company_name": "THE GREAT OUSE RIVERS TRUST",
 "company_number": "CE031214",
@@ -66428,6 +66855,21 @@
 "country": "United Kingdom",
 "locality": "London",
 "postal_code": "WC2H 0EW"
+},
+"sic_codes": []
+},
+"coh:OC414440": {
+"company_name": "YORKSHIRE AND HUMBER HEALTHCARE ALLIANCE LLP",
+"company_number": "OC414440",
+"company_status": "active",
+"date_of_creation": "2016-11-03",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Leeds Media Centre",
+"address_line_2": "21 Savile Mount",
+"country": "England",
+"locality": "Leeds",
+"postal_code": "LS7 3HZ"
 },
 "sic_codes": []
 },
@@ -76180,6 +76622,10 @@
 "sic_codes": [
 "62090"
 ]
+},
+"name:bradford inclusive disability service": {
+"looked_up": "2026-11-26",
+"not_found": true
 },
 "name:bradshaw medical solutions trading as bms digital safety": {
 "looked_up": "2026-11-23",
@@ -93317,6 +93763,15 @@
 "sic_codes": [
 "63990"
 ]
+},
+"name:moor time": {
+"company_name": "MOOR TIME",
+"company_number": "CE030693",
+"company_status": null,
+"date_of_creation": null,
+"looked_up": "2026-11-26",
+"registered_office": {},
+"sic_codes": []
 },
 "name:moorfields eye hospital nhs foundation trust": {
 "looked_up": "2026-11-23",
