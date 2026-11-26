@@ -3072,6 +3072,23 @@
 "58130"
 ]
 },
+"coh:00914967": {
+"company_name": "WRES LIMITED",
+"company_number": "00914967",
+"company_status": "active",
+"date_of_creation": "1967-09-08",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Ground Floor Centenary House",
+"address_line_2": "Peninsula Park, Rydon Lane",
+"country": "United Kingdom",
+"locality": "Exeter",
+"postal_code": "EX2 7XE"
+},
+"sic_codes": [
+"25620"
+]
+},
 "coh:00916634": {
 "company_name": "TOYOTA(G.B.) PLC",
 "company_number": "00916634",
@@ -11714,6 +11731,25 @@
 },
 "sic_codes": [
 "62020"
+]
+},
+"coh:02620408": {
+"company_name": "IMPROVING PERFORMANCE IN PRACTICE (IPIP) LIMITED",
+"company_number": "02620408",
+"company_status": "active",
+"date_of_creation": "1991-06-14",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Number One",
+"address_line_2": "16a - 18a Market Place",
+"country": "United Kingdom",
+"locality": "Warwick",
+"postal_code": "CV34 4SL",
+"region": "Warwickshire"
+},
+"sic_codes": [
+"82990",
+"94120"
 ]
 },
 "coh:02623071": {
@@ -20738,6 +20774,23 @@
 },
 "sic_codes": [
 "62020"
+]
+},
+"coh:04071152": {
+"company_name": "SOUTH EAST LONDON MIND LIMITED",
+"company_number": "04071152",
+"company_status": "active",
+"date_of_creation": "2000-09-13",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "5 Station Road",
+"address_line_2": "Orpington",
+"locality": "Kent",
+"postal_code": "BR6 0RZ"
+},
+"sic_codes": [
+"88100",
+"88990"
 ]
 },
 "coh:04072464": {
@@ -33101,6 +33154,23 @@
 "86900"
 ]
 },
+"coh:06910650": {
+"company_name": "PREFERRED ACCESS RAMP SYSTEMS LIMITED",
+"company_number": "06910650",
+"company_status": "active",
+"date_of_creation": "2009-05-20",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Unit A2, Cradley Business Park",
+"address_line_2": "Overend Road",
+"country": "England",
+"locality": "Cradley Heath",
+"postal_code": "B64 7DW"
+},
+"sic_codes": [
+"25110"
+]
+},
 "coh:06913178": {
 "company_name": "LIFECOME CARE LIMITED",
 "company_number": "06913178",
@@ -34508,6 +34578,22 @@
 },
 "sic_codes": [
 "71129"
+]
+},
+"coh:07197528": {
+"company_name": "THOMAS STONER SUPPLIES LIMITED",
+"company_number": "07197528",
+"company_status": "active",
+"date_of_creation": "2010-03-22",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "50-54 Oswald Road",
+"locality": "Scunthorpe",
+"postal_code": "DN15 7PQ",
+"region": "North Lincolnshire"
+},
+"sic_codes": [
+"82990"
 ]
 },
 "coh:07214262": {
@@ -45214,6 +45300,24 @@
 "82990"
 ]
 },
+"coh:10398586": {
+"company_name": "WESTDALE MIDLANDS LIMITED",
+"company_number": "10398586",
+"company_status": "active",
+"date_of_creation": "2016-09-28",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "C/O Westdale Group Limited Doncaster Road",
+"address_line_2": "Askern",
+"country": "England",
+"locality": "Doncaster",
+"postal_code": "DN6 9JD",
+"region": "South Yorkshire"
+},
+"sic_codes": [
+"41100"
+]
+},
 "coh:10402201": {
 "company_name": "TALIS LEARNING LIMITED",
 "company_number": "10402201",
@@ -53237,6 +53341,25 @@
 "86900"
 ]
 },
+"coh:13831625": {
+"company_name": "MARITIME INSIGHTS & INTELLIGENCE LIMITED",
+"company_number": "13831625",
+"company_status": "active",
+"date_of_creation": "2022-01-06",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Fifth Floor",
+"address_line_2": "10 St. Bride Street",
+"country": "United Kingdom",
+"locality": "London",
+"postal_code": "EC4A 4AD",
+"region": "City Of London"
+},
+"sic_codes": [
+"58190",
+"63990"
+]
+},
 "coh:13864023": {
 "company_name": "LUK TRAINING LTD",
 "company_number": "13864023",
@@ -54355,6 +54478,23 @@
 "62090",
 "71122",
 "74901"
+]
+},
+"coh:14378566": {
+"company_name": "SURREY PRIMARY CARE LTD",
+"company_number": "14378566",
+"company_status": "active",
+"date_of_creation": "2022-09-27",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Horley Health Hub",
+"address_line_2": "120 Victoria Road",
+"country": "United Kingdom",
+"locality": "Horley",
+"postal_code": "RH6 7BL"
+},
+"sic_codes": [
+"86210"
 ]
 },
 "coh:14379330": {
@@ -58820,6 +58960,26 @@
 "74909",
 "85590",
 "85600"
+]
+},
+"coh:17252307": {
+"company_name": "SUSSEX INTEGRATED HEALTH CIC",
+"company_number": "17252307",
+"company_status": "active",
+"date_of_creation": "2026-06-01",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Horley Health Hub",
+"address_line_2": "120 Victoria Road",
+"country": "England",
+"locality": "Horley",
+"postal_code": "RH6 7BL",
+"region": "Surrey"
+},
+"sic_codes": [
+"86210",
+"86230",
+"86900"
 ]
 },
 "coh:17255038": {
@@ -66244,6 +66404,22 @@
 "43220"
 ]
 },
+"coh:SC522389": {
+"company_name": "EVENTS HORIZON LIMITED",
+"company_number": "SC522389",
+"company_status": "active",
+"date_of_creation": "2015-12-14",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "82 Berkeley Street",
+"country": "Scotland",
+"locality": "Glasgow",
+"postal_code": "G3 7DS"
+},
+"sic_codes": [
+"90020"
+]
+},
 "coh:SC522398": {
 "company_name": "ANTURAS CONSULTING LTD",
 "company_number": "SC522398",
@@ -70794,6 +70970,10 @@
 "84250",
 "96090"
 ]
+},
+"name:bcc research": {
+"looked_up": "2026-11-26",
+"not_found": true
 },
 "name:bda": {
 "company_name": "BDA LTD",
@@ -78038,6 +78218,22 @@
 "59112",
 "59113",
 "90030"
+]
+},
+"name:events horizon": {
+"company_name": "EVENTS HORIZON LIMITED",
+"company_number": "SC522389",
+"company_status": "active",
+"date_of_creation": "2015-12-14",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "82 Berkeley Street",
+"country": "Scotland",
+"locality": "Glasgow",
+"postal_code": "G3 7DS"
+},
+"sic_codes": [
+"90020"
 ]
 },
 "name:everest taxis": {
@@ -86579,6 +86775,25 @@
 },
 "sic_codes": [
 "52220"
+]
+},
+"name:maritime insights intelligence": {
+"company_name": "MARITIME INSIGHTS & INTELLIGENCE LIMITED",
+"company_number": "13831625",
+"company_status": "active",
+"date_of_creation": "2022-01-06",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Fifth Floor",
+"address_line_2": "10 St. Bride Street",
+"country": "United Kingdom",
+"locality": "London",
+"postal_code": "EC4A 4AD",
+"region": "City Of London"
+},
+"sic_codes": [
+"58190",
+"63990"
 ]
 },
 "name:mark s taxis": {
@@ -95475,6 +95690,23 @@
 "sic_codes": [
 "58290",
 "62012"
+]
+},
+"name:south east london mind": {
+"company_name": "SOUTH EAST LONDON MIND LIMITED",
+"company_number": "04071152",
+"company_status": "active",
+"date_of_creation": "2000-09-13",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "5 Station Road",
+"address_line_2": "Orpington",
+"locality": "Kent",
+"postal_code": "BR6 0RZ"
+},
+"sic_codes": [
+"88100",
+"88990"
 ]
 },
 "name:south east refurbishments": {
