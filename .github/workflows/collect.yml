@@ -1,8 +1,11 @@
 name: Collect UK tenders
 
 on:
+  # GitHub's own timer rarely fires for this repository; the Power Automate
+  # flow below is the real hourly trigger at 15 past. Keep this at 45 past so
+  # that if GitHub does fire, the two never run into each other.
   schedule:
-    - cron: "17 * * * *"
+    - cron: "45 * * * *"
   workflow_dispatch:
     inputs:
       force_all:
@@ -60,7 +63,15 @@ jobs:
             echo "No changes"
           else
             git commit -m "Collect $(date -u +'%Y-%m-%d %H:%M') UTC"
-            git pull --rebase --autostash
+            # Another run may have pushed while this one was working. Every file
+            # here is regenerated from the feeds each run, so on a conflict keep
+            # this run's copy and carry on; anything missed is re-read next hour.
+            for attempt in 1 2 3; do
+              if git pull --rebase --autostash; then break; fi
+              git checkout --theirs -- data UK_Tenders.xlsx || true
+              git add -A data UK_Tenders.xlsx
+              GIT_EDITOR=true git rebase --continue || git rebase --abort
+            done
             git push
           fi
 
