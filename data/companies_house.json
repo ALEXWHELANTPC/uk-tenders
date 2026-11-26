@@ -203,6 +203,24 @@
 "65120"
 ]
 },
+"coh:00093994": {
+"company_name": "T.J.SMITH AND NEPHEW,LIMITED",
+"company_number": "00093994",
+"company_status": "active",
+"date_of_creation": "1907-07-02",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "101 Hessle Road",
+"address_line_2": "Hull",
+"country": "United Kingdom",
+"locality": "England",
+"postal_code": "HU3 2BN"
+},
+"sic_codes": [
+"20590",
+"32500"
+]
+},
 "coh:00111876": {
 "company_name": "LOOKERS LIMITED",
 "company_number": "00111876",
@@ -2629,6 +2647,24 @@
 "26200"
 ]
 },
+"coh:00745960": {
+"company_name": "SUNCOMBE LIMITED",
+"company_number": "00745960",
+"company_status": "active",
+"date_of_creation": "1963-01-03",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Suncombe House Unit B Woodside Industrial Estate",
+"address_line_2": "Dunmow Road",
+"country": "England",
+"locality": "Bishop's Stortford",
+"postal_code": "CM23 5RG",
+"region": "Hertfordshire"
+},
+"sic_codes": [
+"32990"
+]
+},
 "coh:00751804": {
 "company_name": "FAUN ZOELLER (UK) LIMITED",
 "company_number": "00751804",
@@ -4691,6 +4727,23 @@
 },
 "sic_codes": [
 "26110"
+]
+},
+"coh:01172466": {
+"company_name": "WEST WALLASEY CAR HIRE LIMITED",
+"company_number": "01172466",
+"company_status": "active",
+"date_of_creation": "1974-06-03",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Fleet House",
+"address_line_2": "40 Cross Lane",
+"country": "England",
+"locality": "Wallasey",
+"postal_code": "CH45 8RH"
+},
+"sic_codes": [
+"82990"
 ]
 },
 "coh:01175435": {
@@ -10263,6 +10316,24 @@
 "sic_codes": [
 "64910",
 "64921"
+]
+},
+"coh:02249277": {
+"company_name": "SECURI-PLEX LIMITED",
+"company_number": "02249277",
+"company_status": "active",
+"date_of_creation": "1988-04-28",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Avaiation House Swordfish Way",
+"address_line_2": "Sherburn In Elmet",
+"care_of": "SECURI-PLEX LIMITED",
+"locality": "Leeds",
+"postal_code": "LS25 6NG",
+"region": "North Yorkshire"
+},
+"sic_codes": [
+"80200"
 ]
 },
 "coh:02253061": {
@@ -16728,6 +16799,25 @@
 "35230"
 ]
 },
+"coh:03242286": {
+"company_name": "TILHILL FORESTRY LIMITED",
+"company_number": "03242286",
+"company_status": "active",
+"date_of_creation": "1996-08-27",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "3rd Floor 1 Ashley Road",
+"country": "United Kingdom",
+"locality": "Altrincham",
+"postal_code": "WA14 2DT",
+"region": "Cheshire"
+},
+"sic_codes": [
+"02100",
+"02200",
+"02400"
+]
+},
 "coh:03243587": {
 "company_name": "TECNIPLAST UK LIMITED",
 "company_number": "03243587",
@@ -18273,6 +18363,23 @@
 "25990",
 "28990",
 "46690"
+]
+},
+"coh:03499298": {
+"company_name": "PRYOR & RICKETT SILVICULTURE LTD.",
+"company_number": "03499298",
+"company_status": "active",
+"date_of_creation": "1998-01-26",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "The Terminal",
+"address_line_2": "Aviation Way",
+"country": "England",
+"locality": "Carlisle",
+"postal_code": "CA6 4NZ"
+},
+"sic_codes": [
+"02100"
 ]
 },
 "coh:03499514": {
@@ -23531,6 +23638,24 @@
 "46690"
 ]
 },
+"coh:04313379": {
+"company_name": "BIONICAL SOLUTIONS LIMITED",
+"company_number": "04313379",
+"company_status": "active",
+"date_of_creation": "2001-10-30",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "The Piazza, Mercia Marina Findern Lane",
+"address_line_2": "Willington",
+"country": "England",
+"locality": "Derby",
+"postal_code": "DE65 6DW"
+},
+"sic_codes": [
+"62090",
+"86900"
+]
+},
 "coh:04320403": {
 "company_name": "HOME HEALTHCARE OPERATIONS LIMITED",
 "company_number": "04320403",
@@ -25171,6 +25296,25 @@
 "64999"
 ]
 },
+"coh:04601991": {
+"company_name": "ASGUK (SYSTEMS) LIMITED",
+"company_number": "04601991",
+"company_status": "active",
+"date_of_creation": "2002-11-27",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Unit C2 Brunel Court Waterwells Buisness Park",
+"address_line_2": "Gloucestershire",
+"country": "United Kingdom",
+"locality": "Gloucester",
+"postal_code": "GL2 2AL"
+},
+"sic_codes": [
+"25120",
+"80200",
+"80300"
+]
+},
 "coh:04605743": {
 "company_name": "KENDALL KINGSCOTT LIMITED",
 "company_number": "04605743",
@@ -26305,6 +26449,24 @@
 "96040"
 ]
 },
+"coh:04820053": {
+"company_name": "NICHOLSON NURSERIES LIMITED",
+"company_number": "04820053",
+"company_status": "active",
+"date_of_creation": "2003-07-03",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "The Park",
+"address_line_2": "North Aston",
+"locality": "Bicester",
+"postal_code": "OX25 6HL",
+"region": "Oxfordshire"
+},
+"sic_codes": [
+"02400",
+"81300"
+]
+},
 "coh:04823110": {
 "company_name": "LANGUAGE LINE LIMITED",
 "company_number": "04823110",
@@ -27319,6 +27481,22 @@
 "81100",
 "81222",
 "81229"
+]
+},
+"coh:05053551": {
+"company_name": "MOORHOUSE CONSULTING LIMITED",
+"company_number": "05053551",
+"company_status": "active",
+"date_of_creation": "2004-02-24",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "69 Old Broad Street",
+"country": "England",
+"locality": "London",
+"postal_code": "EC2M 1QS"
+},
+"sic_codes": [
+"70229"
 ]
 },
 "coh:05055685": {
@@ -30421,6 +30599,23 @@
 "85600"
 ]
 },
+"coh:05756542": {
+"company_name": "BE GREEN TREE SURGERY LTD",
+"company_number": "05756542",
+"company_status": "active",
+"date_of_creation": "2006-03-27",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "2 Beacon End Courtyard London Road",
+"address_line_2": "Stanway",
+"country": "England",
+"locality": "Colchester",
+"postal_code": "CO3 0NU"
+},
+"sic_codes": [
+"02400"
+]
+},
 "coh:05758364": {
 "company_name": "SEBIA (UK) LTD",
 "company_number": "05758364",
@@ -32711,6 +32906,22 @@
 "90010"
 ]
 },
+"coh:06420662": {
+"company_name": "INNOVATE SERVICES LIMITED",
+"company_number": "06420662",
+"company_status": "active",
+"date_of_creation": "2007-11-07",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "1 Christchurch Way",
+"country": "United Kingdom",
+"locality": "Woking",
+"postal_code": "GU21 6JG"
+},
+"sic_codes": [
+"56290"
+]
+},
 "coh:06429056": {
 "company_name": "PLOWMAN CRAVEN LIMITED",
 "company_number": "06429056",
@@ -32728,6 +32939,23 @@
 "sic_codes": [
 "71122",
 "82990"
+]
+},
+"coh:06434180": {
+"company_name": "KPR ENGINEERING (M & E) LTD",
+"company_number": "06434180",
+"company_status": "active",
+"date_of_creation": "2007-11-22",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Units 6 & 7, Mendip View Bus Pk",
+"address_line_2": "Bristol Rd Hewish",
+"locality": "Weston Super Mare",
+"postal_code": "BS24 6RX",
+"region": "N Somerset"
+},
+"sic_codes": [
+"27900"
 ]
 },
 "coh:06434382": {
@@ -34270,6 +34498,22 @@
 },
 "sic_codes": [
 "46180"
+]
+},
+"coh:06772613": {
+"company_name": "FACILITATE SPACES LIMITED",
+"company_number": "06772613",
+"company_status": "active",
+"date_of_creation": "2008-12-15",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "11 Emson Close",
+"country": "England",
+"locality": "Saffron Walden",
+"postal_code": "CB10 1HL"
+},
+"sic_codes": [
+"43390"
 ]
 },
 "coh:06774999": {
@@ -38085,6 +38329,23 @@
 "30110"
 ]
 },
+"coh:07587017": {
+"company_name": "K HILL & PARTNERS LTD",
+"company_number": "07587017",
+"company_status": "active",
+"date_of_creation": "2011-03-31",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Primrose Cottage",
+"address_line_2": "Warleggan",
+"locality": "Bodmin",
+"postal_code": "PL30 4HB",
+"region": "Cornwall"
+},
+"sic_codes": [
+"81300"
+]
+},
 "coh:07589791": {
 "company_name": "CHUMS SOCIAL ENTERPRISE C.I.C.",
 "company_number": "07589791",
@@ -38606,6 +38867,26 @@
 },
 "sic_codes": [
 "86210"
+]
+},
+"coh:07737430": {
+"company_name": "CORSERV SOLUTIONS LIMITED",
+"company_number": "07737430",
+"company_status": "active",
+"date_of_creation": "2011-08-11",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Western Group Centre Radnor Road",
+"address_line_2": "Scorrier",
+"country": "England",
+"locality": "Redruth",
+"postal_code": "TR16 5EH",
+"region": "Cornwall"
+},
+"sic_codes": [
+"42110",
+"42990",
+"84120"
 ]
 },
 "coh:07737521": {
@@ -39286,6 +39567,23 @@
 },
 "sic_codes": [
 "62020"
+]
+},
+"coh:07910966": {
+"company_name": "F&W FORESTRY UK LIMITED",
+"company_number": "07910966",
+"company_status": "active",
+"date_of_creation": "2012-01-16",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Court Barn Highfield Farm, Clyst Road",
+"address_line_2": "Topsham",
+"country": "England",
+"locality": "Exeter",
+"postal_code": "EX3 0BY"
+},
+"sic_codes": [
+"02400"
 ]
 },
 "coh:07915512": {
@@ -47464,6 +47762,23 @@
 "82990"
 ]
 },
+"coh:10288075": {
+"company_name": "KW EDGE LIMITED",
+"company_number": "10288075",
+"company_status": "active",
+"date_of_creation": "2016-07-20",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Office 33 Latton Bush Centre",
+"address_line_2": "Southern Way",
+"country": "England",
+"locality": "Harlow",
+"postal_code": "CM18 7BL"
+},
+"sic_codes": [
+"81300"
+]
+},
 "coh:10290810": {
 "company_name": "HEWITT ASSOCIATES LTD",
 "company_number": "10290810",
@@ -49206,6 +49521,24 @@
 },
 "sic_codes": [
 "74909"
+]
+},
+"coh:10902033": {
+"company_name": "SUPPORT SERVICE LEADERS LIMITED",
+"company_number": "10902033",
+"company_status": "active",
+"date_of_creation": "2017-08-07",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "The Octagon Suite E2, 2nd Floor",
+"address_line_2": "Middleborough",
+"country": "England",
+"locality": "Colchester",
+"postal_code": "CO1 1TG",
+"region": "Essex"
+},
+"sic_codes": [
+"81210"
 ]
 },
 "coh:10910014": {
@@ -52666,6 +52999,24 @@
 "43999"
 ]
 },
+"coh:12162722": {
+"company_name": "TRELEAVEN COUNTRYSIDE SERVICES LIMITED",
+"company_number": "12162722",
+"company_status": "active",
+"date_of_creation": "2019-08-19",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "C/O Whyfield Truro Business Park",
+"address_line_2": "Threemilestone",
+"country": "United Kingdom",
+"locality": "Truro",
+"postal_code": "TR4 9LF",
+"region": "Cornwall"
+},
+"sic_codes": [
+"02100"
+]
+},
 "coh:12191261": {
 "company_name": "JACKSON & LACEY CONSTRUCTION LIMITED",
 "company_number": "12191261",
@@ -53838,6 +54189,25 @@
 "43999"
 ]
 },
+"coh:12638967": {
+"company_name": "BMNT LTD",
+"company_number": "12638967",
+"company_status": "active",
+"date_of_creation": "2020-06-02",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Chancery House",
+"address_line_2": "53-64 Chancery Lane",
+"country": "United Kingdom",
+"locality": "London",
+"postal_code": "WC2A 1QS"
+},
+"sic_codes": [
+"62012",
+"70229",
+"84220"
+]
+},
 "coh:12652345": {
 "company_name": "SIRIO MULTILATERAL STRATEGIES LTD",
 "company_number": "12652345",
@@ -54098,6 +54468,24 @@
 },
 "sic_codes": [
 "43290"
+]
+},
+"coh:12815678": {
+"company_name": "ROCHFORDS TREE SERVICES LIMITED",
+"company_number": "12815678",
+"company_status": "active",
+"date_of_creation": "2020-08-16",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "4 Capricorn Centre",
+"address_line_2": "Cranes Farm Road",
+"country": "United Kingdom",
+"locality": "Basildon",
+"postal_code": "SS14 3JJ",
+"region": "Essex"
+},
+"sic_codes": [
+"02400"
 ]
 },
 "coh:12837442": {
@@ -55279,6 +55667,23 @@
 "sic_codes": [
 "64910",
 "77110"
+]
+},
+"coh:13299206": {
+"company_name": "THE GROWER LTD",
+"company_number": "13299206",
+"company_status": "active",
+"date_of_creation": "2021-03-29",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Presingoll Farm",
+"address_line_2": "Penwinnick Road",
+"country": "England",
+"locality": "St Agnes",
+"postal_code": "TR5 0PB"
+},
+"sic_codes": [
+"01250"
 ]
 },
 "coh:13300918": {
@@ -58688,6 +59093,23 @@
 "sic_codes": [
 "49319",
 "49390"
+]
+},
+"coh:14890849": {
+"company_name": "UA5 LTD",
+"company_number": "14890849",
+"company_status": "active",
+"date_of_creation": "2023-05-24",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "28a The Hundred",
+"country": "England",
+"locality": "Romsey",
+"postal_code": "SO51 8BW",
+"region": "Hants"
+},
+"sic_codes": [
+"74902"
 ]
 },
 "coh:14896724": {
@@ -79111,6 +79533,26 @@
 "74909"
 ]
 },
+"name:corserv solutions": {
+"company_name": "CORSERV SOLUTIONS LIMITED",
+"company_number": "07737430",
+"company_status": "active",
+"date_of_creation": "2011-08-11",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Western Group Centre Radnor Road",
+"address_line_2": "Scorrier",
+"country": "England",
+"locality": "Redruth",
+"postal_code": "TR16 5EH",
+"region": "Cornwall"
+},
+"sic_codes": [
+"42110",
+"42990",
+"84120"
+]
+},
 "name:cosgarne hall": {
 "company_name": "COSGARNE HALL LIMITED",
 "company_number": "06725642",
@@ -82607,6 +83049,23 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"name:f w forestry": {
+"company_name": "F&W FORESTRY UK LIMITED",
+"company_number": "07910966",
+"company_status": "active",
+"date_of_creation": "2012-01-16",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Court Barn Highfield Farm, Clyst Road",
+"address_line_2": "Topsham",
+"country": "England",
+"locality": "Exeter",
+"postal_code": "EX3 0BY"
+},
+"sic_codes": [
+"02400"
+]
+},
 "name:fabrik": {
 "company_name": "FABRIK LIMITED",
 "company_number": "04583067",
@@ -85225,6 +85684,23 @@
 },
 "sic_codes": [
 "88990"
+]
+},
+"name:grower": {
+"company_name": "THE GROWER LTD",
+"company_number": "13299206",
+"company_status": "active",
+"date_of_creation": "2021-03-29",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Presingoll Farm",
+"address_line_2": "Penwinnick Road",
+"country": "England",
+"locality": "St Agnes",
+"postal_code": "TR5 0PB"
+},
+"sic_codes": [
+"01250"
 ]
 },
 "name:gsm": {
@@ -89087,6 +89563,23 @@
 },
 "sic_codes": [
 "43220"
+]
+},
+"name:k hill partners": {
+"company_name": "K HILL & PARTNERS LTD",
+"company_number": "07587017",
+"company_status": "active",
+"date_of_creation": "2011-03-31",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Primrose Cottage",
+"address_line_2": "Warleggan",
+"locality": "Bodmin",
+"postal_code": "PL30 4HB",
+"region": "Cornwall"
+},
+"sic_codes": [
+"81300"
 ]
 },
 "name:kaamil education": {
@@ -93839,6 +94332,24 @@
 "53201"
 ]
 },
+"name:nicholson nurseries": {
+"company_name": "NICHOLSON NURSERIES LIMITED",
+"company_number": "04820053",
+"company_status": "active",
+"date_of_creation": "2003-07-03",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "The Park",
+"address_line_2": "North Aston",
+"locality": "Bicester",
+"postal_code": "OX25 6HL",
+"region": "Oxfordshire"
+},
+"sic_codes": [
+"02400",
+"81300"
+]
+},
 "name:nicks taxis of boston": {
 "company_name": "NICKS TAXIS OF BOSTON LTD",
 "company_number": "14874559",
@@ -97109,6 +97620,23 @@
 "postal_code": "EC1A 9HP"
 },
 "sic_codes": []
+},
+"name:pryor rickett silviculture": {
+"company_name": "PRYOR & RICKETT SILVICULTURE LTD.",
+"company_number": "03499298",
+"company_status": "active",
+"date_of_creation": "1998-01-26",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "The Terminal",
+"address_line_2": "Aviation Way",
+"country": "England",
+"locality": "Carlisle",
+"postal_code": "CA6 4NZ"
+},
+"sic_codes": [
+"02100"
+]
 },
 "name:psyomics": {
 "company_name": "PSYOMICS LTD",
@@ -102162,6 +102690,24 @@
 "77320"
 ]
 },
+"name:suncombe": {
+"company_name": "SUNCOMBE LIMITED",
+"company_number": "00745960",
+"company_status": "active",
+"date_of_creation": "1963-01-03",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Suncombe House Unit B Woodside Industrial Estate",
+"address_line_2": "Dunmow Road",
+"country": "England",
+"locality": "Bishop's Stortford",
+"postal_code": "CM23 5RG",
+"region": "Hertfordshire"
+},
+"sic_codes": [
+"32990"
+]
+},
 "name:sunrise alternative provision": {
 "company_name": "SUNRISE ALTERNATIVE PROVISION LTD",
 "company_number": "17322588",
@@ -103526,6 +104072,25 @@
 "looked_up": "2026-11-23",
 "not_found": true
 },
+"name:tilhill forestry": {
+"company_name": "TILHILL FORESTRY LIMITED",
+"company_number": "03242286",
+"company_status": "active",
+"date_of_creation": "1996-08-27",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "3rd Floor 1 Ashley Road",
+"country": "United Kingdom",
+"locality": "Altrincham",
+"postal_code": "WA14 2DT",
+"region": "Cheshire"
+},
+"sic_codes": [
+"02100",
+"02200",
+"02400"
+]
+},
 "name:tinderbox scotland": {
 "company_name": "TINDERBOX (SCOTLAND) LIMITED",
 "company_number": "SC187434",
@@ -103953,6 +104518,24 @@
 },
 "sic_codes": [
 "88990"
+]
+},
+"name:treleaven countryside services": {
+"company_name": "TRELEAVEN COUNTRYSIDE SERVICES LIMITED",
+"company_number": "12162722",
+"company_status": "active",
+"date_of_creation": "2019-08-19",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "C/O Whyfield Truro Business Park",
+"address_line_2": "Threemilestone",
+"country": "United Kingdom",
+"locality": "Truro",
+"postal_code": "TR4 9LF",
+"region": "Cornwall"
+},
+"sic_codes": [
+"02100"
 ]
 },
 "name:tremorfa": {
@@ -104488,6 +105071,23 @@
 "name:tyger comms": {
 "looked_up": "2026-11-23",
 "not_found": true
+},
+"name:ua5": {
+"company_name": "UA5 LTD",
+"company_number": "14890849",
+"company_status": "active",
+"date_of_creation": "2023-05-24",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "28a The Hundred",
+"country": "England",
+"locality": "Romsey",
+"postal_code": "SO51 8BW",
+"region": "Hants"
+},
+"sic_codes": [
+"74902"
+]
 },
 "name:ubds": {
 "looked_up": "2026-11-23",
