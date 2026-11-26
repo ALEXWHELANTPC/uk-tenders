@@ -10442,6 +10442,24 @@
 "66290"
 ]
 },
+"coh:02261235": {
+"company_name": "BUXTON BUILDING CONTRACTORS LIMITED",
+"company_number": "02261235",
+"company_status": "active",
+"date_of_creation": "1988-05-23",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Cedar House",
+"address_line_2": "91 High Street",
+"country": "England",
+"locality": "Caterham",
+"postal_code": "CR3 5UX",
+"region": "Surrey"
+},
+"sic_codes": [
+"41100"
+]
+},
 "coh:02262473": {
 "company_name": "FARMSTAR LIMITED",
 "company_number": "02262473",
@@ -17528,6 +17546,24 @@
 "sic_codes": [
 "46510",
 "62090"
+]
+},
+"coh:03358898": {
+"company_name": "MACILDOWIE ASSOCIATES LIMITED",
+"company_number": "03358898",
+"company_status": "active",
+"date_of_creation": "1997-04-23",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Waterfront House",
+"address_line_2": "Station Street",
+"country": "England",
+"locality": "Nottingham",
+"postal_code": "NG2 3DQ"
+},
+"sic_codes": [
+"78109",
+"78200"
 ]
 },
 "coh:03362396": {
@@ -49780,6 +49816,26 @@
 },
 "sic_codes": [
 "62020"
+]
+},
+"coh:10989156": {
+"company_name": "THE PARENTING NETWORK C.I.C.",
+"company_number": "10989156",
+"company_status": "active",
+"date_of_creation": "2017-09-29",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "The Parenting Network 4, The Bridge Shopping Centre",
+"address_line_2": "Garnier Street",
+"country": "England",
+"locality": "Portsmouth",
+"postal_code": "PO1 1SD"
+},
+"sic_codes": [
+"63120",
+"73120",
+"82302",
+"85600"
 ]
 },
 "coh:11000925": {
@@ -91614,6 +91670,24 @@
 },
 "sic_codes": [
 "71111"
+]
+},
+"name:macildowie associates": {
+"company_name": "MACILDOWIE ASSOCIATES LIMITED",
+"company_number": "03358898",
+"company_status": "active",
+"date_of_creation": "1997-04-23",
+"looked_up": "2026-11-26",
+"registered_office": {
+"address_line_1": "Waterfront House",
+"address_line_2": "Station Street",
+"country": "England",
+"locality": "Nottingham",
+"postal_code": "NG2 3DQ"
+},
+"sic_codes": [
+"78109",
+"78200"
 ]
 },
 "name:mackenzie construction": {
