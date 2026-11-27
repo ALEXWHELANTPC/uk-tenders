@@ -24452,6 +24452,24 @@
 "70100"
 ]
 },
+"coh:04421970": {
+"company_name": "JOURNEY4 LIMITED",
+"company_number": "04421970",
+"company_status": "active",
+"date_of_creation": "2002-04-22",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Blake House",
+"address_line_2": "18 Blake Street",
+"country": "England",
+"locality": "York",
+"postal_code": "YO1 8QG",
+"region": "North Yorkshire"
+},
+"sic_codes": [
+"70229"
+]
+},
 "coh:04423957": {
 "company_name": "SENATE MECH LIMITED",
 "company_number": "04423957",
@@ -29981,6 +29999,10 @@
 "sic_codes": [
 "47749"
 ]
+},
+"coh:0557725": {
+"looked_up": "2026-11-27",
+"not_found": true
 },
 "coh:05586132": {
 "company_name": "STEN 10 LIMITED",
@@ -43100,6 +43122,27 @@
 "86900"
 ]
 },
+"coh:08743656": {
+"company_name": "EVERY PROJECT COUNTS LTD",
+"company_number": "08743656",
+"company_status": "active",
+"date_of_creation": "2013-10-22",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "The Old Granary",
+"address_line_2": "Dunton Road",
+"country": "England",
+"locality": "Laindon",
+"postal_code": "SS15 4DB",
+"region": "Essex"
+},
+"sic_codes": [
+"41100",
+"43210",
+"43220",
+"43342"
+]
+},
 "coh:08744123": {
 "company_name": "HOME SUPPORT SERVICES (HAVERING & ESSEX) LIMITED",
 "company_number": "08744123",
@@ -47589,6 +47632,24 @@
 "62020"
 ]
 },
+"coh:10122736": {
+"company_name": "MUNNINGS CONSTRUCTION LIMITED",
+"company_number": "10122736",
+"company_status": "active",
+"date_of_creation": "2016-04-13",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "1 Munnings Court",
+"address_line_2": "Harfreys Road",
+"country": "England",
+"locality": "Great Yarmouth",
+"postal_code": "NR31 0LS"
+},
+"sic_codes": [
+"41201",
+"42990"
+]
+},
 "coh:10131408": {
 "company_name": "ONE STOP PHARMACY LIMITED",
 "company_number": "10131408",
@@ -49920,6 +49981,10 @@
 "sic_codes": [
 "81210"
 ]
+},
+"coh:1090741": {
+"looked_up": "2026-11-27",
+"not_found": true
 },
 "coh:10910014": {
 "company_name": "ANYTHING IS POSSIBLE MEDIA LIMITED",
@@ -63653,6 +63718,10 @@
 },
 "coh:6982573": {
 "looked_up": "2026-11-23",
+"not_found": true
+},
+"coh:7280981": {
+"looked_up": "2026-11-27",
 "not_found": true
 },
 "coh:755349015": {
