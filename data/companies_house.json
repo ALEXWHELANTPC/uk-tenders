@@ -10879,6 +10879,24 @@
 "70229"
 ]
 },
+"coh:02209142": {
+"company_name": "GILSON SCIENTIFIC LIMITED",
+"company_number": "02209142",
+"company_status": "active",
+"date_of_creation": "1987-12-29",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "3b Humphrys Road",
+"address_line_2": "Woodside Estate",
+"country": "England",
+"locality": "Dunstable",
+"postal_code": "LU5 4TP"
+},
+"sic_codes": [
+"33140",
+"46180"
+]
+},
 "coh:02212959": {
 "company_name": "ARCADIS CONSULTING (UK) LIMITED",
 "company_number": "02212959",
@@ -93776,6 +93794,10 @@
 "sic_codes": [
 "61900"
 ]
+},
+"name:garage commercial": {
+"looked_up": "2026-11-27",
+"not_found": true
 },
 "name:gardaworld": {
 "looked_up": "2026-11-24",
