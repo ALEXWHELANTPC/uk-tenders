@@ -744,6 +744,26 @@
 "45111"
 ]
 },
+"coh:00242246": {
+"company_name": "SERCO LIMITED",
+"company_number": "00242246",
+"company_status": "active",
+"date_of_creation": "1929-09-10",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Serco House",
+"address_line_2": "16 Bartley Wood Business Park",
+"locality": "Bartley Way Hook",
+"postal_code": "RG27 9UY",
+"region": "Hampshire"
+},
+"sic_codes": [
+"70100",
+"70229",
+"72190",
+"84110"
+]
+},
 "coh:00242437": {
 "company_name": "MORLEYS (BICESTER) LTD",
 "company_number": "00242437",
@@ -1823,6 +1843,23 @@
 "sic_codes": [
 "46520",
 "84220"
+]
+},
+"coh:00551102": {
+"company_name": "BRISTOW HELICOPTERS LIMITED",
+"company_number": "00551102",
+"company_status": "active",
+"date_of_creation": "1955-06-24",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Redhill Aerodrome",
+"address_line_2": "Kings Mill Lane",
+"locality": "Redhill",
+"postal_code": "RH1 5JZ",
+"region": "Surrey"
+},
+"sic_codes": [
+"51102"
 ]
 },
 "coh:00553594": {
@@ -53500,6 +53537,23 @@
 "74901"
 ]
 },
+"coh:12202165": {
+"company_name": "VERITAS IMAGERY SERVICES LTD",
+"company_number": "12202165",
+"company_status": "active",
+"date_of_creation": "2019-09-11",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "163 Clarence Road",
+"country": "United Kingdom",
+"locality": "Windsor",
+"postal_code": "SL4 5AP"
+},
+"sic_codes": [
+"62020",
+"74909"
+]
+},
 "coh:12210861": {
 "company_name": "MONEY CARER SERVICES LIMITED",
 "company_number": "12210861",
@@ -76835,6 +76889,23 @@
 },
 "sic_codes": [
 "43210"
+]
+},
+"name:bristow helicopters": {
+"company_name": "BRISTOW HELICOPTERS LIMITED",
+"company_number": "00551102",
+"company_status": "active",
+"date_of_creation": "1955-06-24",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Redhill Aerodrome",
+"address_line_2": "Kings Mill Lane",
+"locality": "Redhill",
+"postal_code": "RH1 5JZ",
+"region": "Surrey"
+},
+"sic_codes": [
+"51102"
 ]
 },
 "name:britannia cabs": {
@@ -101148,6 +101219,26 @@
 "74901"
 ]
 },
+"name:serco": {
+"company_name": "SERCO LIMITED",
+"company_number": "00242246",
+"company_status": "active",
+"date_of_creation": "1929-09-10",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Serco House",
+"address_line_2": "16 Bartley Wood Business Park",
+"locality": "Bartley Way Hook",
+"postal_code": "RG27 9UY",
+"region": "Hampshire"
+},
+"sic_codes": [
+"70100",
+"70229",
+"72190",
+"84110"
+]
+},
 "name:serosep": {
 "company_name": "SEROSEP UK LIMITED",
 "company_number": "08096199",
@@ -106525,6 +106616,23 @@
 },
 "sic_codes": [
 "73200"
+]
+},
+"name:veritas imagery services": {
+"company_name": "VERITAS IMAGERY SERVICES LTD",
+"company_number": "12202165",
+"company_status": "active",
+"date_of_creation": "2019-09-11",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "163 Clarence Road",
+"country": "United Kingdom",
+"locality": "Windsor",
+"postal_code": "SL4 5AP"
+},
+"sic_codes": [
+"62020",
+"74909"
 ]
 },
 "name:vernacare international": {
