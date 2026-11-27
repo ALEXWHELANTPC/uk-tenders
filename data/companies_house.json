@@ -52145,6 +52145,24 @@
 "70210"
 ]
 },
+"coh:11601435": {
+"company_name": "GREENSLADES TOURS (EXETER) LTD",
+"company_number": "11601435",
+"company_status": "active",
+"date_of_creation": "2018-10-03",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Unit 19 Greendale Business Park",
+"address_line_2": "Woodbury Salterton",
+"country": "United Kingdom",
+"locality": "Exeter",
+"postal_code": "EX5 1EW",
+"region": "Devon"
+},
+"sic_codes": [
+"49390"
+]
+},
 "coh:11607921": {
 "company_name": "CO-WHEELS UK LIMITED",
 "company_number": "11607921",
@@ -86325,6 +86343,24 @@
 "sic_codes": [
 "02400",
 "82990"
+]
+},
+"name:greenslades tours exeter": {
+"company_name": "GREENSLADES TOURS (EXETER) LTD",
+"company_number": "11601435",
+"company_status": "active",
+"date_of_creation": "2018-10-03",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Unit 19 Greendale Business Park",
+"address_line_2": "Woodbury Salterton",
+"country": "United Kingdom",
+"locality": "Exeter",
+"postal_code": "EX5 1EW",
+"region": "Devon"
+},
+"sic_codes": [
+"49390"
 ]
 },
 "name:greentown traffic management": {
