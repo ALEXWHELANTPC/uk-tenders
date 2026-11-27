@@ -15059,6 +15059,23 @@
 "65202"
 ]
 },
+"coh:02857721": {
+"company_name": "SOMERSET LANDSCAPES LIMITED",
+"company_number": "02857721",
+"company_status": "active",
+"date_of_creation": "1993-09-28",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Unit 5 Bardel Court Edward Close",
+"address_line_2": "Houndstone Business Park",
+"locality": "Yeovil",
+"postal_code": "BA22 8RU",
+"region": "Somerset"
+},
+"sic_codes": [
+"81300"
+]
+},
 "coh:02858916": {
 "company_name": "QIAGEN LIMITED",
 "company_number": "02858916",
@@ -30256,6 +30273,23 @@
 },
 "sic_codes": [
 "16230"
+]
+},
+"coh:05157494": {
+"company_name": "MITCHELL & CO BUILDING SERVICES LIMITED",
+"company_number": "05157494",
+"company_status": "active",
+"date_of_creation": "2004-06-18",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Unit 19 Dragon Court",
+"address_line_2": "Crofts End Road",
+"country": "United Kingdom",
+"locality": "Bristol",
+"postal_code": "BS5 7XX"
+},
+"sic_codes": [
+"43390"
 ]
 },
 "coh:05157754": {
