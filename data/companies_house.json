@@ -16663,6 +16663,22 @@
 "62090"
 ]
 },
+"coh:03041587": {
+"company_name": "THE SOMERSET GAS CO. LIMITED",
+"company_number": "03041587",
+"company_status": "active",
+"date_of_creation": "1995-04-04",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "4 King Square",
+"address_line_2": "Bridgwater",
+"locality": "Somerset",
+"postal_code": "TA6 3YF"
+},
+"sic_codes": [
+"43220"
+]
+},
 "coh:03043412": {
 "company_name": "ECOTRICITY LIMITED",
 "company_number": "03043412",
@@ -24208,6 +24224,24 @@
 },
 "sic_codes": [
 "82990"
+]
+},
+"coh:04118184": {
+"company_name": "TONY BENGER LANDSCAPING LIMITED",
+"company_number": "04118184",
+"company_status": "active",
+"date_of_creation": "2000-12-01",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Dalwood Hill Nursery",
+"address_line_2": "Dalwood",
+"country": "United Kingdom",
+"locality": "Axminster",
+"postal_code": "EX13 7ES",
+"region": "Devon"
+},
+"sic_codes": [
+"81300"
 ]
 },
 "coh:04120163": {
@@ -58268,6 +58302,23 @@
 "74990"
 ]
 },
+"coh:12130710": {
+"company_name": "SOURCE ELECTRICAL SERVICES LIMITED",
+"company_number": "12130710",
+"company_status": "active",
+"date_of_creation": "2019-07-31",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "46 Boulevard Boulevard",
+"country": "England",
+"locality": "Weston-Super-Mare",
+"postal_code": "BS23 1NF"
+},
+"sic_codes": [
+"33140",
+"43210"
+]
+},
 "coh:12130809": {
 "company_name": "UNITE FIRE AND SECURITY COMPANY LIMITED",
 "company_number": "12130809",
@@ -75282,6 +75333,23 @@
 },
 "sic_codes": [
 "73200"
+]
+},
+"coh:SC157532": {
+"company_name": "PLM DOLLAR GROUP LIMITED",
+"company_number": "SC157532",
+"company_status": "active",
+"date_of_creation": "1995-04-20",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "The Heliport",
+"address_line_2": "Dalcross Industrial Estate",
+"locality": "Inverness",
+"postal_code": "IV2 7XB",
+"region": "Inverness Shire"
+},
+"sic_codes": [
+"51102"
 ]
 },
 "coh:SC157534": {
@@ -111973,6 +112041,23 @@
 },
 "sic_codes": [
 "62012"
+]
+},
+"name:source electrical services": {
+"company_name": "SOURCE ELECTRICAL SERVICES LIMITED",
+"company_number": "12130710",
+"company_status": "active",
+"date_of_creation": "2019-07-31",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "46 Boulevard Boulevard",
+"country": "England",
+"locality": "Weston-Super-Mare",
+"postal_code": "BS23 1NF"
+},
+"sic_codes": [
+"33140",
+"43210"
 ]
 },
 "name:sourcefolio": {
