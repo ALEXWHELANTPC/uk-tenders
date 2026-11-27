@@ -1,31 +1,31 @@
 {
   "sources": {
     "contracts_finder": {
-      "last_success": "2026-11-27T15:15:15",
-      "covered_to": "2026-11-27T15:15:15"
+      "last_success": "2026-11-27T16:15:13",
+      "covered_to": "2026-11-27T16:15:13"
     },
     "public_contracts_scotland": {
       "last_success": "2026-11-27T13:15:13",
       "covered_to": "2026-11-27T13:15:13"
     },
     "sell2wales": {
-      "last_failure": "2026-11-27T15:15:15"
+      "last_failure": "2026-11-27T16:15:13"
     },
     "find_a_tender": {
-      "last_success": "2026-11-27T15:15:15",
-      "covered_to": "2026-11-27T15:15:15"
+      "last_success": "2026-11-27T16:15:13",
+      "covered_to": "2026-11-27T16:15:13"
     }
   },
-  "last_run": "2026-11-27T15:15:15",
+  "last_run": "2026-11-27T16:15:13",
   "last_totals": {
     "Contracts Finder": {
       "pages": 1,
       "errors": 0,
-      "releases": 51,
-      "new": 25,
+      "releases": 61,
+      "new": 26,
       "updated": 0,
       "partial": false,
-      "covered_to": "2026-11-27T15:15:15"
+      "covered_to": "2026-11-27T16:15:13"
     },
     "Sell2Wales": {
       "pages": 0,
@@ -38,16 +38,16 @@
     "Find a Tender": {
       "pages": 2,
       "errors": 0,
-      "releases": 135,
-      "new": 58,
+      "releases": 141,
+      "new": 51,
       "updated": 0,
       "partial": false,
-      "covered_to": "2026-11-27T15:15:15"
+      "covered_to": "2026-11-27T16:15:13"
     }
   },
   "last_portal": {
     "enabled": true,
-    "notices": 83,
+    "notices": 77,
     "profiles": 33,
     "matches": 2
   }
