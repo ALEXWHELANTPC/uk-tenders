@@ -2021,6 +2021,23 @@
 "46900"
 ]
 },
+"coh:00576970": {
+"company_name": "NUFFIELD HEALTH",
+"company_number": "00576970",
+"company_status": "active",
+"date_of_creation": "1957-01-14",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Epsom Gateway",
+"address_line_2": "Ashley Avenue",
+"locality": "Epsom",
+"postal_code": "KT18 5AL",
+"region": "Surrey"
+},
+"sic_codes": [
+"86900"
+]
+},
 "coh:00582735": {
 "company_name": "JOSEPH GLEAVE & SON LIMITED",
 "company_number": "00582735",
@@ -4396,7 +4413,7 @@
 "company_number": "01070807",
 "company_status": "active",
 "date_of_creation": "1972-09-08",
-"looked_up": "2026-11-23",
+"looked_up": "2026-11-27",
 "registered_office": {
 "address_line_1": "Building 9 Croxley Park",
 "address_line_2": "Hatters Lane",
@@ -5182,6 +5199,22 @@
 },
 "sic_codes": [
 "43210"
+]
+},
+"coh:01210694": {
+"company_name": "OLYMPUS KEYMED GROUP LIMITED",
+"company_number": "01210694",
+"company_status": "active",
+"date_of_creation": "1975-05-02",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Keymed House",
+"address_line_2": "Stock Road",
+"locality": "Southend-On-Sea",
+"postal_code": "SS2 5QH"
+},
+"sic_codes": [
+"70100"
 ]
 },
 "coh:01227919": {
@@ -8641,6 +8674,24 @@
 "84110"
 ]
 },
+"coh:01929421": {
+"company_name": "CENTREPOINT SOHO",
+"company_number": "01929421",
+"company_status": "active",
+"date_of_creation": "1985-07-09",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "The Rowe",
+"address_line_2": "60 Whitechapel High Street",
+"country": "England",
+"locality": "London",
+"postal_code": "E1 7PF"
+},
+"sic_codes": [
+"85590",
+"87900"
+]
+},
 "coh:01932827": {
 "company_name": "VWR INTERNATIONAL LTD",
 "company_number": "01932827",
@@ -8877,6 +8928,23 @@
 },
 "sic_codes": [
 "45310"
+]
+},
+"coh:01977118": {
+"company_name": "SALTASH ENTERPRISES LIMITED",
+"company_number": "01977118",
+"company_status": "active",
+"date_of_creation": "1986-01-14",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "110-116 Ormside Street",
+"address_line_2": "London",
+"postal_code": "SE15 1TF"
+},
+"sic_codes": [
+"41100",
+"41201",
+"41202"
 ]
 },
 "coh:01977948": {
@@ -9716,6 +9784,24 @@
 },
 "sic_codes": [
 "88100"
+]
+},
+"coh:02121580": {
+"company_name": "MICAD SYSTEMS (U.K.) LIMITED",
+"company_number": "02121580",
+"company_status": "active",
+"date_of_creation": "1987-04-09",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "G39 Two Four Nine North",
+"address_line_2": "Church Street",
+"country": "England",
+"locality": "Altrincham",
+"postal_code": "WA14 4DZ",
+"region": "Cheshire"
+},
+"sic_codes": [
+"62030"
 ]
 },
 "coh:02125263": {
@@ -11193,6 +11279,22 @@
 "87300"
 ]
 },
+"coh:02376772": {
+"company_name": "PROCTOR HEATING SERVICES LIMITED",
+"company_number": "02376772",
+"company_status": "active",
+"date_of_creation": "1989-04-27",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Culvert House",
+"address_line_2": "4 Whiting Street",
+"locality": "Sheffield",
+"postal_code": "S8 9QR"
+},
+"sic_codes": [
+"43220"
+]
+},
 "coh:02379469": {
 "company_name": "BAM CONSTRUCTION LIMITED",
 "company_number": "02379469",
@@ -11225,6 +11327,23 @@
 "sic_codes": [
 "70100",
 "84110"
+]
+},
+"coh:02380900": {
+"company_name": "G4S SECURITY SERVICES (UK) LIMITED",
+"company_number": "02380900",
+"company_status": "active",
+"date_of_creation": "1989-05-08",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "50 Broadway",
+"address_line_2": "6th Floor",
+"country": "England",
+"locality": "London",
+"postal_code": "SW1H 0BD"
+},
+"sic_codes": [
+"80100"
 ]
 },
 "coh:02381778": {
@@ -17362,6 +17481,24 @@
 "64921"
 ]
 },
+"coh:03282255": {
+"company_name": "INCAP ELECTRONICS UK LTD",
+"company_number": "03282255",
+"company_status": "active",
+"date_of_creation": "1996-11-21",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Incap Holdings Uk",
+"address_line_2": "Croft Road Industrial Estate",
+"country": "England",
+"locality": "Newcastle",
+"postal_code": "ST5 0TW"
+},
+"sic_codes": [
+"26120",
+"27320"
+]
+},
 "coh:03283032": {
 "company_name": "BECHTLE LIMITED",
 "company_number": "03283032",
@@ -17709,6 +17846,23 @@
 },
 "sic_codes": [
 "43999"
+]
+},
+"coh:03323040": {
+"company_name": "POHWER",
+"company_number": "03323040",
+"company_status": "active",
+"date_of_creation": "1997-02-24",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Suite 4 Middlesex House",
+"address_line_2": "Meadway Corporate Centre",
+"country": "England",
+"locality": "Stevenage",
+"postal_code": "SG1 2EF"
+},
+"sic_codes": [
+"96090"
 ]
 },
 "coh:03323244": {
@@ -19056,6 +19210,24 @@
 "86900"
 ]
 },
+"coh:03515119": {
+"company_name": "FENLAND LEISURE PRODUCTS LIMITED",
+"company_number": "03515119",
+"company_status": "active",
+"date_of_creation": "1998-02-23",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Fenland House Padgetts Road",
+"address_line_2": "Christchurch",
+"locality": "Wisbech",
+"postal_code": "PE14 9PJ",
+"region": "Cambridgeshire"
+},
+"sic_codes": [
+"16290",
+"96040"
+]
+},
 "coh:03517171": {
 "company_name": "DGP INTELSIUS LIMITED",
 "company_number": "03517171",
@@ -19783,6 +19955,23 @@
 },
 "sic_codes": [
 "62090"
+]
+},
+"coh:03645998": {
+"company_name": "ADVANIA UK LIMITED",
+"company_number": "03645998",
+"company_status": "active",
+"date_of_creation": "1998-10-07",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Lowry Mill Lees Street",
+"address_line_2": "Swinton",
+"country": "England",
+"locality": "Manchester",
+"postal_code": "M27 6DB"
+},
+"sic_codes": [
+"62020"
 ]
 },
 "coh:03647770": {
@@ -21659,6 +21848,23 @@
 "sic_codes": [
 "62012",
 "62020"
+]
+},
+"coh:03925802": {
+"company_name": "SOLARSENSE (UK) LTD",
+"company_number": "03925802",
+"company_status": "active",
+"date_of_creation": "2000-02-15",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Unit 1a Tweed Road Industrial Estate",
+"address_line_2": "Tweed Road",
+"country": "England",
+"locality": "Clevedon",
+"postal_code": "BS21 6RR"
+},
+"sic_codes": [
+"43210"
 ]
 },
 "coh:03927808": {
@@ -24028,6 +24234,24 @@
 "locality": "Hailsham",
 "postal_code": "BN27 1DW",
 "region": "East Sussex"
+},
+"sic_codes": [
+"62090"
+]
+},
+"coh:04253883": {
+"company_name": "E.NOVATION UK LIMITED",
+"company_number": "04253883",
+"company_status": "active",
+"date_of_creation": "2001-07-17",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "17 Link 665 Business Centre Todd Hall Road",
+"address_line_2": "Haslingden",
+"country": "England",
+"locality": "Rossendale",
+"postal_code": "BB4 5HU",
+"region": "Lancashire"
 },
 "sic_codes": [
 "62090"
@@ -31762,6 +31986,23 @@
 "79909"
 ]
 },
+"coh:05846041": {
+"company_name": "OPTEGRA UK LIMITED",
+"company_number": "05846041",
+"company_status": "active",
+"date_of_creation": "2006-06-14",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "7 The Technology Park",
+"address_line_2": "Colindeep Lane",
+"country": "United Kingdom",
+"locality": "London",
+"postal_code": "NW9 6BX"
+},
+"sic_codes": [
+"86101"
+]
+},
 "coh:05848184": {
 "company_name": "CAPITAL PROPERTY & CONSTRUCTION CONSULTANTS LTD",
 "company_number": "05848184",
@@ -32400,6 +32641,24 @@
 "79110"
 ]
 },
+"coh:05994921": {
+"company_name": "ON A ROLL SANDWICH COMPANY LIMITED",
+"company_number": "05994921",
+"company_status": "active",
+"date_of_creation": "2006-11-10",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "The Pantry",
+"address_line_2": "Barton Road",
+"country": "England",
+"locality": "Middlesbrough",
+"postal_code": "TS2 1RY",
+"region": "Cleveland"
+},
+"sic_codes": [
+"10890"
+]
+},
 "coh:05997039": {
 "company_name": "THE INNOVATION UNIT LIMITED",
 "company_number": "05997039",
@@ -32878,6 +33137,25 @@
 },
 "sic_codes": [
 "74300"
+]
+},
+"coh:06211226": {
+"company_name": "NEW MEDICAL SYSTEMS LIMITED",
+"company_number": "06211226",
+"company_status": "active",
+"date_of_creation": "2007-04-12",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Forum 6, Parkway",
+"address_line_2": "Solent Business Park, Whiteley",
+"country": "England",
+"locality": "Fareham",
+"postal_code": "PO15 7PA",
+"region": "Hampshire"
+},
+"sic_codes": [
+"86101",
+"86220"
 ]
 },
 "coh:06215448": {
@@ -34869,6 +35147,23 @@
 "sic_codes": [
 "42220",
 "43210"
+]
+},
+"coh:06644293": {
+"company_name": "SPAMEDICA LTD",
+"company_number": "06644293",
+"company_status": "active",
+"date_of_creation": "2008-07-11",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Spamedica House",
+"address_line_2": "43 Churchgate",
+"country": "England",
+"locality": "Bolton",
+"postal_code": "BL1 1HU"
+},
+"sic_codes": [
+"86210"
 ]
 },
 "coh:06647372": {
@@ -38460,6 +38755,23 @@
 "63110"
 ]
 },
+"coh:07361325": {
+"company_name": "T 2 DIGITAL LIMITED",
+"company_number": "07361325",
+"company_status": "active",
+"date_of_creation": "2010-08-31",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "1 Church Terrace",
+"country": "England",
+"locality": "Yeovil",
+"postal_code": "BA20 1HX",
+"region": "Somerset"
+},
+"sic_codes": [
+"43210"
+]
+},
 "coh:07364847": {
 "company_name": "DIAMOND RAIL SERVICES (UK) LIMITED",
 "company_number": "07364847",
@@ -39180,6 +39492,24 @@
 "29320",
 "41201",
 "68209"
+]
+},
+"coh:07524601": {
+"company_name": "G B SPORT & LEISURE U K LIMITED",
+"company_number": "07524601",
+"company_status": "active",
+"date_of_creation": "2011-02-10",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Unit 8 Oakwood Business Park",
+"address_line_2": "Oldmixon Cresent",
+"country": "United Kingdom",
+"locality": "Weston-Super-Mare",
+"postal_code": "BS24 9AY",
+"region": "North Somerset"
+},
+"sic_codes": [
+"93199"
 ]
 },
 "coh:07534018": {
@@ -39962,6 +40292,23 @@
 "70229"
 ]
 },
+"coh:07724061": {
+"company_name": "ESKER CONTRACTS LTD",
+"company_number": "07724061",
+"company_status": "active",
+"date_of_creation": "2011-08-01",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Mulholland & Co The Old Bakery 3a King Street",
+"address_line_2": "Delph",
+"country": "England",
+"locality": "Oldham",
+"postal_code": "OL3 5DL"
+},
+"sic_codes": [
+"43290"
+]
+},
 "coh:07727357": {
 "company_name": "HEIDELBERG ENGINEERING LIMITED",
 "company_number": "07727357",
@@ -40104,6 +40451,22 @@
 },
 "sic_codes": [
 "41202"
+]
+},
+"coh:07758138": {
+"company_name": "PINFOLD PROJECTS LTD",
+"company_number": "07758138",
+"company_status": "active",
+"date_of_creation": "2011-08-31",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "28 George Street",
+"country": "England",
+"locality": "Lutterworth",
+"postal_code": "LE17 4EE"
+},
+"sic_codes": [
+"42990"
 ]
 },
 "coh:07759098": {
@@ -43227,6 +43590,23 @@
 "74901"
 ]
 },
+"coh:08491440": {
+"company_name": "NEXUS PLANNING LIMITED",
+"company_number": "08491440",
+"company_status": "active",
+"date_of_creation": "2013-04-16",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Holmes House",
+"address_line_2": "Pear Place",
+"country": "England",
+"locality": "London",
+"postal_code": "SE1 8BT"
+},
+"sic_codes": [
+"71112"
+]
+},
 "coh:08495463": {
 "company_name": "SOUTH WEST PENINSULA AHSN LIMITED",
 "company_number": "08495463",
@@ -43607,6 +43987,27 @@
 "sic_codes": [
 "78109",
 "78200"
+]
+},
+"coh:08617088": {
+"company_name": "KORTEXT LIMITED",
+"company_number": "08617088",
+"company_status": "active",
+"date_of_creation": "2013-07-19",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "2nd Floor, Loewy House Aviation Park West",
+"address_line_2": "Hurn",
+"country": "England",
+"locality": "Christchurch",
+"postal_code": "BH23 6EW",
+"region": "Dorset"
+},
+"sic_codes": [
+"62012",
+"85310",
+"85410",
+"85422"
 ]
 },
 "coh:08618084": {
@@ -47031,6 +47432,25 @@
 "62090"
 ]
 },
+"coh:09584192": {
+"company_name": "JAMES ROOFING & CONSTRUCTION LTD",
+"company_number": "09584192",
+"company_status": "active",
+"date_of_creation": "2015-05-11",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Allington House Arksesden Road",
+"address_line_2": "Arksesden",
+"country": "England",
+"locality": "Saffron Walden,",
+"postal_code": "CB11 4QU",
+"region": "Essex"
+},
+"sic_codes": [
+"41201",
+"43910"
+]
+},
 "coh:09587075": {
 "company_name": "CLEARVIEW RESEARCH LTD",
 "company_number": "09587075",
@@ -47718,6 +48138,23 @@
 },
 "sic_codes": [
 "74909"
+]
+},
+"coh:09800904": {
+"company_name": "ALGAR GROUNDWORKS LIMITED",
+"company_number": "09800904",
+"company_status": "active",
+"date_of_creation": "2015-09-30",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "20 Pant Y Felin Road",
+"address_line_2": "Pontarddulais",
+"country": "Wales",
+"locality": "Swansea",
+"postal_code": "SA4 8QA"
+},
+"sic_codes": [
+"43120"
 ]
 },
 "coh:09801932": {
@@ -51674,6 +52111,26 @@
 "74909"
 ]
 },
+"coh:11082308": {
+"company_name": "RHINO SENSORY UK LIMITED",
+"company_number": "11082308",
+"company_status": "active",
+"date_of_creation": "2017-11-24",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Spitfire House Unit 15, Airfield Road",
+"address_line_2": "Wardle",
+"country": "England",
+"locality": "Nantwich",
+"postal_code": "CW5 6LQ"
+},
+"sic_codes": [
+"31090",
+"43320",
+"47910",
+"47990"
+]
+},
 "coh:11083142": {
 "company_name": "INTOMOVE LTD",
 "company_number": "11083142",
@@ -55592,6 +56049,22 @@
 "74901"
 ]
 },
+"coh:12456027": {
+"company_name": "FAST CABS IPSWICH LTD",
+"company_number": "12456027",
+"company_status": "active",
+"date_of_creation": "2020-02-11",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "115 Burrell Road",
+"country": "England",
+"locality": "Ipswich",
+"postal_code": "IP2 8AE"
+},
+"sic_codes": [
+"49320"
+]
+},
 "coh:12456390": {
 "company_name": "SERIOS GROUP LIMITED",
 "company_number": "12456390",
@@ -56898,6 +57371,24 @@
 "90030"
 ]
 },
+"coh:13045428": {
+"company_name": "GREYSTONE & MASON LIMITED",
+"company_number": "13045428",
+"company_status": "active",
+"date_of_creation": "2020-11-26",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "The Old Sawmill Letton Road",
+"address_line_2": "Shipdham",
+"country": "England",
+"locality": "Thetford",
+"postal_code": "IP25 7NG",
+"region": "Norfolk"
+},
+"sic_codes": [
+"41100"
+]
+},
 "coh:13055757": {
 "company_name": "JFRAIL CONSULTING LTD",
 "company_number": "13055757",
@@ -57054,6 +57545,27 @@
 },
 "sic_codes": [
 "74901"
+]
+},
+"coh:13117128": {
+"company_name": "LONDON FIRE SOLUTIONS LIMITED",
+"company_number": "13117128",
+"company_status": "active",
+"date_of_creation": "2021-01-06",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Pentland House",
+"address_line_2": "Saracen Close",
+"country": "United Kingdom",
+"locality": "Gillingham",
+"postal_code": "ME8 0QN",
+"region": "Kent"
+},
+"sic_codes": [
+"16230",
+"43290",
+"43320",
+"43999"
 ]
 },
 "coh:13141201": {
@@ -57561,6 +58073,22 @@
 },
 "sic_codes": [
 "71129"
+]
+},
+"coh:13252178": {
+"company_name": "GOSLINGS CONSTRUCTION LTD",
+"company_number": "13252178",
+"company_status": "active",
+"date_of_creation": "2021-03-08",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "112 Weavers Close",
+"country": "England",
+"locality": "Eastbourne",
+"postal_code": "BN21 2BH"
+},
+"sic_codes": [
+"43290"
 ]
 },
 "coh:13259272": {
@@ -58271,6 +58799,22 @@
 "86900",
 "93130",
 "96040"
+]
+},
+"coh:13593644": {
+"company_name": "INTEGRATED BUSINESS SOFTWARE AND SOLUTIONS LIMITED",
+"company_number": "13593644",
+"company_status": "active",
+"date_of_creation": "2021-08-31",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "11 Buckingham Street",
+"country": "England",
+"locality": "London",
+"postal_code": "WC2N 6DF"
+},
+"sic_codes": [
+"62012"
 ]
 },
 "coh:13596369": {
@@ -60981,6 +61525,23 @@
 "78109"
 ]
 },
+"coh:14835711": {
+"company_name": "WOODWORKX LTD",
+"company_number": "14835711",
+"company_status": "active",
+"date_of_creation": "2023-04-30",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "5 Alderley Close",
+"locality": "Northampton",
+"postal_code": "NN5 6XG",
+"region": "Northamptonshire"
+},
+"sic_codes": [
+"16230",
+"31020"
+]
+},
 "coh:14846754": {
 "company_name": "INFINITY CABS TRANSPORT SERVICES LTD",
 "company_number": "14846754",
@@ -61166,6 +61727,23 @@
 },
 "sic_codes": [
 "90030"
+]
+},
+"coh:14897820": {
+"company_name": "MANVERS MAIN CONSTRUCTION LIMITED",
+"company_number": "14897820",
+"company_status": "active",
+"date_of_creation": "2023-05-26",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Unit 3 Cen2ury Business Centre",
+"address_line_2": "Dearne Lane",
+"country": "England",
+"locality": "Rotherham",
+"postal_code": "S63 5DP"
+},
+"sic_codes": [
+"41202"
 ]
 },
 "coh:14900402": {
@@ -65596,6 +66174,20 @@
 "date_of_creation": "2014-12-01",
 "looked_up": "2026-11-23",
 "registered_office": {},
+"sic_codes": []
+},
+"coh:FC032575": {
+"company_name": "SUMMIT AIR",
+"company_number": "FC032575",
+"company_status": "active",
+"date_of_creation": "2015-06-01",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "8199400 CANADA INC,",
+"address_line_2": "27 Yellowknife Airport",
+"country": "Canada",
+"locality": "Yellowknife Nt X1a 3t2"
+},
 "sic_codes": []
 },
 "coh:FC033034": {
@@ -70900,6 +71492,24 @@
 "71122"
 ]
 },
+"coh:SC235718": {
+"company_name": "LA INTERNATIONAL LTD",
+"company_number": "SC235718",
+"company_status": "active",
+"date_of_creation": "2002-08-21",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "19 St. Vincent Place",
+"address_line_2": "Ground Floor, Queens House",
+"country": "Scotland",
+"locality": "Glasgow",
+"postal_code": "G1 2DT"
+},
+"sic_codes": [
+"78109",
+"78200"
+]
+},
 "coh:SC235839": {
 "company_name": "CARLYLE ASSOCIATES LIMITED",
 "company_number": "SC235839",
@@ -75285,6 +75895,23 @@
 "43341"
 ]
 },
+"name:algar groundworks": {
+"company_name": "ALGAR GROUNDWORKS LIMITED",
+"company_number": "09800904",
+"company_status": "active",
+"date_of_creation": "2015-09-30",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "20 Pant Y Felin Road",
+"address_line_2": "Pontarddulais",
+"country": "Wales",
+"locality": "Swansea",
+"postal_code": "SA4 8QA"
+},
+"sic_codes": [
+"43120"
+]
+},
 "name:all day cars": {
 "company_name": "ALL DAY CARS LTD",
 "company_number": "13327715",
@@ -76257,6 +76884,10 @@
 "46760",
 "82990"
 ]
+},
+"name:aris quintana nedelcos qninv": {
+"looked_up": "2026-11-27",
+"not_found": true
 },
 "name:aristi": {
 "company_name": "ARISTI LIMITED",
@@ -85766,6 +86397,22 @@
 "62090"
 ]
 },
+"name:fast cabs ipswich": {
+"company_name": "FAST CABS IPSWICH LTD",
+"company_number": "12456027",
+"company_status": "active",
+"date_of_creation": "2020-02-11",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "115 Burrell Road",
+"country": "England",
+"locality": "Ipswich",
+"postal_code": "IP2 8AE"
+},
+"sic_codes": [
+"49320"
+]
+},
 "name:fava health": {
 "company_name": "FAVA HEALTH LTD",
 "company_number": "15054185",
@@ -85805,6 +86452,10 @@
 },
 "name:federation of damp": {
 "looked_up": "2026-11-23",
+"not_found": true
+},
+"name:felix taxis": {
+"looked_up": "2026-11-27",
 "not_found": true
 },
 "name:fera science": {
@@ -87113,6 +87764,23 @@
 },
 "sic_codes": [
 "84230"
+]
+},
+"name:g4s security services": {
+"company_name": "G4S SECURITY SERVICES (UK) LIMITED",
+"company_number": "02380900",
+"company_status": "active",
+"date_of_creation": "1989-05-08",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "50 Broadway",
+"address_line_2": "6th Floor",
+"country": "England",
+"locality": "London",
+"postal_code": "SW1H 0BD"
+},
+"sic_codes": [
+"80100"
 ]
 },
 "name:gallagher": {
@@ -92988,6 +93656,27 @@
 "43999"
 ]
 },
+"name:kortext": {
+"company_name": "KORTEXT LIMITED",
+"company_number": "08617088",
+"company_status": "active",
+"date_of_creation": "2013-07-19",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "2nd Floor, Loewy House Aviation Park West",
+"address_line_2": "Hurn",
+"country": "England",
+"locality": "Christchurch",
+"postal_code": "BH23 6EW",
+"region": "Dorset"
+},
+"sic_codes": [
+"62012",
+"85310",
+"85410",
+"85422"
+]
+},
 "name:kpmg": {
 "company_name": "KPMG LLP",
 "company_number": "OC301540",
@@ -93060,6 +93749,24 @@
 "postal_code": "SW1P 1RT"
 },
 "sic_codes": [
+"78200"
+]
+},
+"name:la international": {
+"company_name": "LA INTERNATIONAL LTD",
+"company_number": "SC235718",
+"company_status": "active",
+"date_of_creation": "2002-08-21",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "19 St. Vincent Place",
+"address_line_2": "Ground Floor, Queens House",
+"country": "Scotland",
+"locality": "Glasgow",
+"postal_code": "G1 2DT"
+},
+"sic_codes": [
+"78109",
 "78200"
 ]
 },
@@ -94546,6 +95253,23 @@
 "88100"
 ]
 },
+"name:manvers main construction": {
+"company_name": "MANVERS MAIN CONSTRUCTION LIMITED",
+"company_number": "14897820",
+"company_status": "active",
+"date_of_creation": "2023-05-26",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Unit 3 Cen2ury Business Centre",
+"address_line_2": "Dearne Lane",
+"country": "England",
+"locality": "Rotherham",
+"postal_code": "S63 5DP"
+},
+"sic_codes": [
+"41202"
+]
+},
 "name:marble power": {
 "company_name": "MARBLE POWER LIMITED",
 "company_number": "08474535",
@@ -95139,6 +95863,25 @@
 "86900"
 ]
 },
+"name:medtronic": {
+"company_name": "MEDTRONIC LIMITED",
+"company_number": "01070807",
+"company_status": "active",
+"date_of_creation": "1972-09-08",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Building 9 Croxley Park",
+"address_line_2": "Hatters Lane",
+"country": "England",
+"locality": "Watford",
+"postal_code": "WD18 8WW",
+"region": "Hertfordshire"
+},
+"sic_codes": [
+"32500",
+"86900"
+]
+},
 "name:mentimeter ab": {
 "looked_up": "2026-11-23",
 "not_found": true
@@ -95404,6 +96147,24 @@
 },
 "sic_codes": [
 "62090"
+]
+},
+"name:micad systems u k": {
+"company_name": "MICAD SYSTEMS (U.K.) LIMITED",
+"company_number": "02121580",
+"company_status": "active",
+"date_of_creation": "1987-04-09",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "G39 Two Four Nine North",
+"address_line_2": "Church Street",
+"country": "England",
+"locality": "Altrincham",
+"postal_code": "WA14 4DZ",
+"region": "Cheshire"
+},
+"sic_codes": [
+"62030"
 ]
 },
 "name:michael dyson associates": {
@@ -97889,6 +98650,22 @@
 "28290"
 ]
 },
+"name:olympus keymed group": {
+"company_name": "OLYMPUS KEYMED GROUP LIMITED",
+"company_number": "01210694",
+"company_status": "active",
+"date_of_creation": "1975-05-02",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Keymed House",
+"address_line_2": "Stock Road",
+"locality": "Southend-On-Sea",
+"postal_code": "SS2 5QH"
+},
+"sic_codes": [
+"70100"
+]
+},
 "name:omnia discovery": {
 "company_name": "OMNIA DISCOVERY LIMITED",
 "company_number": "10337195",
@@ -99647,6 +100424,23 @@
 "74902"
 ]
 },
+"name:pohwer": {
+"company_name": "POHWER",
+"company_number": "03323040",
+"company_status": "active",
+"date_of_creation": "1997-02-24",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Suite 4 Middlesex House",
+"address_line_2": "Meadway Corporate Centre",
+"country": "England",
+"locality": "Stevenage",
+"postal_code": "SG1 2EF"
+},
+"sic_codes": [
+"96090"
+]
+},
 "name:police and crime commissioner for devon cornwall": {
 "looked_up": "2026-11-23",
 "not_found": true
@@ -100226,6 +101020,22 @@
 "sic_codes": [
 "74902",
 "74909"
+]
+},
+"name:proctor heating services": {
+"company_name": "PROCTOR HEATING SERVICES LIMITED",
+"company_number": "02376772",
+"company_status": "active",
+"date_of_creation": "1989-04-27",
+"looked_up": "2026-11-27",
+"registered_office": {
+"address_line_1": "Culvert House",
+"address_line_2": "4 Whiting Street",
+"locality": "Sheffield",
+"postal_code": "S8 9QR"
+},
+"sic_codes": [
+"43220"
 ]
 },
 "name:proeconomy": {
